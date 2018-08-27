@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb">
+    <head><title></title>
+    </head>
+    <body>
+        <h3 class="Heading3">
+            <MadCap:concept term="Topics" /><span style="margin-right: 0pt;">1.3.1 </span>Adding an Account Line</h3>
+        <p class="Body">The Account Line will retrieve specific data from the General Ledger account record. These accounts are already created and maintained in the General Ledger module. </p>
+        <p class="Body" style="text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_1.png" style="visibility: visible;mso-wrap-style: square;width: 267px;height: 103px;" />
+        </p>
+        <p class="Body">The <span style="font-weight: bold;">Account Maintenance</span> browse screen lists all the information regarding the accounts and what information/data can be used. </p>
+        <p class="Body">Account Lines will display information from the General Ledger account record. For example you may want the balance of the account, the description of the account or the account number. These would all require an Account Line to be selected. </p>
+        <p class="Body">You select which accounts to include in the report by entering an account row, and filling in a ‘From’ and ‘To’ range, or a ‘can-do’ list in the Matches field. You can select accounts by the whole account, sector, expense code, analysis set etc. You can also use Report Tokens to allow the user to specify which accounts to include when they run the report. If an account line is shown in detail, a line will appear in the report for every individual account that is included in the selection. If the line is shown in Summary (detail flag un-ticked), only one line will be displayed showing the balance of the entire account range selected. Therefore, it is possible for the report definition to just contain one Account line (selecting all accounts) and if ticked as Detailed, <MadCap:variable name="General.ProductName" /> will display a row in the report for every account.</p>
+        <p class="Body" style="text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_2.png" style="visibility: visible;mso-wrap-style: square;width: 367px;height: 204px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="1">
+            <p class="Body">Select the <span style="font-weight: bold;">Account Line</span> from the dropdown list. Select the <span style="font-weight: bold;">Add</span> button. </p>
+        </ol>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_3.png" style="visibility: visible;mso-wrap-style: square;width: 508px;height: 147px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">&#160;</p>
+        <p class="ListParagraph" style="margin-left: 54pt;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_4.png" style="visibility: visible;mso-wrap-style: square;width: 475px;height: 196px;" />
+        </p>
+        <p class="ListParagraph" style="margin-left: 54pt;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_5.png" style="visibility: visible;mso-wrap-style: square;width: 478px;height: 118px;" />
+        </p>
+        <p class="ListParagraph" style="margin-left: 54pt;">&#160;</p>
+        <p class="ListParagraph" style="margin-left: 54pt;">Enter additional information for the <span style="font-weight: bold;">Report Row</span>.</p>
+        <p class="Body" style="margin-left: 54pt;">The new line is displayed showing the details required for input. Not all fields will be required to be entered. </p>
+        <p class="Body" style="margin-left: 54pt;">In our example we are entering details for the account number. The fields required for input are defined in the table below. </p>
+        <p class="Body" style="margin-left: 54pt;">&#160;</p>
+        <table style="margin-left: 51pt;border-collapse: collapse;">
+            <tr>
+                <td style="background-color: #auto;border-top-style: solid;border-top-width: 1pt;border-top-color: black;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p style="font-weight: bold;">Field:</p>
+                </td>
+                <td style="background-color: #auto;border-top-style: solid;border-top-width: 1pt;border-top-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p style="font-weight: bold;">Description:</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The line number of the report row.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Description:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The description of the data you want to be displayed. This will print in a ‘Row Description’ column but not others such as ‘Account Description’. </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Level:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Level you wish to use. Account lines at the same level will be displayed together in a column on the report. This can be used for totals. In our example we are using just one level</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Account:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The General Ledger account number or range of accounts for this line. Filtering can be used on each part of the full account code depending on the General Ledger accounts configuration. Matches or ‘can do’ lists can be defined to include tokens that are entered by the user at report run time to filter accounts and values to be included in the report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Sector:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>A sector or range of sectors to retrieve account balances for the report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Expense:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>An expense code or range of expense codes to retrieve account balances.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Main Headings:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Main Headings to retrieve account balances e.g.&#160; 5 = Fixed Assets, 6 = Current Assets, 7 = Creditors etc.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Statutory Analysis:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Statutory Analysis code or range to retrieve account balances</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Company Group:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The group of companies to report on.&#160; </p>
+                    <p>This allows the user to write reports which access <MadCap:variable name="General.ProductName" /> companies other than the ‘current’ company.&#160; I.e. you may be writing a report in company No. 001, but wish to report on companies 001, 002 and 003. Specify the company group to select from here. Note that it may therefore be desirable to create a company group for each individual <MadCap:variable name="General.ProductName" /> company (in the System module of <MadCap:variable name="General.ProductName" />) as well as a group of ‘all companies’.&#160; That way, you could specify a report that produced either report rows or columns of each <MadCap:variable name="General.ProductName" /> company, plus a consolidated view.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Currency Type:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The base currency for conversion if you are using more than one currency.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Percent Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The line number to reflect as a % of another row e.g. Profit as a % of Total Sales. </p>
+                    <p>Enter the row number of the report that you would like to show this line amount as a percentage of.&#160; Note that the row number that you refer to must already exist in the report definition.&#160; (i.e. it must be above this current line in the report).&#160; i.e. row 10 could not contain a reference to row 11 in its percentage line field. However, row 11 could contain a reference to row 10. </p>
+                    <p>Note that the Column tab lines must also be flagged as a % line for these calculations to work. Otherwise the report will show the value of the row, rather than its % value.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Divide Row:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The line number to divide a row by another row.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Sort:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The order to sort the report.&#160; This allows you to sort by account, account code element or analysis set so that accounts will show in an order different to the full account code sequence. You can have up to 5 levels of sort.&#160; e.g. 1 = Account, 2= Analysis Code, 3 = Branch, 4 = Dept, 5 = Detail.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Header/Footer Level:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The level corresponds to a set of header and footer column fields configured in <span style="font-weight: bold;">Report Columns.</span> The header/footer allows you to specify which header/footer to use at the relevant break for the corresponding sort option. These header or footer lines are then referenced on the Column tab of the report.</p>
+                    <p>e.g. if you put a 6 in the header/footer level, then it would use&#160;the columns you had setup for show on levels H6 and F6 when displaying the header and footers.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print the line on the report or just process to accumulate report values.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print Zero:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print zero balances on the report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Reverse Value:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Display negative values as positive and vice versa.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Detail:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>To print balances in detail or a summary. Detail mode will show all account codes in the selected filter ranges for account codes with one line for each account code. Summary mode will total all account balances on this report as one line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print When:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The type of balances to be printed on reports i.e. debits, credits.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Account Type:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="ListParagraph" style="margin-left: 0pt;">The type of accounts to be included in the report i.e. Balance Sheet only, Profit and Loss only, or All Accounts.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Save Into:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>This field is used for calculations and total rows of accounts which will then be printed and used on total lines. The unique name to group values for saving into this row i.e. the name of the accumulator. This allows you to add or subtract from a subtotal in a report (which you can ‘name’ to call upon later).</p>
+                    <p>e.g. In a Profit and Loss Report, Sales might be added into an accumulator named for ‘Sales’ and Cost of Sales might be added into an accumulator named ‘CoS’ and these two would then be totalled into an accumulator called ‘GP’ for Gross Profit. Multiple Account lines and/or total lines can ‘save into’ a total.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Operand:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>This works with the ‘Save Into’ field for calculations. Determines whether the values are added to or subtracted from the accumulator value i.e.&#160; + or -</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Class:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The font name and size for the report e.g. Aerial or Bold, 10pt or 12pt.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Variant:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>A variant to be used for Header or Footer Total.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Extra:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The format for the variant.  </p>
+                </td>
+            </tr>
+        </table>
+        <p class="Body" style="margin-left: 54pt;">&#160;</p>
+        <p class="Body" style="margin-left: 54pt;">Enter all the required fields for the details for the account line of data that you require to be added to the report. Note that in the screen shot below the fields for Account, Sector, Expense, Main Headings and Statutory Analysis will vary from system to system depending on the General Ledger configuration. </p>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_6.png" style="visibility: visible;mso-wrap-style: square;width: 475px;height: 148px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">You may want to enter some filters and selections in the <span style="font-weight: bold;">Lookup</span> fields for specific data to be displayed in your report, i.e. a specific range of accounts.  </p>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_7.png" style="visibility: visible;mso-wrap-style: square;width: 255px;height: 96px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">Select the codes that you require from the list. </p>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_6.png" style="visibility: visible;mso-wrap-style: square;width: 475px;height: 148px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="2">
+            <p class="Body">Select the <span style="font-weight: bold;">Save</span> button. </p>
+        </ol>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_8.png" style="visibility: visible;mso-wrap-style: square;width: 402px;height: 182px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">The <span style="font-weight: bold;">Account Line</span> will be entered and a new <span style="font-weight: bold;">Account Line</span> will be opened to enter more information for other accounts. </p>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_9.png" style="visibility: visible;mso-wrap-style: square;width: 322px;height: 94px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="3">
+            <p class="Body">Select the <span style="font-weight: bold;">Undo</span> button if you do not want to enter a new<span style="font-weight: bold;"> Account</span> <span style="font-weight: bold;">Line</span>. </p>
+        </ol>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_10.png" style="visibility: visible;mso-wrap-style: square;width: 476px;height: 162px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">You can also use the filters to add strings of codes to match, rather than using the <span style="font-weight: bold;">From</span> field and <span style="font-weight: bold;">To</span> fields for the <span style="font-weight: bold;">Lookup</span> filters.&#160; </p>
+        <p class="Body" style="margin-left: 54pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_11.png" style="visibility: visible;mso-wrap-style: square;width: 477px;height: 138px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">You can have as many <span style="font-weight: bold;">Account Lines</span> as you require for the report. </p>
+        <p class="Body" style="margin-left: 54pt;">The report will still show a blank page if run and you will not be able to view the report in the <span style="font-weight: bold;">Report Status</span> browse screen. We have explained what we want to see, however have not detailed how we want to see it. </p>
+        <p class="Body" style="margin-left: 54pt;">&#160;</p>
+        <h3 class="Heading3"><span style="margin-right: 0pt;">1.3.2 </span>Adding Totals</h3>
+        <p class="Body" style="margin-left: 54pt;">Adding totals to a report is a fairly easy thing to do when adding a total to a column of values. You will need to add the Total in the Row and then display the Total in the Column. You will not be able to add a total if you do not have a Row Type for a total. </p>
+        <p class="Body" style="margin-left: 54pt;">When creating a total you need to make sure the data is being calculated to enable you to display a total figure. </p>
+        <p class="Body" style="margin-left: 54pt;">To do this you will be required to open up each <span style="font-weight: bold;">Row</span> that you want to be included in the calculation and enter details into the <span style="font-weight: bold;">Save Into</span> field. </p>
+        <p class="Body" style="margin-left: 54pt;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_12.png" style="visibility: visible;width: 210px;height: 42px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">Each row needs to be amended and saved with the code entered. The code should be relevant to the type of total you are calculating. </p>
+        <p class="Body" style="margin-left: 54pt;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_13.png" style="visibility: visible;mso-wrap-style: square;width: 260px;height: 142px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">In our example we have used TOTAL. This is a temporary field that will enable all the figures to be placed in the field to calculate the total amount. </p>
+        <p class="Body" style="margin-left: 54pt;">We now have to create a Row for the data to be used and the line of data to be created. </p>
+        <p class="Body" style="margin-left: 54pt;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_14.png" style="visibility: visible;mso-wrap-style: square;width: 274px;height: 69px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="1">
+            <p class="Body">Select the <span style="font-weight: bold;">Total Line</span> from the list in the dropdown option for the Row Type. Select the <span style="font-weight: bold;">Add</span> button. </p>
+        </ol>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_15.png" style="visibility: visible;mso-wrap-style: square;width: 429px;height: 153px;" />
+        </p>
+        <p class="Body">&#160;</p>
+        <table style="margin-left: 51pt;border-collapse: collapse;">
+            <tr>
+                <td style="background-color: #auto;border-top-style: solid;border-top-width: 1pt;border-top-color: black;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;font-weight: bold;">Field:</p>
+                </td>
+                <td style="background-color: #auto;border-top-style: solid;border-top-width: 1pt;border-top-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;font-weight: bold;">Description:</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">The line number of the report row.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Description:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">The description of the data you want to be displayed. This will print in a ‘Row Description’ column and also in other columns such as ‘Account Description’. </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Level:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">The Level you wish to use. Account lines at the same level will be displayed together in a column on the report. This can be used for totals. In our example we are using just one level</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Percent Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">The line number to reflect as a % of another row e.g. Profit as a % of Total Sales. </p>
+                    <p class="Body" style="margin-left: 0pt;">Enter the row number of the report that you would like to show this line amount as a percentage of.&#160; Note that the row number that you refer to must already exist in the report definition.&#160; (i.e. it must be above this current line in the report).&#160; i.e. row 10 could not contain a reference to row 11 in its percentage line field. However, row 11 could contain a reference to row 10. </p>
+                    <p class="Body" style="margin-left: 0pt;">Note that the Column tab lines must also be flagged as a % line for these calculations to work. Otherwise the report will show the value of the row, rather than its % value.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Print Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Print the line on the report or just process to accumulate report values.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Print Zero:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Print zero balances on the report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Reverse Value:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Display negative values as positive and vice versa.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Print When:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">The type of balances to be printed on reports i.e. debits, credits.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Load From:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">The accumulator value to be used to print on this total line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Save Into:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">This field is used for calculations and total rows of accounts which will then be printed and used on total lines. The unique name to group values for saving into this row i.e. the name of the accumulator. This allows you to add or subtract from a subtotal in a report (which you can ‘name’ to call upon later).</p>
+                    <p class="Body" style="margin-left: 0pt;">e.g. In a Profit and Loss Report, Sales might be added into an accumulator named for ‘Sales’ and Cost of Sales might be added into an accumulator named ‘CoS’ and these two would then be totalled into an accumulator called ‘GP’ for Gross Profit. Multiple Account lines and/or total lines can ‘save into’ a total.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Operand:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">This works with the ‘Save Into’ field for calculations. Determines whether the values are added to or subtracted from the accumulator value i.e.&#160; + or -</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Reset Accumulator:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">If ticked the accumulator value will be reset to zero after printing on this line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Variant:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">A variant to be used for Header or Footer Total.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">Extra:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p class="Body" style="margin-left: 0pt;">The format for the variant.&#160; </p>
+                </td>
+            </tr>
+        </table>
+        <p class="Body">&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="2">
+            <p class="Body">Enter the details in the relevant field. Also add the code for the calculation in the <span style="font-weight: bold;">Load From</span> field. This will take the value of the temporary field and we are adding to a new temporary field. This is the field used for the display. </p>
+        </ol>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_16.png" style="visibility: visible;mso-wrap-style: square;width: 457px;height: 85px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="3">
+            <p class="Body">Select the <span style="font-weight: bold;">Save</span> button. </p>
+        </ol>
+        <p class="Body" style="margin-left: 54pt;">&#160;</p>
+        <p class="Body" style="margin-left: 54pt;">To display the totals you have to create the rows. To display the Totals, you will need to be looking at the Report Columns. </p>
+        <p class="Body" style="margin-left: 54pt;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_17.png" style="visibility: visible;mso-wrap-style: square;width: 325px;height: 132px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="4">
+            <p class="Body">Select the <span style="font-weight: bold;">Open Folder</span> button of the value that you are totalling. </p>
+        </ol>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_18.png" style="visibility: visible;mso-wrap-style: square;width: 439px;height: 137px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="5">
+            <p class="Body">Add <span style="font-weight: bold;">T1</span> to the <span style="font-weight: bold;">Show On</span> field, separating the Display and Total with a comma. </p>
+            <p class="Body">Select the <span style="font-weight: bold;">Save</span> button. </p>
+        </ol>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_19.png" style="visibility: visible;width: 278px;height: 159px;" />
+        </p>
+        <p class="Body">You can run the report to show the totals have been calculated. </p>
+        <h3 class="Heading3"><span style="margin-right: 0pt;">1.3.3 </span>Adding a Standard Text Line</h3>
+        <p class="Body"><span style="font-weight: bold;">Standard Text Lines</span> in report rows enable a user to enter their own free text to enhance a report. This would also include underlining.</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="1">
+            <p class="Body">Select <span style="font-weight: bold;">Standard Text Line</span> as the row type option from the field dropdown list. Select the <span style="font-weight: bold;">Add</span> button.</p>
+        </ol>
+        <p class="Body">Change screen<img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_20.png" style="visibility: visible;mso-wrap-style: square;width: 513px;height: 92px;" /></p>
+        <p class="Body">A new line is created for a <span style="font-weight: bold;">Standard Text Line </span>in the report.</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="2">
+            <p class="Body">Enter the description for the <span style="font-weight: bold;">Standard Text Line</span> field to be printed on the report e.g. Trading Accounts</p>
+        </ol>
+        <p class="Body">Change Screen<img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_21.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 75px;" /></p>
+        <p class="Body">The<span style="font-weight: bold;"> Detail </span>and <span style="font-weight: bold;">Print</span> fields will be selected automatically in order to print the <span style="font-weight: bold;">Standard Text</span> <span style="font-weight: bold;">Line</span> on the report.</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="3">
+            <p class="Body">Select the <span style="font-weight: bold;">Save</span> button. </p>
+        </ol>
+        <p class="Body">A new line is displayed. Select the <span style="font-weight: bold;">Undo</span> button.</p>
+        <h3 class="Heading3"><span style="margin-right: 0pt;">1.3.4 </span>Adding an Additional Text Line</h3>
+        <p class="Body">An <span style="font-weight: bold;">Additional Text Line </span>in report rows enables a user to enter more than one line of free text on a report, for example an address or a paragraph.</p>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_22.png" style="visibility: visible;mso-wrap-style: square;width: 216px;height: 113px;" />
+        </p>
+        <p class="Body">Select the <span style="font-weight: bold;">Additional Text Line</span> option from the type field column drop down list. </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="1">
+            <p class="Body">Select the <span style="font-weight: bold;">Add</span> button.</p>
+        </ol>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_23.png" style="visibility: visible;mso-wrap-style: square;width: 482px;height: 146px;" />
+        </p>
+        <p class="Body">A new line is created for an <span style="font-weight: bold;">Additional Text Line</span> in the report.</p>
+        <p class="Body">SCREEN SHOT</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="2">
+            <p class="Body">Enter the description for the <span style="font-weight: bold;">Additional Text Line</span> to be printed on the report e.g. EMEA</p>
+        </ol>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_24.png" style="visibility: visible;mso-wrap-style: square;width: 489px;height: 134px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="3">
+            <p class="Body">A large text field is then available in order to enter the additional text to be printed on the report e.g. EMEA DIVISION = Europe, Middle East and Africa.</p>
+        </ol>
+        <p class="Body">The<span style="font-weight: bold;"> Detail </span>and <span style="font-weight: bold;">Print</span> fields will be automatically default in order to print the <span style="font-weight: bold;">Additional Text</span> <span style="font-weight: bold;">Line</span> on the report.</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="4">
+            <p class="Body">Select the<span style="font-weight: bold;"> Save </span>button<span style="font-weight: bold;">.</span></p>
+        </ol>
+        <p class="Body">A new line is displayed<span style="font-weight: bold;">.&#160; </span>Select the<span style="font-weight: bold;"> Undo </span>button.</p>
+        <h3 class="Heading3"><span style="margin-right: 0pt;">1.3.5 </span>Adding a Page Break</h3>
+        <p class="Body">Add a Page Break to start a new page before continuing the display of balances.</p>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_25.png" style="visibility: visible;mso-wrap-style: square;width: 209px;height: 129px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="1">
+            <p class="Body">Select <span style="font-weight: bold;">Page Break</span> as the row type option from the type field drop down menu list. </p>
+            <p class="Body">Select the <span style="font-weight: bold;">Add</span> button.</p>
+        </ol>
+        <p class="Body">NEW SCREENSHOT<img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_26.png" style="visibility: visible;mso-wrap-style: square;width: 515px;height: 91px;" /></p>
+        <p class="Body">A new line is created for the <span style="font-weight: bold;">Page Break</span> in the report.</p>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_27.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 96px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="3">
+            <p class="Body">Enter the description for the <span style="font-weight: bold;">Page Break</span> Line e.g. Page Break</p>
+        </ol>
+        <p class="Body">The<span style="font-weight: bold;"> Detail </span>and <span style="font-weight: bold;">Print</span> fields will automatically default in order to print the <span style="font-weight: bold;">Page Break</span> on the report.</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="4">
+            <p class="Body">Select the <span style="font-weight: bold;">Save</span> button.  </p>
+        </ol>
+        <p class="Body">A new line is displayed select the <span style="font-weight: bold;">Undo</span> button.</p>
+        <h3 class="Heading3"><span style="margin-right: 0pt;">1.3.6 </span>Adding a Blank Line</h3>
+        <p class="Body">Blank rows can be added within the report to enable the data to be easily viewed and read. You may also want to have a blank line to space out the data and information from the totals. </p>
+        <p class="Body">When adding Blank Lines you may wish to use the <span style="font-weight: bold;">Insert</span> button, rather the <span style="font-weight: bold;">Add</span> button. This will enable you to design the report first and add the blank lines where appropriate.</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="1">
+            <p class="Body">Select <span style="font-weight: bold;">Blank Line</span> as the row type option from the type field drop down list. Select the Tick Box adjacent to the row immediately below where you require the Blank Line if you wish to insert a new blank line.</p>
+        </ol>
+        <p class="Body" style="margin-left: 54pt;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_28.png" style="visibility: visible;mso-wrap-style: square;width: 346px;height: 225px;" />
+        </p>
+        <p class="Body" style="margin-left: 54pt;">&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="2">
+            <p class="Body">Select the <span style="font-weight: bold;">Add</span> button to add to the end of the report or Select the <span style="font-weight: bold;">Insert</span> button if you wish to insert above the currently selected line.</p>
+        </ol>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_29.png" style="visibility: visible;mso-wrap-style: square;width: 450px;height: 113px;" />
+        </p>
+        <p class="Body">A new line is created for the <span style="font-weight: bold;">Blank Line</span> in the report.</p>
+        <p class="Body">Leave the description field blank for a <span style="font-weight: bold;">Blank Line</span> to be printed on the report.</p>
+        <p class="Body">The<span style="font-weight: bold;"> Detail </span>and <span style="font-weight: bold;">Print</span> fields will be selected automatically in order to print the blank line on the report.</p>
+        <ol style="list-style-type: decimal;margin-left: 54pt;" start="3">
+            <p class="Body">Select the<span style="font-weight: bold;"> Save </span>button<span style="font-weight: bold;">.</span></p>
+        </ol>
+        <p class="Body">A new line is displayed select the <span style="font-weight: bold;">Undo</span> button.</p>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_30.png" style="visibility: visible;width: 265px;height: 165px;" />
+        </p>
+        <p class="Body">The report will show the additional Blank Line before the total. </p>
+        <p class="Body">&#160;</p>
+        <h3 class="Heading3"><span style="margin-right: 0pt;">1.3.7 </span>Adding a Contract Line</h3>
+        <p class="Body">A <span style="font-weight: bold;">Contract Line</span> report rows will display balances on the report, based on the Contact selections entered in the line.</p>
+        <p class="Body" style="text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_31.png" style="visibility: visible;mso-wrap-style: square;width: 209px;height: 119px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 72pt;" start="1">
+            <p class="Body">Select <span style="font-weight: bold;">Contract Line</span> as the row type option from the type field drop down list.</p>
+            <p class="Body">Select the <span style="font-weight: bold;">Add</span> button<span style="font-weight: bold;">.</span></p>
+        </ol>
+        <p class="Body" style="margin-left: 72pt;text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_32.png" style="visibility: visible;mso-wrap-style: square;width: 450px;height: 298px;" />
+        </p>
+        <p class="Body" style="text-align: justify;">A new line is created for the <span style="font-weight: bold;">Contract Line</span> in the report.</p>
+        <p class="Body" style="text-align: center;">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_33.png" style="visibility: visible;mso-wrap-style: square;width: 470px;height: 244px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 72pt;" start="3">
+            <p class="Body">Enter the description for the <span style="font-weight: bold;">Contract Line</span> to be printed on the report e.g. Africa Contracts</p>
+        </ol>
+        <p class="Body">The <span style="font-weight: bold;">Detail </span>and <span style="font-weight: bold;">Print</span> fields will automatically default in order to print the <span style="font-weight: bold;">Contract Line</span> on the report.</p>
+        <p class="Body">Enter the <span style="font-weight: bold;">Contract Line</span> detail in the relevant fields. The fields are defined in the table below.</p>
+        <table style="margin-left: 36pt;border-collapse: collapse;">
+            <tr>
+                <td style="background-color: #auto;border-top-style: solid;border-top-width: 1pt;border-top-color: black;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p style="font-weight: bold;">Field:</p>
+                </td>
+                <td style="background-color: #auto;border-top-style: solid;border-top-width: 1pt;border-top-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p style="font-weight: bold;">Description:</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Level:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Contract lines at the same level will be displayed together in a column on the report.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Contract: </p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Contract number or range of contracts for this line.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Group:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Group to report on.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Type:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Type or range of Types to report on.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Location:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Location or range of Locations to report on.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Manager:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Manager or range of Managers to report on.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Client:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Client or range of Clients to report on.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Status of Contract:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Status of Contracts or a range to report on.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Active:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Use the drop down menu to select if All, xxx.xxxx should be retrieved for the report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Complete:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Use the drop down menu to select completed, xxxxx, or xxxx Contracts.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Include Future Contracts:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>To exclude future contracts in the report balances.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Company Group:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The Company Group to report on.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Currency Type:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The base currency for conversion if you are using more than one currency.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Percent Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The line number to reflect as a % of another row e.g. Profit as a % of Total Sales.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Divide Row:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p> The line number to divide a row by another row.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Sort:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The order to sort the report.&#160; Max 5 levels e.g. 1 = Account, 2= Analysis Code, 3 = Branch, 4 = Dept, 5 = Detail.&#160; </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Header/Footer Level:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>The level corresponds to a set of header and footer column fields configured in <span style="font-weight: bold;">Report Columns.</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print Line:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print the line on the report or just process to accumulate report values.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print Zero:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Print zero balances on the report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #auto;border-left-style: solid;border-left-width: 1pt;border-left-color: black;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Reverse Value:</p>
+                </td>
+                <td style="background-color: #auto;border-right-style: solid;border-right-width: 1pt;border-right-color: black;border-bottom-style: solid;border-bottom-width: 1pt;border-bottom-color: black;">
+                    <p>Display negative values as positive and vice versa.</p>
+                </td>
+            </tr>
+        </table>
+        <ol style="list-style-type: decimal;margin-left: 72pt;" start="4">
+            <p class="Body">Select the<span style="font-weight: bold;"> Save </span>button<span style="font-weight: bold;">.</span></p>
+        </ol>
+        <p class="Body" style="margin-left: 54pt;">A new line is displayed select the <span style="font-weight: bold;">Undo</span> button.</p>
+        <p class="Body">
+            <img src="../Images/GL Reporter/General Ledger Reporter OA - V1-1_2_34.png" style="visibility: visible;mso-wrap-style: square;width: 454px;height: 92px;" />
+        </p>
+        <p class="Body">When all the report rows have been entered navigate to the <span style="font-weight: bold;">Report Columns Tab</span> to continue configuring the report.</p>
+        <p class="Body">&#160;</p>
+    </body>
+</html>

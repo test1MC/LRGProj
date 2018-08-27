@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3938" MadCap:lastWidth="841">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">Select/Deselect Invoices (Manual)</h1>
+    <p> </p>
+    <p>You can use <span class="function" title="Function:%WPL1110BAPY">Select/Deselect Invoices (Manual)</span> to select individual invoices for payment.</p>
+    <p>A list of invoices will be displayed. If you run multi-currency, ensure the page selector is set to the correct currency for the invoices and apply the filter. Invoices already in a payment batch will show a status of Sel'd for Payment </p>
+    <p>Before selecting a transaction, you can check various details about it, by clicking the link in the <span class="field">Internal Reference </span>column.</p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Review and Update Selected_1.png" alt="LMDAP0036SC2" MadCap:conditions="COINS.Pre-v1105" class="FullWidth"></img>
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Review and Update Selected_1_1105AUS.png" class="FullWidth" MadCap:conditions="COINS.AUOnly"></img>
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Review and Update Selected_1_1105UK.png" class="FullWidth" MadCap:conditions="COINS.AUOnly"></img>
+    </p>
+    <h2>Removing an Invoice from the Payment Run</h2>
+    <p>To remove an invoice from the payment run, select any invoices you do not want to pay and select Delete Payments from the Choose Action Drop Down list. Select the Apply button. The invoices will be removed from the batch.</p>
+    <h2>Adding an Invoice to the Payment Run</h2>
+    <p>To add an invoice to the payment run, Select any Invoices you want to pay and select Pay Invoices from the Choose Action Drop Down list. Select the Apply button. The invoices will be added to the batch</p>
+    <h2>Part Paying an Invoice</h2>
+    <p>To part pay an invoice, select any invoice you want to part pay and open the Line using the Open button.</p>
+    <p>Amend the Amount Paid or Discount Taken values as required.</p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Review and Update Selected_2.png" class="FullWidth" MadCap:conditions="COINS.Pre-v1105"></img>
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Review and Update Selected_2_1105AUS.png" class="FullWidth" MadCap:conditions="COINS.AUOnly"></img>
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Review and Update Selected_2_1105UK.png" class="FullWidth" MadCap:conditions="COINS.v1105 UK"></img>
+    </p>
+    <p>Select the Save button to save the changes.  The invoice will only be paid to the amount specified and the balance will remain on the System for payment in a later run.</p>
+    <p> </p>
+    <ul>
+      <li>To pay the full amount of a transaction, <a href="WDUG0026_Selecting_Records.html">select</a> the transaction(s) and choose <span class="field">Pay Invoices </span>from the list. <MadCap:variable name="General.ProductName" /> completes the <span class="field">Amount Paid </span>and <span class="field">Discount Taken </span>fields for you.</li>
+      <li>To part-pay a transaction, click <img src="../../Resources/Images/COINS Graphics/SVG buttons/open.svg" class="button" />. The <span class="field">Amount Paid </span>and <span class="field">Discount Taken </span>fields become input fields. Override the full amounts by entering the amount of the transaction that you want to pay at this time, and click <img src="../../Resources/Images/COINS Graphics/SVG buttons/forward.svg" class="button" />.</li>
+    </ul>
+    <p>You can also select credit transactions, which will adjust the amount of the <MadCap:variable name="Variables.cheque" /> accordingly.  For further details about making payments using credit transactions, see <a href="WDPL0211_Credit_Notes.html">Credit Notes</a>.</p>
+    <p class="noteheader">NOTE</p>
+    <div class="note">If you select an invoice containing a <MadCap:variable name="Variables.labour" /> element, <MadCap:variable name="General.ProductName" /> may not allow payment if the subcontractor does not meet certain requirements (see the <MadCap:variable name="General.ProductName" /><a href="WDSC0730_Subcontractor_Warning_Messages.html">SC Ledger Basics - Subcontractor Warning Messages</a> for details). </div>
+    <p>
+      <MadCap:variable name="General.ProductName" /> automatically changes the status for the transaction to <span class="field">Selected for Payment</span>.</p>
+    <p>To deselect a transaction from being paid, select the transaction and choose <span class="field">Delete Payments </span>from the list.</p>
+    <p>You can run the <span class="function" title="Function:%WPL3030RCUR">Selected/Not Selected Report</span> report to check all the invoices selected for <MadCap:variable name="Variables.pl suppliers" />.</p>
+    <p>When you have finished selecting invoices, the next step will be to freeze (close) the batch of payments so that no other transactions and payments can be added to it (see <a href="WDPL0420_Freezing_the_Payment_Batch.html">Freezing the Payment Batch</a>).</p>
+    <p>The payments you have selected will be processed on the next payment run (see <a href="WDPL0430_Printing_Cheques_and_Remittance_Advices.html">Printing <MadCap:variable name="Variables.cheques" style="text-transform: capitalize;" /> and Remittance Advices</a>).</p>
+    <p>
+      <MadCap:relatedTopics style="mc-help-control-display: list;">
+        <MadCap:relatedTopic src="WDPL0411_Selecting_Invoices_for_Payment.html" />
+      </MadCap:relatedTopics>
+    </p>
+    <div class="configuration">
+      <p>To make it easier for users to identify the correct invoices during payment selection, you can configure different columns to displayed on the PL manual payment selection screens.  In <span class="function" title="Function:%WSY2730BSTE">Page Field Sets</span>, using the function %WPL1110BAPY, add a field set, selecting appropriate columns to display on the manual payment selection screen. </p>
+      <p>
+        <MadCap:relatedTopics target="_popup" style="mc-label: Parameters;mc-help-control-display: list;">
+          <MadCap:relatedTopic src="../Parameters/PL/pl_payhold.htm" />
+          <MadCap:relatedTopic src="../Parameters/PL/pl_payreg.htm" />
+        </MadCap:relatedTopics>
+      </p>
+    </div>
+  </body>
+</html>

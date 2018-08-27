@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="HTML5 Output"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  InsertMOTW="false"
+  MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
+  EnableSitemap="false"
+  IncludeStopWords="true"
+  GenerateWebSafeImages="false"
+  WebSafeFileExtension="png"
+  Skin="/Project/Skins/HTML5 - Tripane.flskn"
+  ExcludeUnreferencedContent="true"
+  DefaultUrl="/Content/Home.htm"
+  MasterStylesheet="/Content/Resources/Stylesheets/OnlineHelp.css"
+  OutputFolder="C:\temp"
+  FaviconSkin="/Project/Skins/Portal_Favicons.flskn"
+  EnableFeedbackService="false"
+  LiveHelpServer="http://uksloms042/pulse/"
+  LiveHelpKey="btrb1-dmy6c-09b55-6b928-408c8-db7f4-cfcf5-9877e"
+  GenerateAllSkins="false"
+  PartialWordSearch="true"
+  DisableAutoSync="true"
+  SearchEngine="MadCapSearch"
+  MakeFileLowerCase="false"
+  ConditionTagExpression="include[COINS.Internal] exclude[COINS.AUOnly or COINS.Pre-v1105 or COINS.PrintOnly or COINS.Redacted or &quot;COINS.Superseded in 1107&quot; or &quot;COINS.Superseded in 1108&quot; or &quot;COINS.Superseded in 1109&quot; or COINS.SupersededIn1105 or COINS.USOnly or COINS.v1110 or Documents.NotOA or Documents.ReleaseOverview] "
+  MasterStylesheetOverride="false"
+  MasterToc="/Project/TOCs/Portal/Portal.fltoc"
+  SearchFilterSet="/Project/Advanced/Online Help.flsfs">
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/uksloux009.fldes"
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>

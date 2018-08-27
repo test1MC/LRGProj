@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2775" MadCap:lastWidth="854">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="Topics" />Preparing the <MadCap:variable name="General.ProductName" /> Server</h1>
+        <p>The first task is to load the requisite software on the <MadCap:variable name="General.ProductName" /> server. </p>
+        <p><MadCap:variable name="General.ProductName" /> LDAP Directory user authentication utilises open source OpenLDAP and DNS libraries to communicate with Corporate Directory servers on the local area network.</p>
+        <p>&#160;</p>
+        <p class="note">Do not proceed with this or any further tasks if you have not been able to successfully identify your network’s LDAP directory servers, as outlined in <a href="Confirming-the-Active-Directory.htm">Confirming the Active Directory server resolution</a>.</p>
+        <p>&#160;</p>
+        <p>Perform the following steps using the <MadCap:variable name="General.ProductName" /> administration account on your <MadCap:variable name="General.ProductName" /> server. You must be logged into the <MadCap:variable name="General.ProductName" /> server using the server’s root account.</p>
+        <ol>
+            <li>Log into the <MadCap:variable name="General.ProductName" /> server using the administrative account login details.</li>
+            <li>Determine whether or not the OpenLDAP package is already installed on the <MadCap:variable name="General.ProductName" /> server:</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/SY/Configuring LDAP/SY-LDAP-0007.png" class="FullWidth" />
+        </p>
+        <p>If OpenLDAP is not installed then proceed to step 3. </p>
+        <p>If it is already installed you can proceed to step 4.</p>
+        <ol MadCap:continue="true">
+            <li>Install the OpenLDAP libraries.</li>
+        </ol>
+        <ul>
+            <li>From the command prompt issue the command: <span class="Emphasis">yum install openldap</span><br />The following will be displayed:<br /></li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/SY/Configuring LDAP/SY-LDAP-0008.png" class="FullWidth" />
+        </p>
+        <ul>
+            <li>Choose y and press enter to continue.</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/SY/Configuring LDAP/SY-LDAP-0009.png" class="FullWidth" />
+        </p>
+        <ul>
+            <li>If no errors are encountered you will see the line: Complete!</li>
+        </ul>
+        <ol start="4">
+            <li><MadCap:variable name="General.ProductName" /> LDAP Directory user authentication requires the <MadCap:variable name="General.ProductName" /> software to be able to access the OpenLDAP libraries from a platform independent area. <MadCap:variable name="General.ProductName" /> software utilises the /usr/local/lib file system path as a common repository for operating system shared libraries. To allow the <MadCap:variable name="General.ProductName" /> software to use the OpenLDAP and DNS shared libraries, you will need to link these libraries into the common repository:</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/SY/Configuring LDAP/SY-LDAP-0010.png" class="FullWidth" />
+        </p>
+        <p>&#160;</p>
+        <p class="note">The name (libldap-2.4.so.2 &amp; libresolv.so.2) and location (/lib64) of the shared libraries may vary depending on the version of the library and whether you are running a 32bit or 64bit operation system.</p>
+        <p>&#160;</p>
+        <p>You have now successfully installed the required open source software on your <MadCap:variable name="General.ProductName" /> server and made the required shared libraries available to the <MadCap:variable name="General.ProductName" /> software.</p>
+        <p>&#160;</p>
+    </body>
+</html>

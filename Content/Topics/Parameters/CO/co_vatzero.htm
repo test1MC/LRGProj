@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en">
+<head>
+<title>CO/VATZERO - Apply strict VAT rate/amount rules</title>
+</head>
+<body>
+<div class="param_id">
+<MadCapconcept term="Parameters" />
+<span class="parameter">CO/VATZERO - </span> Apply strict VAT rate/amount rules
+</div>
+<div class="param_def">
+<p>Whether to apply strict <MadCapvariable name="Variables.vat" /> rate/amount rules when entering <MadCapvariable name="Variables.vat" /> (<span class="userinput">Y</span> or <span class="userinput">N</span>).</p>
+<p>If this is set to <span class="userinput">Y</span>, anywhere where a <MadCapvariable name="Variables.vat" /> code is entered with a <MadCapvariable name="Variables.vat" /> amount, the <MadCapvariable name="Variables.vat" /> amount must be zero if the <MadCapvariable name="Variables.vat" /> rate is zero. Conversely if a <MadCapvariable name="Variables.vat" /> code has a non-zero rate then the <MadCapvariable name="Variables.vat" /> amount cannot be zero. If a normal user breaks these rules then they receive an error (if logged in as SYSAdmin then just a warning will be shown).</p>
+<p>These checks are applied to the following transactions: SL Invoice, PL Invoice, SC Certificate, CS Certificate, CB Transaction, GL Journal, SC Invoice Register. <br /></p>
+</div>
+</body>
+</html>

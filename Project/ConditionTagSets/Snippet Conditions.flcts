@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="Extended Search"
+    BackgroundColor="#90ee90" />
+  <ConditionTag
+    Comment=""
+    Name="Global Search"
+    BackgroundColor="#ffe4e1" />
+  <ConditionTag
+    BackgroundColor="#fae991"
+    Name="PL-Invoices"
+    Comment=""
+    OriginalName="PL-Invoices" />
+  <ConditionTag
+    BackgroundColor="#f7bca6"
+    Name="CS-Certificates"
+    Comment=""
+    OriginalName="CS-Certificates" />
+  <ConditionTag
+    BackgroundColor="#aff6f6"
+    Name="SL-Invoices"
+    Comment=""
+    OriginalName="SL-Invoices" />
+  <ConditionTag
+    BackgroundColor="#ed94ff"
+    Name="SC-Certificates"
+    Comment=""
+    OriginalName="SC-Certificates" />
+  <ConditionTag
+    BackgroundColor="#9cf7ad"
+    Name="MM1-Txn1"
+    Comment=""
+    OriginalName="MM1-Txn1" />
+  <ConditionTag
+    BackgroundColor="#00ff5e"
+    Name="GL-Journals"
+    Comment=""
+    OriginalName="MM2-Txn2" />
+</CatapultConditionTagSet>

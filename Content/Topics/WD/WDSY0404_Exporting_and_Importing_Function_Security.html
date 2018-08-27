@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Exporting and Importing Function Security</title>
+    </head>
+    <body>
+        <h1 class="print">
+            <MadCap:concept term="Topics" />Exporting and Importing Function Security</h1>
+        <p>You can export the function security settings for a user or group from one system and import them to another.</p>
+        <div class="process">
+            <h2 class="print">To export function security:</h2>
+            <ol>
+                <li>Run <span class="function" title="Function:%WMS2031FMSF">Export Function Security</span>.</li>
+                <li>Specify the user or group whose security settings you want to export.</li>
+                <li>Enter a can-do list of the functions whose settings you want to export.</li>
+                <li>If you want to export the full list of functions (not just those with explicit Yes or No security settings), <MadCap:variable name="Variables.tick" /> the <span class="field">Export Group Access?</span> box.&#160;</li>
+                <li>Click <img src="../../Resources/Images/COINS Graphics/SVG buttons/forward.svg" class="button" />.</li>
+                <li><MadCap:variable name="General.ProductName" /> outputs the settings to a <span class="field">Function Security Data </span>field.</li>
+                <li>Copy the contents of the field.<ol style="list-style-type: lower-alpha;"><li>Right-click the field.</li><li>Choose Select All.</li><li>Right-click again.</li><li>Choose Copy</li></ol></li>
+                <li>Paste the contents into a file (or import directly into another system using <span class="function" title="Function:%WMS2033FMSF">Import Function Security</span>).&#160;</li>
+            </ol>
+            <h2>To import function security:</h2>
+            <ol>
+                <li>Run <span class="function" title="Function:%WMS2033FMSF">Import Function Security</span>.</li>
+                <li>Paste the function security data (exported using <span class="function" title="Function:%WMS2031FMSF">Export Function Security</span>) into the <span class="field">Function Security Data </span>field.</li>
+                <li>Click <img src="../../Resources/Images/COINS Graphics/SVG buttons/save.svg" class="button" />.</li>
+            </ol>
+        </div>
+    </body>
+</html>

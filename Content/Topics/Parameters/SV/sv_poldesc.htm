@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en">
+<head>
+<title>SV/POLDESC - Description format to be used for SC Amendment Variation Order</title>
+</head>
+<body>
+<div class="param_id">
+<MadCapconcept term="Parameters" />
+<span class="parameter">SV/POLDESC - </span> Description format to be used for SC Amendment Variation Order
+</div>
+<div class="param_def">
+<p>This determines the description of each line on a subcontract amendment <MadCapvariable name="Variables.sv variation" /> order created from a subcontract <MadCapvariable name="Variables.sv variation" />.</p>
+<p>All fields from the Item and Resource record can be used be enclosing them in curly braces. A pipe followed by a number can be used to specify the number of characters to show. For example:</p>
+<p><span class="userinput">{svi_desc} {svr_desc|15}</span></p>
+<p>would show all of the Item Description (<span style="color: #000000;"><span class="FieldName">svi_desc</span>) and the first 15 characters of the Resource Description (</span><span style="color: #000000;"><span class="FieldName">svr_desc</span>).<br />If this parameter is blank the following format is used:</span></p>
+<p><span class="userinput">{svi_desc} - {svr_desc} </span></p>
+</div>
+</body>
+</html>

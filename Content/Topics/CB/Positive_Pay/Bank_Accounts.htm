@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="COINS.v1109">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="1 ">
+            <MadCap:concept term="Topics" />Positive Pay – Bank Accounts</h1>
+        <p>Bank account setup has been changed to add extra fields related to positive pay. These fields are only displayed if the CB&#160;parameter <span class="parameter">USEPOSPY</span> is set to Yes.</p>
+        <div class="FieldTable">
+            <div class="ListHead">
+                <div class="ColHead">Field</div>
+                <div class="ColHead">Description</div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>
+                        <MadCap:annotation MadCap:createDate="2018-05-24T17:12:50.3432101+01:00" MadCap:creator="Don Barwick" MadCap:initials="DJB" MadCap:comment="Q: What is the alternative, if Export Checks is not ticked?" MadCap:editor="Don Barwick" MadCap:editDate="2018-05-24T17:13:11.0445610+01:00">Export
+ Checks</MadCap:annotation>
+                    </p>
+                </div>
+                <div class="FieldDef">
+                    <p>Whether posted <MadCap:variable name="Variables.cheques" /> should be sent to <MadCap:variable name="Variables.cheque" /> log. Default False</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Export
+ Unposted Payroll</p>
+                </div>
+                <div class="FieldDef">
+                    <p>Indicates
+ what should be created on the <MadCap:variable name="Variables.cheque" /> log. </p>
+                    <p>None
+ – nothing</p>
+                    <p>  Printed – Printed <MadCap:variable name="Variables.cheques" /></p>
+                    <p>Manual
+ – Manual <MadCap:variable name="Variables.cheques" /></p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>
+                        <MadCap:annotation MadCap:createDate="2018-05-24T17:14:27.4540172+01:00" MadCap:creator="Don Barwick" MadCap:initials="DJB" MadCap:comment="Q: Why would you override the account number?" MadCap:editor="Don Barwick" MadCap:editDate="2018-05-24T17:15:49.1824841+01:00">Override
+ Account Number</MadCap:annotation>
+                    </p>
+                </div>
+                <div class="FieldDef">
+                    <p>Allows
+ Pos Pay to report different account number than is printed on <MadCap:variable name="Variables.cheque" />.</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>
+                        <MadCap:annotation MadCap:createDate="2018-05-24T17:15:25.9498757+01:00" MadCap:creator="Don Barwick" MadCap:initials="DJB" MadCap:comment="Q: What is the Control Record?" MadCap:editor="Don Barwick" MadCap:editDate="2018-05-24T17:15:43.6528596+01:00">Control
+ Record</MadCap:annotation>
+                    </p>
+                </div>
+                <div class="FieldDef">
+                    <p>Specifies
+ Control Record should be exported as line 1 of export </p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Format
+  </p>
+                </div>
+                <div class="FieldDef">
+                    <p>The <MadCap:annotation MadCap:createDate="2018-05-24T17:17:39.5317570+01:00" MadCap:creator="Don Barwick" MadCap:initials="DJB" MadCap:comment="Q: Are positive pay formats defined somewhere?" MadCap:editor="Don Barwick" MadCap:editDate="2018-05-24T17:17:53.4460915+01:00">positive pay format </MadCap:annotation>to use.</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Default
+ File Name</p>
+                </div>
+                <div class="FieldDef">
+                    <p>Encoded
+ value of positive pay file name to use.</p>
+                    <p>If no file name Is specified in
+ bank setup then a default name such as “pprpt-xx-yymmdd-nn.txt” will be
+ created where xx = bank id and yymmdd = today’s date and nn = sequence number
+ for today.  A file name may be specified
+ by bank with the following components:</p>
+                    <p>·&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+  Text </p>
+                    <p>·&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+  %d% - includes date in this position using mask .. ex
+ %dMMDDCCYY% </p>
+                    <p>·&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+  %s% - sequence number using mask .. ex %99%</p>
+                    <p>·&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+  %b% - bankid</p>
+                    <p>Example File Name –
+ mypospay-pnc-%dMMDDYY%%s99%.txt</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Additional
+ Format</p>
+                </div>
+                <div class="FieldDef">
+                    <p>List
+ of available positive pay formats (some banks require summary file)</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Auto
+ Transmit File via FTP</p>
+                </div>
+                <div class="FieldDef">
+                    <p>If
+ the bank file should be auto-sent via ftp / sftp</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>FTP
+ Protocol</p>
+                </div>
+                <div class="FieldDef">
+                    <p>(tbd
+ – sftp/ftp/?</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Username</p>
+                </div>
+                <div class="FieldDef">&#160;</div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Password</p>
+                </div>
+                <div class="FieldDef">&#160;</div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Remote
+ Host</p>
+                </div>
+                <div class="FieldDef">&#160;</div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Port</p>
+                </div>
+                <div class="FieldDef">
+                    <p>Defaults
+ when protocol is changed (22,23)</p>
+                </div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Remote
+ Path </p>
+                </div>
+                <div class="FieldDef">&#160;</div>
+            </div>
+            <div class="FieldBlock">
+                <div class="FieldLabel">
+                    <p>Remote
+ Filename</p>
+                </div>
+                <div class="FieldDef">
+                    <p>If
+ blank will transmit file with name created</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

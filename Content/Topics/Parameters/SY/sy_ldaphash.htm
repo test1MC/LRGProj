@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>SY/LDAPHASH - LDAP Hash Algorithm</title>
+    </head>
+    <body>
+        <div class="param_id">
+            <MadCap:concept term="Parameters" /><span class="parameter">SY/LDAPHASH - </span> LDAP Hash Algorithm
+</div>
+        <div class="param_def">
+            <p>The LDAP password hashing algorithm to use.</p>
+            <p>There may be times when using LDAP Directory user authentication that the <MadCap:variable name="General.ProductName" /> server is not able to communicate with the corporate LDAP Directory servers published by your network. To avoid any failed <MadCap:variable name="General.ProductName" /> login attempts, <MadCap:variable name="General.ProductName" /> can retain the last successfully-used password and use it when no LDAP servers can be contacted.</p>
+            <p>If this parameter is not set (has an empty value), the default, then <MadCap:variable name="General.ProductName" /> will not cache any user passwords. In this instance, if <MadCap:variable name="General.ProductName" /> loses connectivity with the LDAP Directory servers, then users will not be authenticated and <MadCap:variable name="General.ProductName" /> logins will fail.</p>
+            <p>The value of this parameter must be chosen from a valid list of supported one-way hashing algorithms. Select the hashing algorithm that suits your specific corporate security policy. Once set and on a successful login attempt, <MadCap:variable name="General.ProductName" /> will encode the user's password, using the selected hashing algorithm, and store the encoded password on the user's <MadCap:variable name="General.ProductName" /> account. In the event that the <MadCap:variable name="General.ProductName" /> server loses connectivity with the LDAP Directory servers this cached password will used to determine whether or not the user can access <MadCap:variable name="General.ProductName" />.</p>
+        </div>
+    </body>
+</html>

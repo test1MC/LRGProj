@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="COINS.ScreenOnly">
+  <TocEntry
+    Title="COINS Mobile">
+    <TocEntry
+      Title="mCare Overview"
+      Link="/Content/Topics/MO/mCare/mCare Overview.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue">
+      <TocEntry
+        Title="mCare Log In"
+        Link="/Content/Topics/MO/mCare/mCare Log In.htm"></TocEntry>
+      <TocEntry
+        Title="Completing Inspections"
+        Link="/Content/Topics/MO/mCare/Completing Inspections.htm">
+        <TocEntry
+          Title="Inspections - Details Tab"
+          Link="/Content/Topics/MO/mCare/Inspections - Detail Tab.htm" />
+        <TocEntry
+          Title="Inspections - Inspection Tab" />
+        <TocEntry
+          Title="Inspections - History Tab"
+          Link="/Content/Topics/MO/mCare/Inspections - History Tab.htm" />
+        <TocEntry
+          Title="Inspections - Actions Tab"
+          Link="/Content/Topics/MO/mCare/Inspections - Actions Tab.htm">
+          <TocEntry
+            Title="Actions - Locations"
+            Link="/Content/Topics/MO/mCare/Actions - Locations.htm" />
+          <TocEntry
+            Title="Actions - Meter Readings"
+            Link="/Content/Topics/MO/mCare/Actions - Meter Readings.htm" />
+          <TocEntry
+            Title="Actions - Bedroom"
+            Link="/Content/Topics/MO/mCare/Actions - Bedroom.htm" />
+          <TocEntry
+            Title="Actions - Visit Notes"
+            Link="/Content/Topics/MO/mCare/Actions - Visit Notes.htm" />
+          <TocEntry
+            Title="Actions - Visit Signatures"
+            Link="/Content/Topics/MO/mCare/Actions - Visit Signatures.htm" />
+          <TocEntry
+            Title="Actions - Visit Summary"
+            Link="/Content/Topics/MO/mCare/Actions - Visit Summary.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Completing Repair Tasks"
+        Link="/Content/Topics/MO/mCare/Completing Repair Tasks.htm">
+        <TocEntry
+          Title="Repairs - Visit Details"
+          Link="/Content/Topics/MO/mCare/Repairs - H&amp;S.htm" />
+        <TocEntry
+          Title="Repairs - Task Tab"
+          Link="/Content/Topics/MO/mCare/Repairs - Task Tab.htm" />
+        <TocEntry
+          Title="Repairs - History Tab"
+          Link="/Content/Topics/MO/mCare/Repairs - History Tab.htm" />
+        <TocEntry
+          Title="Repairs - Actions Tab"
+          Link="/Content/Topics/MO/mCare/Repairs - Contacts Tab.htm">
+          <TocEntry
+            Title="Repairs - Issues"
+            Link="/Content/Topics/MO/mCare/Repairs - Issues.htm" />
+          <TocEntry
+            Title="Repairs - Issue Details"
+            Link="/Content/Topics/MO/mCare/Repairs - Actions.htm" />
+          <TocEntry
+            Title="Repairs - Issue Photos"
+            Link="/Content/Topics/MO/mCare/Repairs - Action Complete Screen.htm" />
+          <TocEntry
+            Title="Repairs - Visit Details Notes"
+            Link="/Content/Topics/MO/mCare/Repairs - Visit Details (Actions).htm" />
+          <TocEntry
+            Title="Repairs - Visit Signatures"
+            Link="/Content/Topics/MO/mCare/Repairs - Visit Signatures.htm" />
+          <TocEntry
+            Title="Repairs - Visit Survey"
+            Link="/Content/Topics/MO/mCare/Repairs - Visit Survey.htm" />
+          <TocEntry
+            Title="Repairs - Visit Summary"
+            Link="/Content/Topics/MO/mCare/Repairs - Visit Summary.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="No access (Repairs Task)"
+        Link="/Content/Topics/MO/mCare/No access Repairs Task.htm" />
+      <TocEntry
+        Title="Features"
+        Link="/Content/Topics/MO/mCare/Features.htm" />
+      <TocEntry
+        Title="OA Configuration"
+        Link="/Content/Topics/MO/mCare/OA Configuration.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="mGRN"
+      Link="/Content/mGRN Overview.htm">
+      <TocEntry
+        Title="mGRN Log In"
+        Link="/Content/Topics/MO/mGRN/Log In.htm"
+        ComputeToc="false"></TocEntry>
+      <TocEntry
+        Title="Screen Flow"
+        Link="/Content/Topics/MO/mGRN/Screen Flow.htm" />
+      <TocEntry
+        Title="Material GRN"
+        Link="/Content/Topics/MO/mGRN/Material GRN.htm" />
+      <TocEntry
+        Title="Plant GRN"
+        Link="/Content/Topics/MO/mGRN/Plant GRN.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="mFM"
+      Link="/Content/Topics/MO/mFM/mFM Overview.htm">
+      <TocEntry
+        Title="Log In"
+        Link="/Content/Topics/MO/mFM/Log In.htm" />
+      <TocEntry
+        Title="Log Out"
+        Link="/Content/Topics/MO/mFM/Log Out.htm" />
+      <TocEntry
+        Title="Access Jobs"
+        Link="/Content/Topics/MO/mFM/Access Jobs.htm"
+        StartSection="false">
+        <TocEntry
+          Title="On Site"
+          Link="/Content/Topics/MO/mFM/Access Jobs - On Site.htm" />
+        <TocEntry
+          Title="Access Jobs - Schedule of Rates"
+          Link="/Content/Topics/MO/mFM/Access Jobs - Schedule of Rates.htm" />
+        <TocEntry
+          Title="Access Jobs - Task Photo"
+          Link="/Content/Topics/MO/mFM/Access Jobs - Task Photo.htm" />
+        <TocEntry
+          Title="Access Jobs - Parts"
+          Link="/Content/Topics/MO/mFM/Access Jobs - Parts.htm" />
+        <TocEntry
+          Title="Access Jobs - Visit"
+          Link="/Content/Topics/MO/mFM/Access Jobs - Visit.htm" />
+        <TocEntry
+          Title="Access Jobs - Signature"
+          Link="/Content/Topics/MO/mFM/Access Jobs - Signature.htm" />
+        <TocEntry
+          Title="Access Jobs - Survey"
+          Link="/Content/Topics/MO/mFM/Access Jobs - Survey.htm" />
+        <TocEntry
+          Title="Access Jobs - Times"
+          Link="/Content/Topics/MO/mFM/Access Jobs - Times.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="No Access Jobs"
+        Link="/Content/Topics/MO/mFM/No Access Jobs.htm"
+        StartSection="false" />
+      <TocEntry
+        Title="Features"
+        Link="/Content/Topics/MO/mFM/Features.htm" />
+      <TocEntry
+        Title="Task on hold"
+        Link="/Content/Topics/MO/mFM/Task on hold.htm" />
+      <TocEntry
+        Title="Waste Disposal"
+        Link="/Content/Topics/MO/mFM/Waste Disposal.htm" />
+      <TocEntry
+        Title="Handle complete and incomplete SORs"
+        Link="/Content/Topics/MO/mFM/Handle complete and incomplete.htm" />
+      <TocEntry
+        Title="Task list types"
+        Link="/Content/Topics/MO/mFM/Task list types.htm" />
+      <TocEntry
+        Title="Date/Time and GPS Photos Stamp"
+        Link="/Content/Topics/MO/mFM/Date Time and GPS Photos Stamp.htm" />
+      <TocEntry
+        Title="Photo Capture Enhancements"
+        Link="/Content/Topics/MO/mFM/Photo Capture Enhancements.htm" />
+      <TocEntry
+        Title="Van Stock Management"
+        Link="/Content/Topics/MO/mFM/Van Stock Management.htm" />
+      <TocEntry
+        Title="SOR Variation Limits"
+        Link="/Content/Topics/MO/mFM/SOR Variation Limits.htm" />
+      <TocEntry
+        Title="Task History"
+        Link="/Content/Topics/MO/mFM/Task History.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="mTick "
+      Link="/Content/Topics/MO/mTick/mTick Overview.htm"
+      ComputeToc="true"
+      ComputedTocAction="Replace"
+      ComputedTocDepth="2">
+      <TocEntry
+        Title="Log In"
+        Link="/Content/Topics/MO/mTick/Log In.htm"></TocEntry>
+      <TocEntry
+        Title="Developments"
+        Link="/Content/Topics/MO/mTick/Developments.htm" />
+      <TocEntry
+        Title="Plots"
+        Link="/Content/Topics/MO/mTick/Plots.htm" />
+      <TocEntry
+        Title="Materials"
+        Link="/Content/Topics/MO/mTick/Materials.htm" />
+      <TocEntry
+        Title="Tick Groups"
+        Link="/Content/Topics/MO/mTick/Tick Groups.htm" />
+      <TocEntry
+        Title="Payment Stages"
+        Link="/Content/Topics/MO/mTick/Payment Stages.htm" />
+      <TocEntry
+        Title="Features"
+        Link="/Content/Topics/MO/mTick/Features.htm" />
+      <TocEntry
+        Title="COINS VAP Module"
+        Link="/Content/Topics/MO/mTick/COINS VAP Module.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="mSite"
+      Link="/Content/Topics/MO/mSite/mSite.htm">
+      <TocEntry
+        Title="Log In/Log Out"
+        Link="/Content/Topics/MO/mSite/Log In Log Out.htm" />
+      <TocEntry
+        Title="Development Sites"
+        Link="/Content/Topics/MO/mSite/Development Sites.htm" />
+      <TocEntry
+        Title="Plots"
+        Link="/Content/Topics/MO/mSite/Plots.htm" />
+      <TocEntry
+        Title="Build Stages"
+        Link="/Content/Topics/MO/mSite/Build Stages.htm" />
+      <TocEntry
+        Title="Memo Events"
+        Link="/Content/Topics/MO/mSite/Memo Events.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="COINS Mobile - PDF Guides"
+      Link="/Content/Topics/MO/COINS Mobile - PDF Guides.htm"></TocEntry>
+    <TocEntry
+      Title="COINS Mobile - Videos"
+      Link="/Content/Topics/MO/COINS Mobile - Videos.htm" />
+  </TocEntry>
+</CatapultToc>

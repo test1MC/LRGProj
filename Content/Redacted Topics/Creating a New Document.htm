@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb" MadCap:lastBlockDepth="4" MadCap:lastHeight="1741" MadCap:lastWidth="762" MadCap:conditions="COINS.Redacted">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Creating a New Document</h1>
+        <p>You may find it easier to copy an existing document and modify it, but if you want to create a new one, use the guidance below: </p>
+        <p style="text-align: left;">
+            <img src="../Resources/Images/Configurable Forms/Creating a New Document.png" style="left: 0; width: 199px; height: 319px;" class="HalfWidth" />
+            <br />From the System Module, Select System Setup/Document Designer</p>
+        <p>
+            <img src="../Resources/Images/Configurable Forms/Creating a New Document_1.png" class="FullWidth" />
+        </p>
+        <p>&#160;</p>
+        <p>Select the document Type for the document you want to create using the Type Dropdown selection at the bottom of the screen.</p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_2.png" class="FullWidth" />
+        </p>
+        <p>It is important to set this to the correct form before continuing as each type of form has its own configuration options.</p>
+        <p>Once you have selected the required type, select the Add <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_3.png" style="visibility: visible;mso-wrap-style: square;width: 23px;height: 23px;" />button  . </p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_4.png" class="FullWidth" />
+        </p>
+        <p>Give the document a Document code and a Description. <MadCap:variable name="General.ProductName" /> uses the code to identify the document. The description is used when giving the user a choice of which document to print. You can have different documents for the same document type, to allow you to print using different layouts. </p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_5.png" style="width: 347px; height: 68px;" class="HalfWidth" />
+        </p>
+        <p>Because continuation headers and footers can be different heights from headers and footers (typically first page headers could show more information than continuation headers), you need to specify the number of body (repeating) lines on first and continuation pages. The number of lines you can fit on the page will depend on the total heights specified for header and footer lines, and the height specified on the body lines. </p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_6.png" class="HalfWidth" />
+        </p>
+        <p>If you do not want users to be able to select the document for printing (for example, while you are still designing it) clear the Live <MadCap:variable name="Variables.tick" /> box. </p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_7.png" class="HalfWidth" />
+        </p>
+        <p>Choose a Page layout for the document. </p>
+        <p>Choose a default Class for the document. A Class is a combination of formatting features, such as font, size, <MadCap:variable name="Variables.colour" /> and background</p>
+        <p>Add Extra Formatting if required, as a minimum enter the text ‘margin=0mm,padding=0mm’ to account for differing FOP versions.</p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_8.png" style="visibility: visible;mso-wrap-style: square;width: 421px;height: 108px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>For each form (header, continuation header, body, continuation footer, footer), give a name. You can call these whatever you like, but when you set up the fields to print on the document, you use these codes to specify which form they appear on. If you want the header and continuation header to be the same, give them the same names (similarly with the footer and continuation footer). Note that the form you nominate as the body form is used to specify the formatting (especially the line height) of blank lines at the end of the repeating body data.&#160; Each document must have a form called BODY. </p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_9.png" class="HalfWidth" />
+        </p>
+        <p>Documents can be stored against tables. The tables available will depend upon the document type you selected.&#160; If this option is selected, when the document print file is generated, <MadCap:variable name="General.ProductName" /> creates separate PDFs for each relevant record in the table, and stores the PDF against that record.</p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_10.png" style="visibility: visible;mso-wrap-style: square;width: 350px;height: 25px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>Many documents use other form names that are specific to the type of document. For example, <MadCap:variable name="Variables.Contract Sales" /> statements use additional forms for certificate lines, invoice lines, <MadCap:variable name="Variables.Contract Sales" /> cash lines and Sales Ledger cash lines within the body of the document. Enter your names for these on the Extras tab.&#160; See the side-frame help or the documentation for each module for more details. </p>
+        <p>
+            <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_11.png" class="FullWidth" />
+        </p>
+        <p>Save <img src="../../../Resources/Images/Configurable Forms/Creating a New Document_12.png" style="visibility: visible;mso-wrap-style: square;width: 21px;height: 19px;" /></p>
+        <p>You are now ready to define the fields for your document.</p>
+        <p>&#160;</p>
+    </body>
+</html>

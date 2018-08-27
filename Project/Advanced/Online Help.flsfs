@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="COINS Mobile"
+    Comment=""
+    Order="0"
+    Concepts="COINS Mobile" />
+  <SearchFilter
+    Name="Financials"
+    Comment=""
+    Order="1"
+    Concepts="Financials" />
+  <SearchFilter
+    Name="Parameters"
+    Comment=""
+    Order="3"
+    Concepts="Parameters" />
+  <SearchFilter
+    Name="Topics (excl. parameters)"
+    Comment=""
+    Order="2"
+    Concepts="Topics" />
+</CatapultSearchFilterSet>

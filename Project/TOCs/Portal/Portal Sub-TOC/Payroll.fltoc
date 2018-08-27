@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Payroll"
+    Link="/Content/Topics/WD/WDPR0000_Payroll.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/PR/Payroll Videos.htm" />
+    <TocEntry
+      Title="Invoking Company Security on Unions in Payroll"
+      Link="/Content/Topics/WD/WDPR0067_Invoking_Company_Security_on_Unions_in_Payroll.html" />
+    <TocEntry
+      Title="Item Sequences"
+      Link="/Content/Topics/WD/WDPR0005_Item_Sequences.html" />
+    <TocEntry
+      Title="Processing Payroll"
+      Link="/Content/Topics/WD/WDPR0004_Processing_Payroll.html" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/PR/Configuration/Payroll Cycle Status Codes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/PR/Employee Maintenance/Employee Maintenance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/PR/Employee Maintenance/Adding a New Employee.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/PR/Employee Maintenance/Maintain Employee Pension Schemes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Employee Auto Numbering"
+      BreakType="pageLayout"
+      StartSection="false"
+      Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Overview.htm">
+      <TocEntry
+        Title="Initial Configuration">
+        <TocEntry
+          Title="Parameters"
+          StartSection="false"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Employee Auto Numbering - Parameters.htm" />
+        <TocEntry
+          Title="Employee Number Format"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Employee Number Format.htm" />
+        <TocEntry
+          Title="Employee Numbering - Upgrade"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Employee Numbering - Upgrade.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Screen and Processing Changes">
+        <TocEntry
+          Title="Employee Autonumbering - Adding an Employee"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Adding an Employee.htm" />
+        <TocEntry
+          Title="Employee Leaver Status"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Employee Leaver Status.htm" />
+        <TocEntry
+          Title="Load Employee Data"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Load Employee Data.htm" />
+        <TocEntry
+          Title="Move Employees to Another Company"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Move Employees to Another Company.htm" />
+        <TocEntry
+          Title="Company Configuration"
+          Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Company Configuration.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Employee Auto-numbering Ph2"
+        BreakType="pageLayout"
+        StartSection="false"
+        Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Ee Autonumbering - Overview.htm">
+        <TocEntry
+          Title="Initial Configuration">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Ee Autonumbering - HR Parameters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Employee Number Format.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Employee Numbering - Upgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Screen and Processing Changes">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Ee Autonumbering - Personnel Workbench.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Ee Autonumbering - PR Renumber Ee.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Ee Autonumbering - Transfer Employees.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/Modules/Payroll/Employee Auto-Numbering/Move Employees to Another Company.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Apprenticeship Levy (24638)"
+      Link="/Project/TOCs/PR/Apprenticeship Levy (24638).fltoc"
+      ReplaceMergeNode="true"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false" />
+    <TocEntry
+      Title="Payroll Configuration"
+      Link="/Content/Topics/WD/WDPRCFG_Payroll_Configuration.htm">
+      <TocEntry
+        Title="Payroll Parameters"
+        Link="/Content/Topics/Parameters/PR/pr_parameters.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Frequency-Specific Parameters"
+        Link="/Content/Topics/WD/WDPR5009_Frequency-Specific_Parameters.html">
+        <TocEntry
+          Title="Frequency-Specific Parameter List"
+          Link="/Content/Topics/Parameters/P0/p0_parameters.htm"
+          SyncDocumentTitle="False"
+          ReplaceMergeNode="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Configurable Documents"
+        Link="/Content/Topics/WD/WDPR5004M_Configurable_Documents.htm">
+        <TocEntry
+          Title="PR Cheques and Payslips"
+          Link="/Content/Topics/WD/WDPR5005_PR_Cheques_and_Payslips.html" />
+        <TocEntry
+          Title="PR P45"
+          Link="/Content/Topics/WD/WDPR5006_PR_P45.html" />
+        <TocEntry
+          Title="USA Payroll EEO Report"
+          Link="/Content/Topics/WD/WDPR5007_USA_Payroll_EEO_Report.html" />
+        <TocEntry
+          Title="UK and Ireland P60"
+          Link="/Content/Topics/WD/WDPR0079_UK_and_Ireland_P60.html" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="US Specific Topics"
+      Link="/Content/Topics/WD/WDPR0021_US_Specific_Topics.htm"
+      conditions="COINS.USOnly"
+      StartSection="false">
+      <TocEntry
+        Title="Initial Payroll Setup"
+        Link="/Content/Topics/WD/WDPR0003_Initial_Payroll_Setup.htm"
+        conditions="COINS.USOnly"
+        StartSection="false">
+        <TocEntry
+          Title="Overview of Initial Payroll Setup"
+          Link="/Content/Topics/WD/WDPR0003A_Overview_of_Initial_Payroll_Setup.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 1 - Set Up Parameters for US [%=Variables.kco company%]"
+          Link="/Content/Topics/WD/WDPR0009_Step_1_Set_Up_Parameters_for_US_Company.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 2 - Create GL and Bank Accounts for PR"
+          Link="/Content/Topics/WD/WDPR0010_Step_2_Create_GL_and_Bank_Accounts_for_PR.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 3 - Create and Maintain Pay Items for US PR"
+          Link="/Content/Topics/WD/WDPR0011_Step_3_Create_and_Maintain_Pay_Items_for_US_PR.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 4 - Create [%=Variables.kco company%] Configuration Records"
+          Link="/Content/Topics/WD/WDPR0012_Step_4_Create_Company_Configuration_Record.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 5 - Create [%=Variables.kco company%] Specific Maintenance Files"
+          Link="/Content/Topics/WD/WDPR0015_Step_5_Create_Company_Specific_Maintenance_Files.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 6 - Create Tax Records"
+          Link="/Content/Topics/WD/WDPR0013_Step_6_Create_Tax_Records.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 7 - Create Other Global Maintenance Files"
+          Link="/Content/Topics/WD/WDPR0014_Step_7_Create_Other_Global_Maintenance_Files.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 8 - Employees and Employee Security"
+          Link="/Content/Topics/WD/WDPR0016_Step_8_Employees_and_Employee_Security.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+        <TocEntry
+          Title="Step 9 - If Using HR"
+          Link="/Content/Topics/WD/WDPR0071_Step_9_If_Using_HR.html"
+          conditions="COINS.USOnly"
+          StartSection="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Linking HR and Payroll"
+        Link="/Content/Topics/WD/WDPR5005M_Linking_HR_and_Payroll.htm"
+        conditions="COINS.USOnly">
+        <TocEntry
+          Title="PR-HR Linking of Salary (OA HR on TI PR)"
+          Link="/Content/Topics/WDPR0081_PR-HR_Linking_of_Salary_(OA_HR_on_TI_PR).html" />
+        <TocEntry
+          Title="PR-HR Linking of Salary (AUS &amp; US PR on OA)"
+          Link="/Content/Topics/WD/WDPR0082_PR-HR_Linking_of_Salary_(AUS_&amp;_US_PR_on_OA).html"
+          conditions="COINS.USOnly"
+          ReplaceMergeNode="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Entering a Manual Cheque in OA"
+        Link="/Content/Topics/WD/WDPR0072_Entering_a_Manual_Cheque_in_OA.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Executing an IRS Levy"
+        Link="/Content/Topics/WD/WDPR0017_Executing_an_IRS_Levy.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Installing Tax Tables in OA"
+        Link="/Content/Topics/WD/WDPR0018_Installing_Tax_Tables_in_OA.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Minimum Fringe Calculations"
+        Link="/Content/Topics/WD/WDPR0007_Minimum_Fringe_Calculations.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Pay Items Within US Payroll"
+        Link="/Content/Topics/WD/WDPR0020_Pay_Items_Within_US_Payroll.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Setting Up Automatic Regular Hour Overtime Processing"
+        Link="/Content/Topics/WD/WDPR0074_Setting_Up_Automatic_Regular_Hour_Overtime_Processing.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Setting Up Employee Security"
+        Link="/Content/Topics/WD/WDPR0002_Setting_Up_Employee_Security.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Setting Up Ethnic Codes"
+        Link="/Content/Topics/WD/WDPR0019_Setting_Up_Ethnic_Codes.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Setting Up US PR to Use with Facilities Management"
+        Link="/Content/Topics/WD/WDPR0066_Setting_Up_US_PR_to_Use_with_Facilities_Management.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Types of Payroll Runs"
+        Link="/Content/Topics/WD/WDPR0124_Types_of_Payroll_Runs.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Union Reciprocity"
+        Link="/Content/Topics/WD/WDPR0070_Union_Reciprocity.html"
+        conditions="COINS.USOnly" />
+      <TocEntry
+        Title="Using the Memo Hours Earning Category"
+        Link="/Content/Topics/WD/WDPR0073_Using_the_Memo_Hours_Earning_Category.html"
+        conditions="COINS.USOnly" />
+    </TocEntry>
+    <TocEntry
+      Title="UK Specific Topics"
+      Link="/Content/Topics/WD/WDPR015M_UK_Specific_Topics.htm"
+      conditions="COINS.UKOnly">
+      <TocEntry
+        Title="Data Structure"
+        Link="/Content/Topics/WD/WDPR0062_Data_Structure.html"
+        conditions="COINS.UKOnly" />
+      <TocEntry
+        Title="Instructions for Installing a CA Certificate"
+        Link="/Content/Topics/WD/WDPR0063_Instructions_for_Installing_a_CA_Certificate.html"
+        conditions="COINS.UKOnly" />
+      <TocEntry
+        Title="Payroll Year-End 2018-19"
+        Link="/Project/TOCs/PR/Payroll Year-End 2018-19.fltoc" />
+      <TocEntry
+        Title="UK Online End of Year Submissions"
+        Link="/Content/Topics/WD/WDPR0035_Overview.html"
+        conditions="COINS.UKOnly">
+        <TocEntry
+          Title="Purpose"
+          Link="/Content/Topics/WD/WDPR007M_Purpose.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Does This Affect Me?"
+            Link="/Content/Topics/WD/WDPR0036_Does_this_affect_me.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="How Does This Work in COINS?"
+            Link="/Content/Topics/WD/WDPR0037_How_does_this_work_in_COINS.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Design of Changes to COINS"
+            Link="/Content/Topics/WD/WDPR0038_Design_of_Changes_to_COINS.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Temporary NI Numbers"
+            Link="/Content/Topics/WD/WDPR0039_Temporary_NI_Numbers.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Further Guidance"
+            Link="/Content/Topics/WD/WDPR0040_Further_Guidance.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Preparation"
+          Link="/Content/Topics/WD/WDPR008M_Preparation.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Registration"
+            Link="/Content/Topics/WD/WDPR0041_Registration.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Infrastructure"
+            Link="/Content/Topics/WD/WDPR0042_Infrastructure.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Install Fixes"
+            Link="/Content/Topics/WD/WDPR0043_Install_Fixes.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Setup on COINS"
+          Link="/Content/Topics/WD/WDPR009M_Setup_on_COINS.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Payroll Parameters"
+            Link="/Content/Topics/WD/WDPR0044_Payroll_Parameters.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="System Parameters"
+            Link="/Content/Topics/WD/WDPR0045_System_Parameters.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Tax References"
+            Link="/Content/Topics/WD/WDPR0046_Tax_References.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Annual Tax Tables &amp; NI Rates"
+            Link="/Content/Topics/WD/WDPR0047_Annual_Tax_Tables_&amp;_NI_Rates.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Operation"
+          Link="/Content/Topics/WD/WDPR010M_Operation.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Overview and Recommended Approach"
+            Link="/Content/Topics/WD/WDPR0048_Overview_and_Recommended_Approach.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Select Scheme"
+            Link="/Content/Topics/WD/WDPR011M_Select_Scheme.htm"
+            conditions="COINS.UKOnly">
+            <TocEntry
+              Title="End of Year Workbench"
+              Link="/Content/Topics/WD/WDPR0049_End_of_Year_Workbench.html"
+              conditions="COINS.UKOnly" />
+            <TocEntry
+              Title="Return Workbench"
+              Link="/Content/Topics/WD/WDPR0050_Return_Workbench.html"
+              conditions="COINS.UKOnly" />
+          </TocEntry>
+          <TocEntry
+            Title="Employee Forms"
+            Link="/Content/Topics/WD/WDPR0051_Employee_Forms.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="P35 Details"
+            Link="/Content/Topics/WD/WDPR012M_P35_Details.htm"
+            conditions="COINS.UKOnly">
+            <TocEntry
+              Title="Completing P35"
+              Link="/Content/Topics/WD/WDPR0052_Completing_P35.html"
+              conditions="COINS.UKOnly" />
+            <TocEntry
+              Title="Summary Figures"
+              Link="/Content/Topics/WD/WDPR0053_Summary_Figures.html"
+              conditions="COINS.UKOnly" />
+            <TocEntry
+              Title="Checklist"
+              Link="/Content/Topics/WD/WDPR0054_Checklist.html"
+              conditions="COINS.UKOnly" />
+            <TocEntry
+              Title="Declarations"
+              Link="/Content/Topics/WD/WDPR0055_Declarations.html"
+              conditions="COINS.UKOnly" />
+          </TocEntry>
+          <TocEntry
+            Title="Complete Return"
+            Link="/Content/Topics/WD/WDPR0056_Complete_Return.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Submit Return"
+            Link="/Content/Topics/WD/WDPR013M_Submit_Return.htm"
+            conditions="COINS.UKOnly">
+            <TocEntry
+              Title="Understanding the Protocols"
+              Link="/Content/Topics/WD/WDPR0057_Understanding_the_Protocols.html"
+              conditions="COINS.UKOnly" />
+            <TocEntry
+              Title="Submission Protocol"
+              Link="/Content/Topics/WD/WDPR0058_Submission_Protocol.html"
+              conditions="COINS.UKOnly" />
+            <TocEntry
+              Title="UNIX Files"
+              Link="/Content/Topics/WD/WDPR0059_UNIX_Files.html"
+              conditions="COINS.UKOnly" />
+          </TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="Reporting"
+          Link="/Content/Topics/WD/WDPR014M_Reporting.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="P60 Printing"
+            Link="/Content/Topics/WD/WDPR0060_P60_Printing.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="P35 Continuation"
+            Link="/Content/Topics/WD/WDPR0061_P35_Continuation.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="UK In Year Movements Internet Return"
+        Link="/Content/Topics/WD/WDPR001M_UK_In_Year_Movements_Internet_Return.htm"
+        conditions="COINS.UKOnly">
+        <TocEntry
+          Title="Overview"
+          Link="/Content/Topics/WD/WDPR0065_Overview.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Purpose"
+          Link="/Content/Topics/WD/WDPR002M_Purpose.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Background"
+            Link="/Content/Topics/WD/WDPR0022_Background.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="IRmark"
+            Link="/Content/Topics/WD/WDPR0023_IRmark.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Configuration Checklist"
+            Link="/Content/Topics/WD/WDPR0024_Configuration_Checklist.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Install Fixes"
+          Link="/Content/Topics/WD/WDPR0025_Install_Fixes.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Configuration"
+          Link="/Content/Topics/WD/WDPR0026_Configuration.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="User Security Access"
+          Link="/Content/Topics/WD/WDPR0027_User_Security_Access.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="In Year Movements Workbench"
+          Link="/Content/Topics/WD/WDPR003M_In_Year_Movements_Workbench.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Step By Step Checklist"
+            Link="/Content/Topics/WD/WDPR0028_Step_By_Step_Checklist.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Select the Return"
+            Link="/Content/Topics/WD/WDPR0029_Select_the_Return.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="View/Edit Return Details"
+            Link="/Content/Topics/WD/WDPR0030_View_Edit_Return_Details.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Form Details"
+          Link="/Content/Topics/WD/WDPR004M_Form_Details.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Form Details"
+            Link="/Content/Topics/WD/WDPR0064_Form_Details.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Input Details"
+            Link="/Content/Topics/WD/WDPR0031_Input_Details.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Completing and Submitting the Return"
+          Link="/Content/Topics/WD/WDPR005M_Completing_and_Submitting_the_Return.htm"
+          conditions="COINS.UKOnly">
+          <TocEntry
+            Title="Complete Return and Resolve Errors"
+            Link="/Content/Topics/WD/WDPR0032_Complete_Return_and_Resolve_Errors.html"
+            conditions="COINS.UKOnly" />
+          <TocEntry
+            Title="Submit Return"
+            Link="/Content/Topics/WD/WDPR0033_Submit_Return.html"
+            conditions="COINS.UKOnly" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Real Time Information"
+        Link="/Content/Topics/WD/WDPR0106M_Real_Time_Information.htm"
+        conditions="COINS.UKOnly">
+        <TocEntry
+          Title="RTI Overview"
+          Link="/Content/Topics/WD/WDPR0109_RTI_Overview.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Employer Alignment Submission"
+          Link="/Content/Topics/WD/WDPR0107_Employer_Alignment_Submission.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="First FPS"
+          Link="/Content/Topics/WD/WDPR0110_First_FPS.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="RTI Report"
+          Link="/Content/Topics/WD/WDPR0126_RTI_Report.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Full Payment Submission"
+          Link="/Content/Topics/WD/WDPR0106_Full_Payment_Submission.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Final Submission for the Year"
+          Link="/Content/Topics/WD/WDPR0127_Final_Submission_for_the_Year.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Employer Payment Summary"
+          Link="/Content/Topics/WD/WDPR0108_Employer_Payment_Summary.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="NI Number Verification Request"
+          Link="/Content/Topics/WD/WDPR0128_NI_Number_Verification_Request.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Earlier Year Update"
+          Link="/Content/Topics/WD/WDPR0125_Earlier_Year_Update.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Data Provisioning Service"
+          Link="/Content/Topics/WD/WDPR0129_Data_Provisioning_Service.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/PR/Company Car Benefits/Reporting Company Car Benefits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          MarkAsNew="true"
+          StartSection="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Pension Auto-Enrolment"
+        Link="/Content/Topics/WD/WDPR0114M_Pension_Auto-Enrolment.htm"
+        conditions="COINS.UKOnly">
+        <TocEntry
+          Title="Concepts"
+          Link="/Content/Topics/WD/WDPR0114_Concepts.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Configuration - Auto-Enrolment"
+          Link="/Content/Topics/WD/WDPR5010_Configuration_Auto-Enrolment.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Pay Calculation"
+          Link="/Content/Topics/WD/WDPR0115_Pay_Calculation.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Notifications"
+          Link="/Content/Topics/WD/WDPR0118_Notifications.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Notification Types"
+          Link="/Content/Topics/WD/WDPR0122_Notification_Types.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Sending Notifications"
+          Link="/Content/Topics/WD/WDPR0119_Sending_Notifications.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Notifications Report"
+          Link="/Content/Topics/WD/WDPR0120_Notifications_Report.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Opt In"
+          Link="/Content/Topics/WD/WDPR0116_Opt_In.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Opt Out"
+          Link="/Content/Topics/WD/WDPR0117_Opt_Out.html"
+          conditions="COINS.UKOnly" />
+        <TocEntry
+          Title="Reporting"
+          Link="/Content/Topics/WD/WDPR0121_Reporting.html"
+          conditions="COINS.UKOnly" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/PR/Pension Upload Document/Pension Upload Document.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="COINS.UKOnly"
+        StartSection="false" />
+      <TocEntry
+        Title="PR Gender Pay Reporting (24800)"
+        Link="/Project/TOCs/PR/PR Gender Pay Reporting (24800).fltoc" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

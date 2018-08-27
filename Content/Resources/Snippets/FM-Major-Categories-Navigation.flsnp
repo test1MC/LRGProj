@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="606" MadCap:lastWidth="575">
+    <body>
+        <ul>
+            <li>Open the <MadCap:variable name="Variables.jc contract" /> in <span class="function" title="Function:%WFM1000BJOB"><MadCap:variable name="Variables.jc contracts" style="text-transform: capitalize;" /></span>.</li>
+            <li>Select <span class="userselect">FM <MadCap:variable name="Variables.Jc Contract caps" /> Setup</span> tab.</li>
+            <li>Select the <span class="userselect">Operational Setup </span>tab group then select <span class="userselect">Major Categories</span>.
+<br /><br /><img src="../Images/FM/FM-Contract-6-1106.png" class="FullWidth" /></li>
+        </ul>
+        <blockquote>
+            <p>
+                <img src="../Images/FM/FM-Contract-8-1106.png" class="FullWidth" />
+            </p>
+        </blockquote>
+        <p>&#160;</p>
+    </body>
+</html>

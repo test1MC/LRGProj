@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en">
+<head>
+<title>EC/SWWBMEMO - Small works Workbench memo</title>
+</head>
+<body>
+<div class="param_id">
+<MadCapconcept term="Parameters" />
+<span class="parameter">EC/SWWBMEMO - </span> Small works Workbench memo
+</div>
+<div class="param_def">
+<p>Whether to look for small works order numbers (ending with a WBS code) on electronic invoices.</p>
+<p class="yesnolist"><span class="userinput">Y</span> = <span class="function" title="Function:%WPL9011BSMP">Electronic Invoice Workbench</span> first breaks down the order number found in the XML <span class="screentype">&lt;BuyersOrderNumber&gt;</span> tag in the according to the order number format and prefix set in the PO/PONUM1, PO/POORDPFX and PO/POPFXFST parameters. <br /><br />Having decided what the order number should look like the workbench then looks for another <strong>/</strong> character. If one is found then the workbench assumes that any characters after this are a small works reference or WBS code. See <a href="../../WD/WDPL0632_Order_Numbers.html" target="_parent">Order Numbers on the eInvoice Workbench</a>.</p>
+<p class="yesnolist"><span class="userinput">N</span> = <span class="function" title="Function:%WPL9011BSMP">Electronic Invoice Workbench</span> does not look for WBS codes in order numbers.</p>
+</div>
+</body>
+</html>

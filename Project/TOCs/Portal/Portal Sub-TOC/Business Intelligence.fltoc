@@ -1,0 +1,1864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Business Intelligence"
+    Link="/Content/Topics/BI/BI Section Header.htm"
+    ComputeToc="false"
+    ComputedTocAction="Replace"
+    ComputedTocDepth="3"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Discoveries"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      Link="/Content/M1 Exercises Overview.htm"
+      ComputeToc="false">
+      <TocEntry
+        Title="Page Design Exercises"
+        Link="/Content/Topics/BI/Exercises - Creating a Contract Browse.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title=" Finding Field Names in OA"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0001.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Contract Browse"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0002.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false">
+          <TocEntry
+            Title="Enhancing the Contract Browse Screen"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0002_2.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Adding Sections to the Contract Browse Screen"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0002_3.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Adding Filters to the Contract Browse Screen"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0002_4.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Adding a Body Selector"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0002_5.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Review: Writing a Standard Page"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0002_6.htm"
+          ComputeToc="false">
+          <TocEntry
+            Title="Writing an Inline Frame"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0002_7.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Summary Pages"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0002_8.htm"
+            ComputeToc="false" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Report Design Exercises"
+        Link="/Content/Topics/BI/Exercises - Creating Basic Reports.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="A Simple listing Report"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0003.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="A Contract Report"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0004.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false">
+          <TocEntry
+            Title="Summarising the Contract Report"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0005.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Calculated Fields"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0006.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Using Report Selection Criteria in the Report Query (1)"
+            Link="/Content/Topics/Discoveries/BI/Discovery_BI0007.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Container Reports"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0008.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Report Packs"
+          Link="/Content/Topics/BI/M2 Exercises/Report Packs.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Data Set Exercises"
+        Link="/Content/Topics/BI/Datasets/Data Sets Overview.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="Creating a Dataset"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0009.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Testing a Dataset"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0010.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Using a Dataset in a Report"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0011.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Using multiple Data Sets in a Report"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0012.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Using multiple Data Sets to merge data"
+          Link="/Content/Topics/Discoveries/BI/Discovery_BI0013.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Using Datasets for Exporting Data"
+          Link="/Content/Topics/BI/M2 Exercises/Exporting Using Datasets.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="1.6 Exercise 1d – Dynamically switching between multiple Data Sets (v10.26 onwards)"
+          Link="/Content/Topics/BI/M2 Exercises/Dynamically switching Datasets.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="2 Exercise 2 - Generating Pages from a Data Set"
+          Link="/Content/Topics/BI/M2 Exercises/Generating Pages with Datasets.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Semantic Layer Exercises"
+        ComputeToc="false">
+        <TocEntry
+          Title="Exercise - A Simple Listing Report"
+          Link="/Content/Topics/BI/Semantic Layer/Exercise - A Simple Listing Report.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false">
+          <TocEntry
+            Title="Using the Dataset in a Report Writer Report"
+            Link="/Content/Topics/BI/Semantic Layer/Using a Dataset in a Report Writer Report.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Using the Dataset in an OA Designer Report"
+            Link="/Content/Topics/BI/Semantic Layer/Using the Dataset in an OA.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Exercise - Summaries"
+          Link="/Content/Topics/BI/Semantic Layer/Exercise - Summaries.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Exercise – Adding fields to a Collection"
+          Link="/Content/Topics/BI/Semantic Layer/Exercise - Adding fields to.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Exercise – Adding Calculated Fields to a Collection"
+          Link="/Content/Topics/BI/Semantic Layer/Exercise - Adding Calculated.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Exercise - Adding Fields to a Collection Table"
+          Link="/Content/Topics/BI/Semantic Layer/Exercise - Adding Fields to a Collection Table.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="M3 Exercises"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      Link="/Content/M3 Exercises.htm"
+      ComputeToc="false">
+      <TocEntry
+        Title="10 Exercise 10 - Review Standard Reporting – Adding Extra Formatting"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 10 Review Standard.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="11 Exercise 11 - Add a Graph to the Report"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 11 Add a Graph to.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="12 Exercise 12 -In-line Reports"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 12 In line Reports.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="13 Exercise 13 - Creating a Data Mart"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 13 Creating a Data.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Dynamic Links/navigation Buttons/Options Menus"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 4 Dynamic Links navigation.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Multiple Tabs/Layouts"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 5 Multiple Tabs Layouts.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="6 Exercise 6 - Adding Named Filters to an enquiry."
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 6 Adding Named Filters.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="7 Exercise 7 - Adding Dynamic Colours"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 7 Adding Dynamic.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="8 Exercise 8 - Adding Gauges to Pages"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 8 Adding Gauges to.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="9 Exercise 9 - Adding Graphs to Pages"
+        Link="/Content/Topics/BI/M3 Exercises/Exercise 9 Adding Graphs to.htm"
+        ComputeToc="false" />
+    </TocEntry>
+    <TocEntry
+      Title="BI Overview"
+      Link="/Content/Images/BI_Overview_UK.pdf"
+      FrameName="_blank"
+      StartSection="false"
+      ReplaceMergeNode="false"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      conditions="COINS.UKOnly"></TocEntry>
+    <TocEntry
+      Title="BI Overview"
+      Link="/Content/Images/BI_Overview_USA.pdf"
+      FrameName="_blank"
+      StartSection="false"
+      ReplaceMergeNode="false"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      conditions="COINS.USOnly" />
+    <TocEntry
+      Title="BI PDF Guides"
+      Link="/Content/Topics/BI/BI PDF Guides.htm"
+      ComputeToc="false" />
+    <TocEntry
+      Title="BI Video Guides"
+      Link="/Content/BI Video Guides.htm"
+      ComputeToc="false" />
+    <TocEntry
+      Title="COINS Database"
+      Link="/Content/Topics/BI/COINS Database/Database Overview.htm"
+      StartSection="false"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false">
+      <TocEntry
+        Title="Relational Database Model"
+        Link="/Content/Topics/BI/OA Query Language/RDBM.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Tables and Modules"
+        Link="/Content/Topics/BI/COINS Database/Modules and Tables.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Summary and Detail Tables"
+        Link="/Content/Topics/BI/COINS Database/Summary and Detail Tables.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Open Items"
+        Link="/Content/Topics/BI/COINS Database/Open Items.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Indexes"
+        Link="/Content/Topics/BI/COINS Database/Indexes.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Record Service Procedures"
+        Link="/Content/Topics/BI/COINS Database/Record Service Procedures.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Read Only Fields"
+        Link="/Content/Topics/BI/COINS Database/Read Only Fields.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="Exposing RO Fields"
+          Link="/Content/Topics/BI/COINS Database/Exposing RO Fields.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Create and Maintain Lookups"
+        Link="/Content/Topics/BI/COINS Database/Create and Maintain Lookups.htm"
+        ComputeToc="false" />
+    </TocEntry>
+    <TocEntry
+      Title="OA Query Language"
+      Link="/Content/Topics/BI/OA Query Language/OA Query Language.htm"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      ComputeToc="false">
+      <TocEntry
+        Title="FOR EACH"
+        Link="/Content/Topics/BI/OA Query Language/FOR EACH.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="WHERE"
+        Link="/Content/Topics/BI/OA Query Language/WHERE.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Joining Tables"
+        Link="/Content/Topics/BI/OA Query Language/Joining Tables.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Curly Braces"
+        Link="/Content/Topics/BI/OA Query Language/Curly Braces.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Outer-Join"
+        Link="/Content/Topics/BI/OA Query Language/Outer-Join.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Buffers"
+        Link="/Content/Topics/BI/OA Query Language/Buffers.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+    </TocEntry>
+    <TocEntry
+      Title="OA Calculation Syntax"
+      Link="/Content/OA Calculation Syntax.htm"
+      ComputeToc="false">
+      <TocEntry
+        Title="Finding the Period Number from a Date"
+        Link="/Content/Topics/BI/Calculations/Finding the Period Number from a Date.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="syuquery aggregate"
+        Link="/Content/Topics/BI/Calculations/syuquery aggregate.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Numerical Calculations"
+        Link="/Content/Topics/BI/Calculations/Calculations.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="A Simple Count"
+          Link="/Content/A simple Count.htm"
+          ComputeToc="false"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue"
+          ReplaceMergeNode="false" />
+        <TocEntry
+          Title="String$"
+          Link="/Content/Topics/BI/OA Report Writer/String.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="IF"
+          Link="/Content/Topics/BI/Calculations/IF_1.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="RANGE"
+          Link="/Content/Topics/BI/Calculations/RANGE.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Limit"
+          Link="/Content/Topics/BI/Calculations/Limit.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Max"
+          Link="/Content/Topics/BI/Calculations/Max.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Min"
+          Link="/Content/Topics/BI/Calculations/Min.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Sum"
+          Link="/Content/Topics/BI/OA Report Writer/Sum.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/Calculations/non-zero.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="entry"
+          Link="/Content/Topics/BI/Calculations/entry.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="truncate"
+          Link="/Content/Topics/BI/OA Report Writer/truncate.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Round"
+          Link="/Content/Topics/BI/OA Report Writer/round.htm"
+          ComputeToc="false"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="String Calculations"
+        Link="/Content/String Calculations.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="INTEGER"
+          Link="/Content/Topics/BI/Calculations/INTEGER.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="DECIMAL"
+          Link="/Content/Topics/BI/Calculations/DECIMAL.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="INLIST"
+          Link="/Content/Topics/BI/Calculations/INLIST.htm"
+          ComputeToc="false"></TocEntry>
+        <TocEntry
+          Title="CAN-DO"
+          Link="/Content/Topics/BI/Calculations/CAN DO.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="MASK"
+          Link="/Content/Topics/BI/Calculations/MASK.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="ENTRY$"
+          Link="/Content/Topics/BI/Calculations/ENTRY1.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="RIGHT$"
+          Link="/Content/Topics/BI/OA Report Writer/RIGHT.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="LEFT$"
+          Link="/Content/Topics/BI/Calculations/LEFT.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="SUBSTRING$"
+          Link="/Content/Topics/BI/OA Report Writer/SUBSTRING.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="LENGTH$"
+          Link="/Content/Topics/BI/Calculations/LENGTH.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="REPLACE$"
+          Link="/Content/Topics/BI/OA Report Writer/REPLACE.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="CAPS$"
+          Link="/Content/Topics/BI/Calculations/CAPS.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="TRIM$"
+          Link="/Content/Topics/BI/OA Report Writer/TRIM.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="RIGHT TRIM"
+          Link="/Content/Topics/BI/OA Report Writer/RIGHT TRIM.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="INDEX"
+          Link="/Content/Topics/BI/Calculations/INDEX.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="R-INDEX"
+          Link="/Content/Topics/BI/Calculations/R INDEX.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="NUM-ENTRIES"
+          Link="/Content/Topics/BI/Calculations/NUM ENTRIES.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="LOOKUP"
+          Link="/Content/Topics/BI/Calculations/LOOKUP.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Time &amp; Date Calculations"
+        Link="/Content/Topics/BI/OA Report Writer/Time Date Calculations.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Report Writer/today.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="date"
+          Link="/Content/Topics/BI/Calculations/date.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="datestring"
+          Link="/Content/Topics/BI/Calculations/datestring.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="weekday"
+          Link="/Content/Topics/BI/OA Report Writer/weekday.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="day"
+          Link="/Content/Topics/BI/Calculations/day.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="month"
+          Link="/Content/Topics/BI/Calculations/month.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="year"
+          Link="/Content/Topics/BI/OA Report Writer/year.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="time"
+          Link="/Content/Topics/BI/OA Report Writer/time.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Weekdays"
+          Link="/Content/Topics/BI/OA Report Writer/Weekdays.htm"
+          ComputeToc="false" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Calculation Programs"
+      Link="/Content/Topics/SY/Calculation Programs/Calculation Programs.htm"
+      ComputeToc="false" />
+    <TocEntry
+      Title="BI Utilities"
+      Link="/Content/Topics/BI/BI Utilities/OA and BI Utilities.htm"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      ComputeToc="false">
+      <TocEntry
+        Title="Database Enquiry"
+        Link="/Content/Topics/BI/BI Utilities/Database Enquiry.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/BI/BI Utilities/BIU0003.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Query Editor"
+        Link="/Content/Topics/BI/BI Utilities/Query Editor.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="Creating Datasets from the Query Editor (10.27)"
+          Link="/Content/Topics/BI/BI Utilities/Creating Datasets from the.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Calculation Editor"
+        Link="/Content/Topics/BI/BI Utilities/Calculation Editor.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Object Enquiry"
+        Link="/Content/Topics/BI/BI Utilities/Object Enquiry.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+    </TocEntry>
+    <TocEntry
+      Title="End User Reporting"
+      Link="/Content/End User Reporting.htm"
+      ComputeToc="false"
+      ComputedTocAction="Replace"
+      ComputedTocDepth="3"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ReplaceMergeNode="true">
+      <TocEntry
+        Title="OA Report Writer"
+        Link="/Content/Topics/BI/OA Report Writer/Introduction.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Granting Access to Report Writer and Report Runner"
+          Link="/Content/Topics/BI/OA Report Writer/Granting Access to Report.htm"
+          ComputeToc="false">
+          <TocEntry
+            Title="Function Security"
+            Link="/Content/Topics/BI/OA Report Writer/Function Security.htm"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Report Writer Queries"
+          Link="/Content/Topics/BI/OA Report Writer/Report Writer Queries.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Query"
+          Link="/Content/Topics/BI/OA Report Writer/Query.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Report Writer"
+          Link="/Content/Topics/BI/OA Report Writer/Report Writer.htm"
+          ComputeToc="false">
+          <TocEntry
+            Title="Adding Filters to the Report"
+            Link="/Content/Topics/BI/OA Report Writer/Adding Filters to the Report.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Sorting, Sub-totalling, Page Breaks and Summary Levels"
+            Link="/Content/Topics/BI/OA Report Writer/Sorting Sub totalling Page.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Selecting the fields to print on the report"
+            Link="/Content/Topics/BI/OA Report Writer/Selecting the fields to print.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Existing Reports"
+            Link="/Content/Topics/BI/OA Report Writer/Existing Reports.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Previewing or exporting the data"
+            Link="/Content/Topics/BI/OA Report Writer/Previewing or exporting the.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Running a Report"
+            Link="/Content/Topics/BI/OA Report Writer/Running a Report.htm"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Publishing Report Writer Reports"
+          Link="/Content/Topics/BI/OA Report Writer/Publishing Report Writer Reports.htm"
+          ComputeToc="false">
+          <TocEntry
+            Title="Publishing a report to Report Runner"
+            Link="/Content/Topics/BI/OA Report Writer/Publishing a report to Report.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Convert to Function"
+            Link="/Content/Topics/BI/OA Report Writer/Convert to Function.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Convert to Report Designer"
+            Link="/Content/Topics/BI/OA Report Writer/Convert to Report Designer.htm"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Read Only (Calculated) Fields"
+          Link="/Content/Topics/BI/OA Report Writer/Read Only Calculated Fields.htm"
+          ComputeToc="false">
+          <TocEntry
+            Title="Using Parameter driven RO_ fields in Report Writer"
+            Link="/Content/Topics/BI/OA Report Writer/Using Parameter driven RO_.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Exposing RO Fields"
+            Link="/Content/Topics/BI/COINS Database/Exposing RO Fields.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Using RO Fields directly in a calculation"
+            Link="/Content/Topics/BI/OA Report Writer/Using RO Fields directly in.htm"
+            ComputeToc="false" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Semantic Layer"
+        Link="/Content/Topics/BI/Semantic Layer/Semantic Layer Exercises - Overview.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="Adding GL Analysis Sets to Semantic Layer"
+          ComputeToc="false">
+          <TocEntry
+            Title="Adding GL Analysis Sets to Semantic Layer &amp; Report Builder"
+            Link="/Project/TOCs/BI/Adding GL Analysis Sets to Semantic Layer (LMDSY0068).fltoc"
+            StartSection="false"
+            BreakType="chapter"
+            ChapterNumber="1"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="reset"
+            ChapterNumberReset="reset"
+            VolumeNumber="1"
+            ComputedTocAction="Replace"
+            ReplaceMergeNode="true"
+            ComputeToc="false" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Report Builder"
+        Link="/Content/Topics/BI/Report Builder/Overview.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Initial Setup"
+          Link="/Content/Topics/BI/Report Builder/Initial Setup.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+          ComputeToc="false">
+          <TocEntry
+            Title="System Parameters"
+            Link="/Content/Topics/BI/Report Builder/System Parameters.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Report Data Sources – Pre-Built Datasets"
+            Link="/Content/Topics/BI/Report Builder/Report Data Sources Pre Built.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Security"
+            Link="/Content/Topics/BI/Report Builder/Security.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Query Results Licence"
+            Link="/Content/Topics/BI/Report Builder/Query Results Licence.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Screen and Processing "
+          Link="/Content/Topics/BI/Report Builder/Screen and Processing Changes.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+          ComputeToc="false">
+          <TocEntry
+            Title="Canvas"
+            Link="/Content/Topics/BI/Report Builder/Canvas.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Button and Options Bar"
+            Link="/Content/Topics/BI/Report Builder/Button and Options Bar.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false"></TocEntry>
+          <TocEntry
+            Title="Opening an Existing Report"
+            Link="/Content/Topics/BI/Report Builder/Opening an Existing Report.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Creating a New Report"
+            Link="/Content/Topics/BI/Report Builder/Creating a New Report.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false">
+            <TocEntry
+              Title="Data Source"
+              Link="/Content/Topics/BI/Report Builder/Data Source.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false">
+              <TocEntry
+                Title="Data Frame"
+                Link="/Content/Topics/BI/Report Builder/Data Frame.htm"
+                BreakType="pageLayout"
+                StartSection="false"
+                PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+                ComputeToc="false" />
+            </TocEntry>
+            <TocEntry
+              Title="Adding Fields"
+              Link="/Content/Topics/BI/Report Builder/Adding Fields.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Groups"
+              Link="/Content/Topics/BI/Report Builder/Groups.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Filters"
+              Link="/Content/Topics/BI/Report Builder/Filters.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Run Report"
+              Link="/Content/Topics/BI/Report Builder/Run Report.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+          </TocEntry>
+          <TocEntry
+            Title="Refining the Report"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false">
+            <TocEntry
+              Title="Fields"
+              Link="/Content/Topics/BI/Report Builder/Refining the Report - Fields.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Field Positioning"
+              Link="/Content/Topics/BI/Report Builder/Field Positioning.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Text,Count,Calculations"
+              Link="/Content/Topics/BI/Report Builder/Text,Count,Calculations.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Dataset Field Update"
+              Link="/Content/Topics/BI/Report Builder/Dataset Field Update.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Adding Fields to Datasets"
+              Link="/Content/Topics/BI/Report Builder/Adding Fields to Datasets.htm"
+              BreakType="pageLayout"
+              StartSection="false"
+              PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+              ComputeToc="false" />
+          </TocEntry>
+          <TocEntry
+            Title="Report Builder List"
+            Link="/Content/Topics/BI/Report Builder/Report Builder List.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+            ComputeToc="false">
+            <TocEntry
+              Title="Export Report Builder Definition"
+              Link="/Content/Topics/BI/Report Builder/Export Report Builder Definition.htm"
+              ComputeToc="false" />
+            <TocEntry
+              Title="Import Report Builder Definition"
+              Link="/Content/Topics/BI/Report Builder/Import Report Builder Definition.htm"
+              ComputeToc="false" />
+          </TocEntry>
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Dynamic Queries"
+        BreakType="pageLayout"
+        StartSection="false"
+        Link="/Content/Topics/SY/Dynamic Queries/Dynamic Queries - Overview.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Screen and Processing Changes"
+          ComputeToc="false">
+          <TocEntry
+            Title="Dynamic Query Definition"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Queries - Definition.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Dynamic Enquiry"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Enquiry.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Dynamic Report"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Queries - Report.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Dynamic Grouping"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Grouping.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Report Builder"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Queries - Report Builder.htm"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Initial Configuration"
+          StartSection="false"
+          Link="../../../Content/CEDoc_Template/Initial Configuration - No Break.htm"
+          ComputeToc="false">
+          <TocEntry
+            Title="Licence"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Queries - Licence.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Query Security"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Queries - Query Security.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Functions"
+            Link="/Content/Topics/SY/Dynamic Queries/Dynamic Queries - Functions.htm"
+            ComputeToc="false" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="OA Designer"
+      Link="/Content/Topics/BI/OA Designer/OA Designer - Overview.htm"
+      ComputeToc="false"
+      ReplaceMergeNode="false">
+      <TocEntry
+        Title="Functions and Sections"
+        Link="/Content/Topics/BI/OA Designer/Functions and Sections.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Function Naming"
+        Link="/Content/Topics/BI/OA Designer/Function Naming.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Function Parameters"
+        Link="/Content/Topics/BI/OA Designer/Function Parameters.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="stn_code"
+          Link="/Content/Topics/BI/OA Designer/stn_code.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="rtn_code"
+          Link="/Content/Topics/BI/OA Designer/rtn_code.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Exptype"
+          Link="/Content/Topics/BI/OA Designer/Exptype.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="noInfo"
+          Link="/Content/Topics/BI/OA Designer/noInfo.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="ExportType"
+          Link="/Content/Topics/BI/OA Designer/ExportType.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Sidemenuhelp"
+          Link="/Content/Topics/BI/OA Designer/Sidemenuhelp.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Passing Variables"
+          Link="/Content/Topics/BI/OA Designer/Passing Variables.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="URL Parameters"
+        Link="/Content/Topics/BI/OA Designer/URL Parameters.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Helpmode"
+          Link="/Content/Topics/BI/OA Designer/Helpmode.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Forms Service Procedures and Report Selection Generates"
+        Link="/Content/Topics/BI/OA Designer/Forms Service Procedures and Report Selection Generates.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Bill of Quantities - BQFREP"
+          Link="/Content/Topics/BI/OA Designer/Bill of Quantities - BQFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Cash Book - CBFREP"
+          Link="/Content/Topics/BI/OA Designer/Cash Book - CBFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Central Repository - CIFREP"
+          Link="/Content/Topics/BI/OA Designer/Central Repository - CIFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Company - COFREP"
+          Link="/Content/Topics/BI/OA Designer/Company - COFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Credit Control - CNNFREP"
+          Link="/Content/Topics/BI/OA Designer/Credit Control - CNNFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Contract Sales - CSFREP"
+          Link="/Content/Topics/BI/OA Designer/Contract Sales - CSFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Fixed Assets - FAFREP"
+          Link="/Content/Topics/BI/OA Designer/Fixed Assets - FAFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Facilities Management - FMFREP"
+          Link="/Content/Topics/BI/OA Designer/Facilities Management - FMFREP.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="General Ledger - GLFREP"
+          Link="/Content/Topics/BI/OA Designer/General Ledger - GLFREP.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Page Designer"
+        Link="/Content/Topics/BI/OA Designer/Page Designer.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="Page Header"
+          Link="/Content/Topics/BI/OA Designer/Page Header.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Page Header Tab"
+          Link="/Content/Topics/BI/OA Designer/Page Header Tab.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Page Body Tab"
+          Link="/Content/Topics/BI/OA Designer/Page Body Tab.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Page Script Tab"
+          Link="/Content/Topics/BI/OA Designer/Page Script Tab.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Page Forms Tab"
+          Link="/Content/Topics/BI/OA Designer/Page Forms Tab.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false">
+          <TocEntry
+            Title="Page Forms - Add"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Add.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Body"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Body.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Body Detail"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Body Detail.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Body Selector"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Body Selector.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Body Span"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Body Span.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Body Update"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Body Update.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Context"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Context.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Detail"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Detail.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Footer"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Footer.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Header"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Header.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Multiple Update"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Multiple Update.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Record Header"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Record Header.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Totals"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Totals.htm"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Page Forms - Update"
+            Link="/Content/Topics/BI/OA Designer/Page Forms - Update.htm"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Page Fields Tab"
+          Link="/Content/Topics/BI/OA Designer/Page Fields Tab.htm"
+          ComputeToc="false">
+          <TocEntry
+            Title="Page Fields - View As Options"
+            Link="/Content/Topics/BI/OA Designer/Page Fields - View As Options.htm"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="Named Filters"
+          Link="/Content/Topics/BI/OA Designer/Named Filters.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Browse Filters"
+          Link="/Content/Topics/BI/OA Designer/Browse Filters.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Report Designer"
+        Link="/Content/Topics/BI/OA Designer/Report Designer.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Page Summary"
+          Link="/Content/Topics/BI/OA Designer/Report Designer_Page Summary.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Using RS Fields"
+          Link="/Content/Topics/BI/OA Designer/Report Designer_Using RS Fields.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Report Forms"
+          Link="/Content/Topics/BI/OA Designer/Report Designer_Report Forms.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Headers and Footers"
+          Link="/Content/Topics/BI/OA Designer/Report Designer_Headers and Footers.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Default Report Labels"
+          Link="/Content/Topics/BI/OA Designer/Default Report Labels.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Data Display Colour Ranges"
+        Link="/Content/Topics/BI/OA Designer/Data Display Colour Ranges.htm"
+        ComputeToc="false"></TocEntry>
+      <TocEntry
+        Title="Alternate Line Shading on Forms and Reports"
+        Link="/Content/Alternate Shading (BI)/Alternate Line Shading on.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Prerequisites"
+          Link="/Content/Alternate Shading (BI)/Prerequisites.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Task Summary"
+          Link="/Content/Alternate Shading (BI)/Task Summary.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Create report field styles"
+          Link="/Content/Alternate Shading (BI)/Create report field styles.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Applying to forms"
+          Link="/Content/Alternate Shading (BI)/Applying to forms.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Applying to reports"
+          Link="/Content/Alternate Shading (BI)/Applying to reports.htm"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Queries on Purchase Orders"
+        Link="/Content/Topics/BI/OA Designer/Queries on Purchase Orders.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Calculations"
+        Link="/Content/Topics/BI/Calculations/Calculations Overview.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="Mathmatical Functions"
+          Link="/Content/Topics/BI/Calculations/Mathmatical Functions.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Calculation Field Rules"
+          Link="/Content/Topics/BI/Calculations/Calculation Field Rules.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Variables"
+          Link="/Content/Topics/BI/Calculations/Variables.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Debug()"
+          Link="/Content/Topics/BI/Calculations/Debug.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Curly Braces"
+          Link="/Content/Topics/BI/OA Query Language/Curly Braces.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Datasets"
+        Link="/Content/Topics/BI/Datasets/Datasets - Overview.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        ComputeToc="false">
+        <TocEntry
+          Title="Creating a Data Set"
+          Link="/Content/Topics/BI/Datasets/Creating a Dataset.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Best Practice"
+          Link="/Content/Topics/BI/Datasets/Best Practice.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Granting Access to Data Sets for Other Users."
+          Link="/Content/Topics/BI/Datasets/Granting Access to Data.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Rules for Keys"
+          Link="/Content/Topics/BI/Datasets/Rules for Keys.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Cross Modular Reporting"
+          Link="/Content/Topics/BI/Datasets/Cross Modular Reporting.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Using Data Sets in the Query Editor"
+          Link="/Content/Topics/BI/Datasets/Using Data Sets in the.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Using the Data Set in Queries"
+          Link="/Content/Topics/BI/Datasets/Using the Data Set in Queries.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Report Pre-Processing"
+          Link="/Content/Topics/BI/Datasets/PreProcessing Introduction.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          ComputeToc="false">
+          <TocEntry
+            Title="Syuds.Calc"
+            Link="/Content/Topics/BI/Datasets/Syuds Calc.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Debug"
+            Link="/Content/Topics/BI/Datasets/Syuds Debug.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Delete"
+            Link="/Content/Topics/BI/Datasets/Syuds Delete.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Filter"
+            Link="/Content/Topics/BI/Datasets/Syuds Filter.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="GroupQuery"
+            Link="/Content/Topics/BI/Datasets/Syuds GroupQuery.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Merge"
+            Link="/Content/Topics/BI/Datasets/Syuds Merge.htm"
+            ReplaceMergeNode="false"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Syuds.Pivot"
+            Link="/Content/Topics/BI/Datasets/Syuds Pivot.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Repeat"
+            Link="/Content/Topics/BI/Datasets/Syuds Repeat.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Store"
+            Link="/Content/Topics/BI/Datasets/Syuds Store.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Sum"
+            Link="/Content/Topics/BI/Datasets/Syuds Sum.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="TableAlias"
+            Link="/Content/Topics/BI/Datasets/Syuds TableAlias.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Syuds.TimeSlice()"
+            Link="/Content/Topics/BI/Datasets/Syuds TimeSlice.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title=" Top"
+            Link="/Content/Topics/BI/Datasets/Syuds Top.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+          <TocEntry
+            Title="Union"
+            Link="/Content/Topics/BI/Datasets/Syuds Union.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            ComputeToc="false" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Workflow"
+      Link="/Content/Topics/BI/OA Workflow/Workflow Overview.htm"
+      StartSection="false"
+      PageNumberReset="continue"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false">
+      <TocEntry
+        Title="Example Workflow"
+        Link="/Content/Topics/BI/OA Workflow/Example Workflow.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Workflow Groups"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Groups.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Workflow Roles"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Roles.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Workflow Responsibilities"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Responsibilities.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/BI/OA Workflow/User Workflow Responsibilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Workflow Delegation"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Delegation.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/Self-Service Workflow Delegation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Workflow Templates"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Templates.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Details Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Stages Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Appointment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Delay.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Email.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Fork.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Merge.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Process.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - SMS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Stage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Stages - Task.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Diagram Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Check Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Paths Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Active Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Complete Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Template - Outstanding Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Workflow Deployment to Companies"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Deployment to Companies.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
+        Title="Workflow Monitor"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Monitor.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false"
+        BreakType="chapter"
+        StartSection="false">
+        <TocEntry
+          Title="Workflow Monitor Workbench"
+          Link="/Content/Topics/BI/OA Workflow/Workflow Monitor Workbench.htm"
+          PageNumberReset="continue"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue"
+          ComputeToc="false"
+          ReplaceMergeNode="false"
+          BreakType="pageLayout"
+          StartSection="false">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Monitor - Monitor Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Monitor - Active Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Topics/BI/OA Workflow/WF Monitor - Completed Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+            ComputeToc="false" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Summary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        ComputeToc="false">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Summary - Tasks Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="pageLayout"
+          StartSection="false"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Summary - Stages Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="pageLayout"
+          StartSection="false"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Summary - History Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="pageLayout"
+          StartSection="false"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/OA Workflow/WF Summary - Variables Tab.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="pageLayout"
+          StartSection="false"
+          ComputeToc="false" />
+      </TocEntry>
+      <TocEntry
+        Title="Workflow User Variables"
+        Link="/Content/Topics/BI/OA Workflow/Workflow User Variables.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Workflow Parameters (Menu System Parameters)"
+        Link="/Content/Topics/BI/OA Workflow/Workflow Parameters Menu System.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Database Triggers"
+        Link="/Content/Topics/BI/OA Workflow/Database Triggers.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Import/Export Workflow Template"
+        Link="/Content/Topics/BI/OA Workflow/Import Export Workflow Template.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Launching Workflow"
+        Link="/Content/Topics/BI/OA Workflow/Launching Workflow.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Using a Choose Action"
+        Link="/Content/Topics/BI/OA Workflow/Using a Choose Action.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Method to force the closure of Workflow:"
+        Link="/Content/Topics/BI/OA Workflow/Method to force the closure.htm"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+    </TocEntry>
+    <TocEntry
+      Title="User Defined Webservices"
+      Link="/Content/Topics/BI/User Defined Webservices/Introduction or Executive.htm"
+      ComputeToc="false">
+      <TocEntry
+        Title="soapUI"
+        Link="/Content/Topics/BI/User Defined Webservices/soapUI.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Licencing"
+        Link="/Content/Topics/BI/User Defined Webservices/Licencing.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Roles"
+          Link="/Content/Topics/BI/User Defined Webservices/Roles.htm"
+          ComputeToc="false"></TocEntry>
+        <TocEntry
+          Title="User Maintenance"
+          Link="/Content/Topics/BI/User Defined Webservices/User Maintenance.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/User Defined Webservices/Exporting Roles_1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/BI/User Defined Webservices/Importing Roles_1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Viewing Installed Services"
+        Link="/Content/Topics/BI/User Defined Webservices/Viewing Installed Services.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/BI/User Defined Webservices/COINS Centric XML_1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Testing a Service Connection (Using soapUI)"
+        Link="/Content/Topics/BI/User Defined Webservices/Testing a Service Connection.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="ESB COINS User"
+        Link="/Content/Topics/BI/User Defined Webservices/ESB COINS User.htm"
+        ComputeToc="false"></TocEntry>
+      <TocEntry
+        Title="User Defined Services"
+        Link="/Content/Topics/BI/User Defined Webservices/User Defined Services.htm"
+        ComputeToc="false">
+        <TocEntry
+          Title="Datasets"
+          Link="/Content/Topics/BI/User Defined Webservices/Datasets.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Pages"
+          Link="/Content/Topics/BI/User Defined Webservices/Pages.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Calculation Programs"
+          Link="/Content/Topics/BI/User Defined Webservices/Calculation Programs.htm"
+          ComputeToc="false" />
+        <TocEntry
+          Title="Get/Set"
+          Link="/Content/Topics/BI/User Defined Webservices/Get Set.htm"
+          ComputeToc="false" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Building Desktops"
+      Link="/Content/Topics/BI/Building Desktops/Overview.htm"
+      Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+      ComputeToc="false">
+      <TocEntry
+        Title="Videos and PDFs"
+        Link="/Content/Topics/BI/Building Desktops/Videos and PDFs.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+      <TocEntry
+        Title="Desktop Structure"
+        Link="/Content/Topics/BI/Building Desktops/Desktop Structure.htm"
+        Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+        ReplaceMergeNode="false">
+        <TocEntry
+          Title="Creating the Functions (Manually)"
+          Link="/Content/Topics/BI/Building Desktops/Creating the Functions (Manually).htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Desktop Section Functions"
+          Link="/Content/Topics/BI/Building Desktops/Desktop Section Functions.htm"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Uploading Desktop Images"
+          Link="/Content/Topics/BI/Building Desktops/Uploading Desktop Images.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Tile Rows and Columns"
+          Link="/Content/Topics/BI/Building Desktops/Tile Rows and Columns.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Add the Desktop to a user profile"
+          Link="/Content/Topics/BI/Building Desktops/Add the Desktop to a user.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Alternative Desktops"
+          Link="/Content/Topics/BI/Building Desktops/Alternative Desktops.htm"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Desktop Import/Export"
+          Link="/Content/Topics/BI/Building Desktops/Desktop Import Export.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl">
+          <TocEntry
+            Title="Import"
+            Link="/Content/Topics/BI/Building Desktops/Import.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Tiles"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+        ReplaceMergeNode="false">
+        <TocEntry
+          Title="Smart Tiles"
+          Link="/Content/Topics/BI/Building Desktops/Smart Tiles.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"></TocEntry>
+        <TocEntry
+          Title="Info Tiles"
+          Link="/Content/Topics/BI/Building Desktops/Info Tiles.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Using Calculation Programs to prepare data for the Desktop"
+          Link="/Content/Topics/BI/Building Desktops/Using Calculation Programs.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        <TocEntry
+          Title="Desktop Tile Values"
+          Link="/Content/Topics/BI/Building Desktops/Desktop Tile Values.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"></TocEntry>
+        <TocEntry
+          Title="Tile Options"
+          Link="/Content/Topics/BI/Building Desktops/Tile Options.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl">
+          <TocEntry
+            Title="NamedFilter Example"
+            Link="/Content/Topics/BI/Building Desktops/Named Filter Example.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+          <TocEntry
+            Title="InitContainer Example"
+            Link="/Content/Topics/BI/Building Desktops/InitContainer Example.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"></TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="Tables on Tiles"
+          Link="/Content/Topics/BI/Building Desktops/Tables on Tiles.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl">
+          <TocEntry
+            Title="Tables : Example 1 – Direct Query against the database"
+            Link="/Content/Topics/BI/Building Desktops/Tables - Direct Query.htm"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+          <TocEntry
+            Title="Tables : Example 2 – Using a Data Set"
+            Link="/Content/Topics/BI/Building Desktops/Tables - Using a Data Set.htm"
+            Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+            BreakType="pageLayout"
+            StartSection="false"
+            PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+        </TocEntry>
+        <TocEntry
+          Title="Charts on Tiles"
+          Link="/Content/Topics/BI/Building Desktops/Charts on Tiles.htm"
+          Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+          BreakType="pageLayout"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

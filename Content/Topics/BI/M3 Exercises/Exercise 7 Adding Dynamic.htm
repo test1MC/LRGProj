@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="Topics" /><span style="margin-right: 0pt;">7 </span>Exercise 7 - Adding Dynamic Colours </h1>
+        <p>&#160;</p>
+        <p>Colour ranges are set up as global settings which are company specific. For this reason we will not have to set them up on the training environment. However for this exercise to work when you load them into your local environment you will have to set up the <MadCap:variable name="Variables.colour" /> ranges in your own environments.</p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">7.1 </span>Check <MadCap:variable name="Variables.colour" /> ranges exist.</h2>
+        <p>&#160;</p>
+        <p> OA Reporting &amp; BI Setup menu –</p>
+        <ul style="list-style-type: square;margin-left: 54pt;">
+            <li style="list-style-type: square;">Company Specific</li>
+            <li style="list-style-type: square;">Data Display Colour Ranges</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 7 Adding Dynamic.png" style="visibility: visible;mso-wrap-style: square;width: 126px;height: 188px;" />&#160; <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 7 Adding Dynamic_1.png" style="visibility: visible;mso-wrap-style: square;width: 392px;height: 88px;" /></p>
+        <p>
+            <div style="left: 0;text-align: left;margin-left: 0;margin-top: 0;width: 383.7pt;height: 45.75pt;mso-position-horizontal: center;mso-width-relative: margin;mso-height-relative: margin;background-color: #4bacc6;">
+                <p>Colours on pages must be known to the style sheet. Standard Green,Amber,Red are perf30,perf60,perf100.</p>
+            </div>
+        </p>
+        <p>&#160;</p>
+        <p>
+        </p>
+        <h2><span style="margin-right: 0pt;">7.2 </span>Add <MadCap:variable name="Variables.colour" /> to Cost field.</h2>
+        <p>Add a field on the page on Exercise 1 to use a variable instead of a table field. As the variable must be known prior to the <MadCap:variable name="Variables.colour" /> class being calculated we will assign the variable in a previous field.</p>
+        <p>&#160;</p>
+        <p>FIELDLABELCLASS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; CALCULATION</p>
+        <p>Job_numGroup&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;  dcost = jc_job.RO_ContractCosts^TD;</p>
+        <p>Costs TD{co_config.RO_rangeClass^CONCOS|{eval.dcost}}dcost;</p>
+        <p>&#160;</p>
+        <h2>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 7 Adding Dynamic_2.png" style="left: 0;text-align: left;z-index: 5;visibility: visible;mso-wrap-style: square;mso-wrap-distance-left: 9pt;mso-wrap-distance-top: 0;mso-wrap-distance-right: 9pt;mso-wrap-distance-bottom: 0;mso-position-horizontal: absolute;mso-position-horizontal-relative: text;mso-position-vertical: absolute;mso-position-vertical-relative: text;margin-left: 31.7pt;width: 606px;height: 271px;" alt="62.png" />
+            <br /><span style="margin-right: 0pt;">7.3 </span>Running the function</h2>
+        <p>&#160;</p>
+    </body>
+</html>

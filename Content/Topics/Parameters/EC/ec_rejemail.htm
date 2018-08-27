@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en">
+<head>
+<title>EC/REJEMAIL - Trigger for invoice rejection email</title>
+</head>
+<body>
+<div class="param_id">
+<MadCapconcept term="Parameters" />
+<span class="parameter">EC/REJEMAIL - </span> Trigger for invoice rejection email
+</div>
+<div class="param_def">
+<p>When the <span class="function" title="Function:%WPL9011BSMPG">eCommerce Invoices</span> produces rejection emails.</p>
+<p class="yesnolist"><span class="userinput">CREATE</span> = Rejection emails are produced when the <span class="userinput">Create </span>action is used.</p>
+<p class="yesnolist"><span class="userinput">REVIEW</span> = Rejection emails are produced when a batch of eInvoices is reviewed in the workbench.</p>
+<p class="yesnolist"><span class="userinput">REJECT</span> = Rejection emails are produced when the <span class="userinput">Reject </span>action is used.</p>
+<p>The parameter may be set to <span class="userinput">REVIEW,REJECT </span>in which case two emails will be produced for each invoice in error (once when reviewed and once when rejected). Emails are only produced according to the rules in <span class="function" title="Function:%WEC2000BCTA">Validation Error Codes</span>. The same applies if the parameter is set to <span class="userinput">REVIEW,REJECT,CREATE</span>.</p>
+<p>Leaving the parameter blank or setting it to <span class="userinput">NONE </span>overrides the validation rules however they are set and no email is produced. The AUTOREJECT functionality is not affected by this parameter.<br /></p>
+</div>
+</body>
+</html>

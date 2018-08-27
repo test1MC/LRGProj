@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reltable xmlns="http://docs.oasis-open.org/dita/v1.1/schema/ditabase.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <relheader>
+        <relcolspec type="concept" />
+        <relcolspec type="task" />
+        <relcolspec type="reference" />
+    </relheader>
+    <relrow class="GL Year End">
+        <relcell linking="targetonly" collection-type="family">
+            <topicref href="/Content/PDF Content/GL Year End Process (LMDGL0004).pdf" />
+        </relcell>
+        <relcell linking="targetonly" collection-type="family">
+        </relcell>
+        <relcell linking="targetonly" collection-type="family">
+        </relcell>
+    </relrow>
+    <relrow>
+        <relcell linking="targetonly" collection-type="family" />
+        <relcell linking="targetonly" collection-type="family" />
+        <relcell linking="targetonly" collection-type="family" />
+    </relrow>
+</reltable>

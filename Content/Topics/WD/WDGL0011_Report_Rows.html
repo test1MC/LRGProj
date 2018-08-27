@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1434" MadCap:lastWidth="758">
+  <head>
+    <link href="../../Resources/TableStyles/COINSBasic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    <title>GL Reporter - Report Rows</title>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">GL Reporter - Report Rows</h1>
+    <p> </p>
+    <p>The rows control the structure of the report. There are different row types; account rows (and <MadCap:variable name="Variables.jc contract" /> rows) specify the selection of <span class="module">General Ledger </span>accounts (or a selection of <MadCap:variable name="Variables.jc contracts" />) to report on.  Other row types determine where other lines such as subtotals and text lines come:</p>
+    <table class="TableStyle-COINSBasic" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/COINSBasic.css');" cellspacing="0">
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <thead>
+        <tr class="TableStyle-COINSBasic-Head-Header1">
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Row Type</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Purpose</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadD-Column1-Header1">
+            <p class="TableHeader">"Show On" code</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td style="border-top: medium none;" class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+            <a href="WDGL0012_Account_Rows.html">Account rows</a>
+          </td>
+          <td style="border-top: medium none;" class="TableStyle-COINSBasic-BodyE-Column1-Body1">Allow you to specify the <span class="module">General Ledger </span>accounts to include in the report, and when to print them, and to set up calculations based on them.</td>
+          <td style="border-top: medium none;" class="TableStyle-COINSBasic-BodyD-Column1-Body1">D, H, F</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Total rows</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Allow you to print or calculate accumulator lines.</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">T</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Standard text rows </td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Allow you to configure lines of text that you can use in different places on the report - for example, underlines to use as formatting.</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">S</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Additional text rows</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Allow you to specify a paragraph of additional text to include in the report.</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">X</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Page break rows</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Allow you to force the rest of the report onto a new page.  For example, if the report is in two sections you might insert a page break to make sure that the second section starts on a new page.</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1"> </td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Blank rows</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Allow you to insert blank lines within the report.</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">B</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">
+            <MadCap:variable name="Variables.Jc Contract caps" /> rows</td>
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">Allow you to specify groups of <MadCap:variable name="Variables.jc contracts" /> to report on.  Selected information from the <MadCap:variable name="Variables.jc contract" /> record is available.</td>
+          <td class="TableStyle-COINSBasic-BodyA-Column1-Body1">J, H, F</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>"Show On" Codes</h2>
+    <p>The "Show On" code is used on the columns to specify which row types the column is shown on.  For example, to show the account balance on account rows and total rows, you would include <span class="userinput">D.</span> and <span class="userinput">T.</span> in the <span class="field">Show On </span>field for the account balance. H and F refer to the <a href="WDGL0014_Sorting_Headings_and_Totals.html">sort headers and footers</a> for account and <MadCap:variable name="Variables.jc contract" /> rows.</p>
+    <p>Levels allow you to show different information in different sections of the report.  Give the row types in each section different <strong>levels</strong>, and put the relevant level number after the "show on" code for each column.  For example, you could have a report that has summary information on level 1, and account listings (with account descriptions) on level 2.  Or you could have a report with account lines in one section showing closing balance and movement, and a second section with account lines showing budget and forecast:</p>
+    <table class="TableStyle-COINSBasic" style="width: 50%;mc-table-style: url('../../Resources/TableStyles/COINSBasic.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <thead>
+        <tr class="TableStyle-COINSBasic-Head-Header1">
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <table class="TableStyle-COINSBasic" style="width: 50%;mc-table-style: url('../../Resources/TableStyles/COINSBasic.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+              <col class="TableStyle-COINSBasic-Column-Column1" />
+              <tbody>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                  <th class="TableStyle-COINSBasic-BodyA-Column1-Body1">Item type</th>
+                </tr>
+              </tbody>
+            </table>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadD-Column1-Header1">
+            <p class="TableHeader">Show On</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td style="border-top: medium none;" class="TableStyle-COINSBasic-BodyE-Column1-Body1">Account code</td>
+          <td style="border-top: medium none;" class="TableStyle-COINSBasic-BodyD-Column1-Body1">D.</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Account description </td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D.</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Closing balance</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D1</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Movement</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D1</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Budget</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D2</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">Forecast</td>
+          <td class="TableStyle-COINSBasic-BodyA-Column1-Body1">D2</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="5297" MadCap:lastWidth="815">
+  <head>
+    <link href="../../Resources/TableStyles/COINSBasic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    <title>Selecting Invoices for Payment</title>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">Selecting Invoices for Payment</h1>
+    <p>
+      <MadCap:variable name="General.ProductName" /> allows you to select outstanding transactions for a <MadCap:variable name="Variables.pl supplier" />. The amounts will then be automatically calculated to create a payment (<MadCap:variable name="Variables.cheque" /> or <MadCap:variable name="Variables.eft" />) for the total amount. Credit transactions (indicated by a negative amount) can also be selected, which will adjust the payment total accordingly. </p>
+    <p style="MARGIN-BOTTOM: 6pt;">There are two procedures available that allow you to select invoices for payment. </p>
+    <ul>
+      <li>
+        <span class="function" title="Function:%WPL1110BAPY">Select/Deselect Invoices (Manual)</span> - allows you to create payments by manually selecting outstanding invoices for one <MadCap:variable name="Variables.pl supplier" /> at a time.</li>
+      <li>
+        <span class="function" title="Function:%WPL1100RAIN">Select/Deselect Invoices (Batch)</span> - automatically selects (or deselects) outstanding transactions for one or more <MadCap:variable name="Variables.pl suppliers" />, according to the selection criteria you specify.  For example, you can select invoices by due date.  Depending on how <MadCap:variable name="General.ProductName" /> has been configured, you may or may not be able to use <span class="function" title="Function:%WPL1100RAIN">Select/Deselect Invoices (Batch)</span> to select held or registered invoices, or those where unallocated payments exist. </li>
+    </ul>
+    <p style="MARGIN-BOTTOM: 6pt;">Because both the procedures interact, you can use either method of selection, or you can combine manual and batch selection: for example, you can select a group of invoices using batch selection, and then deselect individual invoices manually to stop them being paid. </p>
+    <p style="MARGIN-BOTTOM: 6pt;">Regardless of which selection procedure you use, one payment payment will be created per <MadCap:variable name="Variables.pl supplier" />, to create a payment batch. </p>
+    <p style="MARGIN-BOTTOM: 6pt;"> </p>
+    <h2>Generate Payment Selection</h2>
+    <h3>Select Invoices for Payment</h3>
+    <p>From the <MadCap:variable name="Variables.Purchase Ledger caps" /> Menu select Payments then Select/ Deselect (Batch)</p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_2.png" MadCap:conditions="COINS.Pre-v1105" class="FullWidth"></img>
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_2_1105.png" MadCap:conditions="COINS.v1105 UK" class="FullWidth" />
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_2_1105AUS.png" class="FullWidth" MadCap:conditions="COINS.AUOnly" />
+    </p>
+    <p>Choose the Currency that the payment will made in and in the Select/Deselect field, choose Select</p>
+    <p class="note">If you wish to run a report only (for example, just to get an indication of the payments that may be included in a run) without actually creating a Payment Batch, set the Select/Deselect field to Draft.</p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_3.png" alt="LMDAP0035SC3" class="FullWidth"></img>
+    </p>
+    <p>If you want to produce a section in your report that will show invoices that have not been selected, and the reasons why, then you need to check the "Show Unselected" field.  Similarly, you can choose to show all invoices where insurances warnings exist.</p>
+    <h3>Main Tab</h3>
+    <p>On the Main tab select the criteria that you want to use to batch your invoices for payment</p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_4.png" alt="LMDAP0035SC5" MadCap:conditions="COINS.Pre-v1105" class="HalfWidth" />
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_4_1105.png" class="HalfWidth" />
+    </p>
+    <table style="mc-table-style: url('../../Resources/TableStyles/COINSBasic.css');" class="TableStyle-COINSBasic" cellspacing="0">
+      <thead>
+        <tr class="TableStyle-COINSBasic-Head-Header1">
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p>Field</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadD-Column1-Header1">
+            <p>Description</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+            <p>Selection Date</p>
+          </td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+            <p>The date on which selection of invoices is based (depending on the value in the Select By field).</p>
+          </td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+            <p>Discount Date</p>
+          </td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+            <p>The date on which the taking of discount is based. If this date is within the discount date on the invoice, then discount will be taken.</p>
+          </td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+            <p>Select By</p>
+          </td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+            <p>Select whether Invoices with a due date, invoice date or discount date on or before the Selection date will be selected for payment</p>
+          </td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">
+            <p>Include non-contract invoices</p>
+          </td>
+          <td class="TableStyle-COINSBasic-BodyA-Column1-Body1">
+            <p>Whether to include non-contract items in the list - for example invoices which have an overhead department assigned.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <br />It is possible to print cheques only or <MadCap:variable name="Variables.eft" /> payments or both. Make this selection by checking the appropriate fields. </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Payment Selection_1105AUS.png" class="FullWidth" MadCap:conditions="COINS.AUOnly" />
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Payment Selection_1105UK.png" MadCap:conditions="COINS.v1105 UK" class="FullWidth" />
+    </p>
+    <p>There are a variety of criteria that can be used to batch the invoices. This can be done by selecting the relevant tab and completing the necessary fields.</p>
+    <h3>Supplier Selection</h3>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_6.png" alt="LMDAP0035SC7" class="FullWidth" MadCap:conditions="COINS.Pre-v1105"></img>
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_6_1105.png" class="FullWidth" />
+    </p>
+    <p>You can enter a range of supplier codes e.g. from EBL001 – HEYR001. <MadCap:variable name="General.ProductName" /> will then batch any invoices due for payment to suppliers within this range. You can also use a range of Payment Frequency or Group Analysis. This would have been set up in the Supplier Account Details.</p>
+    <h3>
+      <MadCap:variable name="Variables.Jc Contract caps" /> Selection</h3>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_7.png" alt="LMDAP0035SC8" class="FullWidth" MadCap:conditions="COINS.Pre-v1105" />
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_8_1105UK.png" class="FullWidth" MadCap:conditions="COINS.v1105 UK" />
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_8_1105AUS.png" class="FullWidth" MadCap:conditions="COINS.AUOnly" />
+    </p>
+    <p>It is possible to use details of the contract to select invoices for payment. For Example. HH8016 - HH8018 this will give all outstanding invoices for any contracts that fall within this range</p>
+    <h3>
+      <MadCap:variable name="Variables.Division Caps" /> Selection</h3>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_8.png" alt="LMDAP0035SC10" class="FullWidth" MadCap:conditions="COINS.Pre-v1105" />
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_8a_1105AUS.png" class="FullWidth" MadCap:conditions="COINS.AUOnly" />
+    </p>
+    <p>
+      <img src="../../Images/PL/LMDAP0011/Process Map_8a_1105UK.png" class="FullWidth" MadCap:conditions="COINS.v1105 UK" />
+    </p>
+    <p> </p>
+    <p>You can enter a range of <MadCap:variable name="Variables.Division Caps" />s which are equivalent to a <MadCap:variable name="Variables.Division" /> within a business to specify which invoices you wish to pay</p>
+    <p style="MARGIN-BOTTOM: 6pt;">
+      <br />
+    </p>
+    <p>
+      <MadCap:relatedTopics style="mc-help-control-display: list;">
+        <MadCap:relatedTopic src="WDPL0412_Selecting_Invoices_Manually.html" />
+        <MadCap:relatedTopic src="WDPL0413_Selected_Not_Selected_Report.html" />
+      </MadCap:relatedTopics>
+    </p>
+    <div class="configuration">
+      <p>
+        <MadCap:relatedTopics target="_popup" style="mc-label: Parameters;mc-help-control-display: list;">
+          <MadCap:relatedTopic src="../Parameters/PL/pl_selint.htm" />
+          <MadCap:relatedTopic src="../Parameters/PL/pl_alwunal.htm" />
+          <MadCap:relatedTopic src="../Parameters/PL/pl_payrega.htm" />
+          <MadCap:relatedTopic src="../Parameters/PL/pl_payholda.htm" />
+        </MadCap:relatedTopics>
+      </p>
+    </div>
+  </body>
+</html>

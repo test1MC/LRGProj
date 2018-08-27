@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3168" MadCap:lastWidth="710">
+  <head>
+    <title>Adding a New Company</title>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">Adding a New Company</h1>
+    <p>This explains how to add a new company (for example, a <MadCap:variable name="Variables.pl supplier" style="text-transform: capitalize;" /> or Subcontractor) to the Central Repository. (You can also add other types of Company, for example an Architect, depending on the Company Type you select when adding the new Company). </p>
+    <p>The Central Repository can be separated into up to five levels of view, from Database/Group (Level 1), down to Region, or even Office level (Level 5 being the lowest level). Users are set up with a base view, between levels 2-5. A user will have access to go up levels, to view larger subsets of the Central Repository. When adding a new <MadCap:variable name="Variables.pl supplier" style="text-transform: capitalize;" />/Subcontractor, it will be added to your base view as well as the levels above it. For example for a level 3 user (for example, Regional view), the new <MadCap:variable name="Variables.pl supplier" style="text-transform: capitalize;" />/Subcontractor will be added to level 3, and also to level 2 (Company) and level 1 (Group/Database).</p>
+    <p>
+      <MadCap:relatedTopics style="mc-help-control-display: list;">
+        <MadCap:relatedTopic src="WDCI5002_User_View_Set_Up.html" />
+      </MadCap:relatedTopics>
+    </p>
+    <div class="process">
+      <h2 class="print">To add a new <MadCap:variable name="Variables.pl supplier" /> or subcontractor:</h2>
+      <ol>
+        <li>Go to <span class="function" title="Function:%WCI2000BCIM">Companies</span>.
+<p><img src="../../Images/PO/PO_001301.png" class="HalfWidth" /></p></li>
+        <li>Click <img src="../../Resources/Images/COINS Graphics/SVG buttons/add.svg" class="button" />.
+<p><MadCap:variable name="General.ProductName" /> displays a screen with a prompt for various details, such as the company name and <MadCap:variable name="Variables.postal code" />. (This is used to check for potential duplicates amongst existing company records).</p></li>
+        <li>Enter whichever information you have about the new company, and click <span class="key">Check Duplicates</span>.
+<p><MadCap:variable name="General.ProductName" /> displays a list of potential duplicate companies:</p><p><img src="../../Images/PO/PO_001302.png" class="HalfWidth" /></p></li>
+        <li>If the new company is in this list click the link and if necessary update the details of the existing company. Otherwise, click <img src="../../Resources/Images/COINS Graphics/SVG buttons/forward.svg" class="button" /> to add the new company.
+<p><img src="../../Images/PO/PO_001303.png" class="HalfWidth" /></p></li>
+        <li>On the Main tab, select the office type of the main office, and enter the name and address details.
+<p>Here you can select the status code for the new company. If you leave the status code blank, <MadCap:variable name="General.ProductName" /> assigns the default Status Code.</p></li>
+        <li>On the Types tab, select the appropriate Company <span class="nw">Type(s).</span><p><img src="../../Images/PO/PO_001304.png" class="HalfWidth" /></p><p>(Parameters specify which of these company types relate to subcontractors and <MadCap:variable name="Variables.pl suppliers" />.)</p></li>
+        <li>The General tab is more relevant to <MadCap:variable name="Variables.pl suppliers" /> than subcontractors. If you have views in other <MadCap:variable name="General.ProductName" /> companies, then by <MadCap:variable name="Variables.tick" />ing <span class="field">Add To Other Views</span>, this <MadCap:variable name="Variables.pl supplier" />/subcontractor will also be added to your views in these other <MadCap:variable name="General.ProductName" /> companies.
+<p><img src="../../Images/PO/PO_001305.png" class="HalfWidth" /></p></li>
+      </ol>
+    </div>
+    <div class="configuration">
+      <p>
+        <MadCap:relatedTopics target="_popup" style="mc-label: Parameters;mc-help-control-display: list;">
+          <MadCap:relatedTopic src="../Parameters/CI/ci_scd-rec.htm" />
+          <MadCap:relatedTopic src="../Parameters/CI/ci_subtypes.htm" />
+          <MadCap:relatedTopic src="../Parameters/CI/ci_suptypes.htm" />
+        </MadCap:relatedTopics>
+      </p>
+    </div>
+  </body>
+</html>

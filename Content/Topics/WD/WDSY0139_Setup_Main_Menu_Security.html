@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="1189" MadCap:lastWidth="1064">
+  <head>
+    <link href="../../Resources/TableStyles/COINSBasic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    <title>Setting Up Function Access Using Main Menu Security</title>
+    <style>/*<![CDATA[*/
+img.screen
+{
+	zoom: 85%;
+}
+
+/*]]>*/</style>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">Setting Up Function Access Using Main Menu Security</h1>
+    <p>Using <span class="function" title="Function:%WMS2035FMSF">Main Menu Security</span>, you can set the function access permissions for a group or a user. </p>
+    <ul>
+      <li>If you are using <a href="WDSY0138_Menu_Item_Security.html">Menu Item Security</a> you can set the access permissions at the level of menu items; the child functions inherit the permissions from the menu item.</li>
+      <li>If you are not using Menu Item Security, you can set the access permissions for the menu items, and follow a link to a screen that lets you set the permissions for the child functions of each menu item. </li>
+    </ul>
+    <p>
+      <MadCap:relatedTopics style="mc-help-control-display: list;">
+        <MadCap:relatedTopic src="WDSY0138_Menu_Item_Security.html" />
+        <MadCap:relatedTopic src="WDSY0140_Setup_Spreadsheet.html" />
+      </MadCap:relatedTopics>
+    </p>
+    <div class="process">
+      <h2 class="print">How To Set Up Menu Item Security Using Main Menu Security:</h2>
+      <ol>
+        <ol>
+          <li>Go to <span class="function" title="Function:%WMS2035FMSF">Main Menu Security</span>.</li>
+          <li>Enter the user, group or sub group for which you want to specify access.</li>
+          <li>Enter the code for the top-most menu for which you want to specify access.
+<p>The <span class="function" title="Function:%WMS2035BMSF">Main Menu Security</span> screen shows all menus and menu items from the start menu that have themselves as a parent (that is, they are considered as main menu items). </p><p><img src="../../Resources/Images/SY_013901.png" /></p><p>You can specify the following access to functions:</p></li>
+        </ol>
+      </ol>
+      <table class="TableStyle-COINSBasic" style="width: 85%;mc-table-style: url('../../Resources/TableStyles/COINSBasic.css');" cellspacing="0">
+        <col class="TableStyle-COINSBasic-Column-Column1" />
+        <col class="TableStyle-COINSBasic-Column-Column1" />
+        <thead>
+          <tr class="TableStyle-COINSBasic-Head-Header1">
+            <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+              <p class="TableHeader">Not Using Menu Item Security </p>
+            </th>
+            <th class="TableStyle-COINSBasic-HeadD-Column1-Header1">
+              <p class="TableHeader">Using Menu Item Security </p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="TableStyle-COINSBasic-Body-Body1">
+            <td colspan="2" class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+              <ul>
+                <li>No. The User or Group is not allowed to access the function.</li>
+              </ul>
+            </td>
+          </tr>
+          <tr class="TableStyle-COINSBasic-Body-Body1">
+            <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+              <ul>
+                <li>Yes.  The User or Group is allowed access to the function. </li>
+              </ul>
+            </td>
+            <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+              <ul>
+                <li>Yes.  The User or Group is allowed Read Only access to the function.  Only those child functions with an access type of Read Only will be available; functions with an access type of Update, such as the update buttons, will not be available.</li>
+                <li>Yes - Update.  The User or Group is allowed Update access to the function.  Child functions with Read Only and Update access types will all be available.</li>
+              </ul>
+            </td>
+          </tr>
+          <tr class="TableStyle-COINSBasic-Body-Body1">
+            <td colspan="2" class="TableStyle-COINSBasic-BodyA-Column1-Body1">
+              <ul>
+                <li>Group.  The access to the function is taken from the group; each user or group has  one or more other groups assigned to it; <MadCap:variable name="General.ProductName" /> looks at each group in turn until it finds an explicit setting (No/Yes/Yes-Update).  If none is found, access is denied.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <ol>
+        <li>To update access for several functions at the same time, select one or more records and either:</li>
+        <ul>
+          <li>Use the Choose Action menu or multiple update button to set the same access for all the selected menu items.</li>
+          <li>Use the <img src="../../Resources/Images/COINS Graphics/SVG buttons/concurrent.svg" class="button" /><a href="WDUG0087_Concurrent_Update.html">concurrent update</a> button to set the access for each item separately.</li>
+        </ul>
+        <li>To update access for a single function, use the <img src="../../Resources/Images/COINS Graphics/SVG buttons/open.svg" class="button" /> button.</li>
+        <li>You can set the access for child functions by clicking the link in the <span class="field">Child</span> column, and using the Choose Action to set the permissions for individual child functions.
+<p><img src="../../Resources/Images/SY_013902.png" /></p><p>If you are using Menu Item Security, by default, the access to any child functions will be the same as the access to the parent function; setting them on this screen will override this default setting.</p></li>
+      </ol>
+    </div>
+    <div class="configuration">
+            
+To use Menu Item Security, the SY parameter <span class="parameter">MENUSEC </span>must be set to <span class="userinput">Y</span>.
+<p><MadCap:relatedTopics target="_popup" style="mc-label: Parameters;mc-help-control-display: list;"><MadCap:relatedTopic src="../Parameters/SY/sy_menusec.htm" /></MadCap:relatedTopics></p></div>
+  </body>
+</html>

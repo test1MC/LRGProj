@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="HowTo_TitlePage"
+    Link="/Content/CEDoc_Template/HowTo_TitlePage.htm"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false" />
+  <TocEntry
+    Title="CEDoc_Contents"
+    Link="/Content/CEDoc_Template/CEDoc_Contents.htm"
+    BreakType="pageLayout"
+    StartSection="false" />
+  <TocEntry
+    Title="Mail Assistant - Overview"
+    Link="/Content/Topics/Modules/System/COINS Mail Assistant/Mail Assistant - Overview.htm">
+    <TocEntry
+      Title="Opening COINS Mail Assistant"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/Opening COINS Mail Assistant.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="COINS Mail Assistant - What the Buttons Do"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/COINS Mail Assistant - What the Buttons Do.htm" />
+    <TocEntry
+      Title="COINS Mail Assistant - Sending an Email and Uploading it to COINS"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/COINS Mail Assistant - Sending an Email and Uploading it to COINS.htm" />
+    <TocEntry
+      Title="Uploading a Received Email"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/Uploading a Received Email.htm" />
+    <TocEntry
+      Title="Using a COINS Email Template"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/Using a COINS Email Template.htm" />
+    <TocEntry
+      Title="Viewing the Email in COINS"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/Viewing the Email in COINS.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Setting Up COINS Mail Assistant"
+    Link="/Content/Topics/Modules/System/COINS Mail Assistant/Setting Up COINS Mail Assistant.htm"
+    StartSection="false"
+    BreakType="chapter"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Modifying and Installing the Manifest File"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/Modifying and Installing the Manifest File.htm">
+      <TocEntry
+        Title="[%=System.Title%]"
+        Link="/Content/Topics/Modules/System/COINS Mail Assistant/Generating the Mail Assistant Manifest File.htm" />
+      <TocEntry
+        Title="Installing the COINS Mail Assistant Manifest File"
+        Link="/Content/Topics/Modules/System/COINS Mail Assistant/Installing the COINS Mail Assistant Manifest File.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Installing OA Outlook Integration Application"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/Installing COINS Replication Software.htm">
+      <TocEntry
+        Title="Installing the Integration Application"
+        Link="/Content/Topics/Modules/System/SYS-Exchange-Server-2013-Integration/Replication Software - Installation.htm" />
+      <TocEntry
+        Title="Integration Application Settings"
+        Link="/Content/Topics/Modules/System/SYS-Exchange-Server-2013-Integration/Settings.htm" />
+      <TocEntry
+        Title="[%=System.Title%]"
+        Link="/Content/Topics/Modules/System/COINS Mail Assistant/Modifying the Integration Application Settings.htm" />
+      <TocEntry
+        Title="[%=System.Title%]"
+        Link="/Content/Topics/Modules/System/COINS Mail Assistant/Console Schedule Task Setup.htm" />
+      <TocEntry
+        Title="Active Directory Replication Account"
+        Link="/Content/Topics/Modules/System/SYS-Exchange-Server-2013-Integration/Replication Account.htm" />
+      <TocEntry
+        Title="Impersonation"
+        Link="/Content/Topics/Modules/System/SYS-Exchange-Server-2013-Integration/Impersonation.htm" />
+      <TocEntry
+        Title="[%=System.Title%]"
+        Link="/Content/Topics/Modules/System/COINS Mail Assistant/Message Log.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Mail Assistant - OA Configuration"
+      Link="/Content/Topics/Modules/System/COINS Mail Assistant/Mail Assistant - OA Configuration.htm" />
+  </TocEntry>
+</CatapultToc>

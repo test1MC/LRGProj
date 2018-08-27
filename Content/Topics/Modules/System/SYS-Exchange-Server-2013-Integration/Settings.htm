@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb" MadCap:lastBlockDepth="10" MadCap:lastHeight="725" MadCap:lastWidth="600">
+    <head>
+        <link href="../../../../Resources/TableStyles/COINSBasicIndented.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="1">
+            <MadCap:concept term="Topics" /><a name="_Ref290045405"></a><a name="_Toc450312896"></a>Integration Application Settings</h1>
+        <p class="Body">The integration application needs information about your <MadCap:variable name="General.ProductName" /> environments. Use the Edit the Environments screen during the installation to provide this information.</p>
+        <p class="screenshot">
+            <img src="../../../../Resources/Images/COINS Mail Assistant/InstallShieldEditEnvironments.png" class="FullWidth" />
+        </p>
+        <p class="Body">There are three partially-configured environments:&#160;LEARN, CPLEARN and LIVE. To edit the settings for one of these, first select the environment (at the top of the screen) then fill in the fields (see the table below). </p>
+        <p class="Body">You can edit settings for additional environments; either click New to create a blank environment, or select an existing one and click Copy.</p>
+        <p class="Body" style="page-break-after: avoid;">The fields and their meaning are as follows:</p>
+        <table style="mc-table-style: url('../../../../Resources/TableStyles/COINSBasicIndented.css');width: auto;" class="TableStyle-COINSBasicIndented" cellspacing="0">
+            <col class="TableStyle-COINSBasicIndented-Column-Column1" />
+            <col class="TableStyle-COINSBasicIndented-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-COINSBasicIndented-Head-Header1">
+                    <th class="TableStyle-COINSBasicIndented-HeadE-Column1-Header1">
+                        <p>Parameter</p>
+                    </th>
+                    <th class="TableStyle-COINSBasicIndented-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">AppServer</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The Appserver connection string as advised by the <MadCap:variable name="General.ProductName" /> system administrator. Mandatory.</p>
+                        <p>For example: <code>AppServer://coins.server .internal:5192/asappqafb</code></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Log</span><span class="Field">ging </span><span class="Field">Level</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>Logging level.&#160; 1 – basic, 2 – intermediate, 3 – verbose, 4 – debug.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Exchange Web Service </span><span class="Field">URL</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The URL for the Exchange Web Services application as advised by the Exchange administrator. For example: <code>https://exchange.server.local/ews /Exchange.asmx</code></p>
+                        <p>Either <span class="Field">Exchange Web Service </span><span class="Field">URL</span> or <span class="Field">Email for Auto Discover</span> must be specified.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Email for </span><span class="Field">Auto</span><span class="Field"> </span><span class="Field">Discover</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The Email address to use for auto-discovery of the Exchange Web Service server.&#160; If specified then this will be used instead of the Exchange Web Service  URL.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Active Directory Account</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The Active Directory replication account (see <MadCap:xref href="Replication Account.htm">Active Directory Replication Account</MadCap:xref>).&#160; Useful for debugging.&#160; If omitted then the login credentials are taken from the logged in user.&#160; Optional.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Password</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The password for the user specified in the <MadCap:variable name="General.ProductName" /> User field.&#160; Optional.</p>
+                        <div class="NoteIndent1">
+                            <div class="notelabel">
+                                <p class="NoteHeader">NOTE</p>
+                            </div>
+                            <div class="notebody">
+                                <p>The configuration file created by the installation stores the password as text, so you should take care regarding who can access the file. </p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Domain</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The domain for the user specified in the <MadCap:variable name="General.ProductName" /> User field.&#160; Optional.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field"><MadCap:variable name="General.ProductName" /></span><span class="Field"> </span><span class="Field">User</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>A valid user in the <MadCap:variable name="General.ProductName" /> environment used for recording record additions, deletions etc.&#160; Mandatory.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Enable replication of Contacts</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>Whether to enable replication of Contacts. Optional.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Relative Path</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The relative path to the public folder used to hold contacts. This is required if <span class="Field">Enable replication of Contacts</span> is <MadCap:variable name="Variables.tick" />ed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Workflow</span><span class="Field"> </span><span class="Field">Emails</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>Whether to enable import of Workflow emails from a public folder or mailbox. Optional.  If <MadCap:variable name="Variables.tick" />ed, the <span class="Field">Relative Path</span> or <span class="Field">Workflow Mailbox</span> must also be set.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Relative Path</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The relative path to the public folder used to hold workflow emails for import. Ignored if <span class="Field">Workflow Mailbox</span> is set.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Workflow Mailbox</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The mailbox name for inbound workflow emails.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Project</span><span class="Field"> </span><span class="Field">Emails</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>Whether to enable import of project emails from public folders. Optional.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Relative Path (inbound)</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The relative path to the public folder which is the parent folder of the individual project folders for import.&#160; Required if <span class="Field">Project</span><span class="Field"> </span><span class="Field">Emails</span> is <MadCap:variable name="Variables.tick" />ed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Relative Path (archive)</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The relative path for archiving of imported messages. Optional. </p>
+                        <p>If this is populated, an archive tree of folders is set up to mirror the import tree of folders, with corresponding folders for each project and messages will be moved from the project folder to the archive folder after importing. If this is blank, messages are deleted after importing.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Enable Activity Workbench Replication</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>Whether to enable replication of Activity Workbench tasks and appointments. Optional.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Replication Code</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>The code for the replication process. This can be any value, but is compared to the <span class="Field">Replication Mail Server</span> field on the <MadCap:variable name="General.ProductName" /> user record. Only users with the same value in the <span class="Field">Replication Mail Server</span> field will be replicated. Required if <span class="Field">Enable Activity Workbench Replication</span>  is set to Y.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyE-Column1-Body1">
+                        <p><span class="Field">Monitor</span><span class="Field"> </span><span class="Field">Folders</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyD-Column1-Body1">
+                        <p>Whether to enable processing of monitored folders. If <MadCap:variable name="Variables.tick" />ed, all monitored folders defined in <MadCap:variable name="General.ProductName" /> OA will be checked for inbound messages and these will be passed to <MadCap:variable name="General.ProductName" /> OA for processing.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasicIndented-Body-Body1">
+                    <td class="TableStyle-COINSBasicIndented-BodyB-Column1-Body1">
+                        <p><span class="Field">Process Mail Assistant </span><span class="Field">Sent</span><span class="Field"> </span><span class="Field">Emails</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-COINSBasicIndented-BodyA-Column1-Body1">
+                        <p>Whether to enable the loading into <MadCap:variable name="General.ProductName" /> of sent emails that have been attached to a <MadCap:variable name="General.ProductName" /> record via the <MadCap:variable name="General.ProductName" /> Mail Assistant.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Body">When you have filled in all the details, click Next.</p>
+        <p class="Body">If you are installing the application to run as a console program, the next screen allows you to set up a scheduled task; see <MadCap:xref href="../COINS Mail Assistant/Console Schedule Task Setup.htm">1, <i>Console Schedule Task Setup</i></MadCap:xref>. Otherwise, the next screen allows you to confirm that you want to install the application.</p>
+        <p class="screenshot">
+            <img src="../../../../Resources/Images/COINS Mail Assistant/InstallShieldBeginInstallation.png">
+            </img>
+        </p>
+        <p class="Body">When you click Install, the installer creates the necessary files in the location you specified.</p>
+    </body>
+</html>

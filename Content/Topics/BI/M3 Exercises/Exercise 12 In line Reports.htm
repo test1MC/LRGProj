@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="Topics" /><span style="margin-right: 0pt;">12 </span>Exercise 12 -In-line Reports</h1>
+        <p>&#160;</p>
+        <p>Goal : To create a report which will run and list the costs by costcode for one specific contract. </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">12.1 </span>Create the Function. </h2>
+        <p>FunctionxxM3Exercise12 - (Share the page with the function created in exercise 10) </p>
+        <p>Parameter stn_code=xxM3Exercise10</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports.png" style="visibility: visible;mso-wrap-style: square;width: 601px;height: 63px;" alt="134.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">12.2 </span>Create the Report.</h2>
+        <p>Header Tables&#160;&#160; jc_config,co_config</p>
+        <p>Body Tablesjc_costcode</p>
+        <p>QueryFOR EACH jc_costcode WHERE jc_costcode.kco= {kco}</p>
+        <p>AND jc_costcode.job_num = '1000'</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_1.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 198px;" alt="135.png" />
+        </p>
+        <p>&#160;</p>
+        <p>Sort Byjcc_cc</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_2.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 233px;" alt="137.png" />
+        </p>
+        <p>&#160;</p>
+        <p>FormsBody, Total Columns</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_3.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 265px;" alt="138.png" />
+        </p>
+        <p>FieldsCalculationTotal</p>
+        <p>jcc_cc<br />jcc_desc<br />$djccostdjccost={RO_jcc_costs^TD}<img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_4.png" style="visibility: visible;mso-wrap-style: square;width: 13px;height: 17px;" /><br />$djcrevdjcrev={RO_jcc_rev^TD} <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_4.png" style="visibility: visible;mso-wrap-style: square;width: 13px;height: 17px;" /></p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_5.png" style="visibility: visible;mso-wrap-style: square;width: 523px;height: 342px;" alt="140.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">12.3 </span>Add the ROWID of header table.</h2>
+        <p>Add the following parameter to the function of the in-line report.</p>
+        <p>jc_jobRowid={jc_jobRowid}</p>
+        <p>
+            <div style="left: 0;text-align: left;margin-left: 0;margin-top: 0;width: 308.95pt;height: 43.15pt;mso-position-horizontal: center;mso-width-relative: margin;mso-height-relative: margin;background-color: #4bacc6;">
+                <p>NOTE if this is not the first parameter then you must precede the parameter with an &amp;.</p>
+            </div>
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_6.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 134px;" alt="141.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">12.4 </span>Add the jc_job Table as a header table.</h2>
+        <p>&#160;</p>
+        <p>Header tables should include any table used in the calling procedure.&#160; The header tables record for your in-line report should now read</p>
+        <p>Header Tables jc_config,co_config,jc_job</p>
+        <p>QueryFOR EACH jc_costcode WHERE jc_costcode.kco= {kco}</p>
+        <p>AND jc_costcode.job_num = '{job_num}'</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_7.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 122px;" alt="142.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">12.5 </span>Add the in-line report to outer-report.</h2>
+        <p>&#160;</p>
+        <p>Return to the report created in Exercise 9.&#160; Add a&#160; 'BODY FORM' form.</p>
+        <p>
+            <div style="left: 0;text-align: left;margin-left: 35.85pt;margin-top: 5.2pt;width: 409.55pt;height: 23.9pt;mso-width-relative: margin;mso-height-relative: margin;background-color: #4bacc6;">
+                <p>A 'Body Form' Form will appear directly after each line of the 'Body' Form</p>
+            </div>
+        </p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_8.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 128px;" alt="143.png" />
+        </p>
+        <p>&#160;</p>
+        <p>Add the following field to that same form.</p>
+        <p>&#160;</p>
+        <p>Width132mm</p>
+        <p>FunctionxxM3exercise10</p>
+        <p>View-AsInline report</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_9.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 219px;" alt="144.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">12.6 </span>Final Result</h2>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 12 In line Reports_10.png" style="left: 0;text-align: left;z-index: 12;visibility: visible;mso-wrap-style: square;mso-wrap-distance-left: 9pt;mso-wrap-distance-top: 0;mso-wrap-distance-right: 9pt;mso-wrap-distance-bottom: 0;mso-position-horizontal: absolute;mso-position-horizontal-relative: text;mso-position-vertical: absolute;mso-position-vertical-relative: text;margin-left: 10.7pt;width: 602px;height: 421px;" alt="145.png" />
+            <br />
+        </p>
+    </body>
+</html>

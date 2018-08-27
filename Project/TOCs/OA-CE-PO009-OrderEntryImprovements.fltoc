@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="COINS.PrintOnly">
+  <TocEntry
+    Title="OA-CE-PO009TitlePage-USA"
+    Link="/Content/OA-CE-PO009 Order Entry Improvements/OA-CE-PO009TitlePage.htm"
+    conditions="COINS.USOnly"
+    BreakType="pageLayout"
+    StartSection="false" />
+  <TocEntry
+    Title="OA-CE-PO009TitlePageUK"
+    Link="/Content/OA-CE-PO009 Order Entry Improvements/OA-CE-PO009TitlePage.htm"
+    conditions="COINS.UKOnly"
+    BreakType="pageLayout"
+    StartSection="false" />
+  <TocEntry
+    Title="CEDoc_Contents"
+    Link="/Content/CEDoc_Template/CEDoc_Contents.htm"
+    BreakType="pageLayout"
+    StartSection="false" />
+  <TocEntry
+    Title="Order Entry Improvements - Overview"
+    Link="/Content/OA-CE-PO009 Order Entry Improvements/Order Entry Improvements - Introduction.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Single Form Entry - Initial Setup"
+    Link="/Content/OA-CE-PO009 Order Entry Improvements/Single Form Entry - Initial Setup.htm">
+    <TocEntry
+      Title="Single Form Order Entry - Parameters"
+      ReplaceMergeNode="false"
+      Link="/Content/OA-CE-PO009 Order Entry Improvements/Single Form Order Entry - Parameters.htm" />
+    <TocEntry
+      Title="Multiple Analysis Types - Parameters"
+      Link="/Content/OA-CE-PO009 Order Entry Improvements/Multiple Analysis Types - Parameters.htm" />
+    <TocEntry
+      Title="Single Form Entry Functions"
+      Link="/Content/OA-CE-PO009 Order Entry Improvements/Single Form Entry Functions.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Single Form Order Entry - Entry Screen"
+    Link="/Content/OA-CE-PO009 Order Entry Improvements/Single Screen Order Entry- Entry Screen.htm">
+    <TocEntry
+      Title="Single Form Order Entry - Header Fields"
+      Link="/Content/OA-CE-PO009 Order Entry Improvements/Single Screen Order Entry- Header Fields.htm" />
+    <TocEntry
+      Title="Single Form Entry - Line Details"
+      Link="/Content/OA-CE-PO009 Order Entry Improvements/Single Form Entry - Line Details.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Standard PO Entry"
+    Link="/Content/OA-CE-PO009 Order Entry Improvements/Standard PO Entry.htm" />
+  <TocEntry
+    Title="GRN Entry"
+    Link="/Content/OA-CE-PO009 Order Entry Improvements/GRN Entry.htm" />
+</CatapultToc>

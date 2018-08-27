@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=Document Variables.Document Title%]"
+    Link="/Content/Print Only Topics/Generic Title Page.htm"
+    BreakType="chapter"
+    ChapterNumberReset="reset"
+    ChapterNumber="0"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageType="title" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print Only Topics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumber="1"
+    PageType="title" />
+  <TocEntry
+    Title="Contents"
+    Link="/Content/Print Only Topics/How To Guides/HTG Contents.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumber="1"
+    PageType="title" />
+  <TocEntry
+    Title="Maintain Users and Groups"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Introduction.htm"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageNumber="1"
+    ReplaceMergeNode="false"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="Enquiring on function access"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Enquiring on function access.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="User Groups"
+    Link="/Content/Topics/SY/Maintain Users and Groups/User Groups.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Prime Groups"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Prime Groups.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Main Groups and Subgroups"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Main Groups and Subgroups.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Setting Function Access Using Subgroups"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Setting Function Access Using Subgroups.htm"
+        BreakType="pageLayout"
+        StartSection="false" />
+    </TocEntry>
+    <TocEntry
+      Title="Creating a Group"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Creating a Group.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Export Groups"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Export Groups.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Import Groups"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Create a Group using the Import.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Function Security"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Function Security.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Parent and Child Functions"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Parent and Child Functions.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue" />
+    <TocEntry
+      Title="Setting Function Security"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Setting Function Security.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue">
+      <TocEntry
+        Title="Main Menu Security"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Create menu headings for the.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        ChapterNumberReset="same"
+        VolumeNumberReset="continue">
+        <TocEntry
+          Title="Main Menu Security Exclusions"
+          Link="/Content/Topics/SY/Maintain Users and Groups/Main Menu Security Exclusions.htm"
+          BreakType="pageLayout"
+          StartSection="false"
+          ChapterNumberReset="same"
+          VolumeNumberReset="continue"
+          SectionNumberReset="continue"></TocEntry>
+        <TocEntry
+          Title="Main Menu Security Exclusions Example"
+          Link="/Content/Topics/SY/Maintain Users and Groups/Main Menu Security Exclusions Example.htm"
+          BreakType="pageLayout"
+          StartSection="false"
+          ChapterNumberReset="same"
+          VolumeNumberReset="continue"
+          SectionNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Add Functions to Menu Headings using Interactive Security Update"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Add Functions to Menu Headings.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        ChapterNumberReset="same"
+        VolumeNumberReset="continue"
+        SectionNumberReset="continue">
+        <TocEntry
+          Title="To Remove Interactive Mode"
+          Link="/Content/Topics/SY/Maintain Users and Groups/To Remove Interactive Mode.htm"
+          BreakType="pageLayout"
+          StartSection="false"
+          VolumeNumberReset="continue"
+          SectionNumberReset="continue"
+          ChapterNumberReset="same" />
+      </TocEntry>
+      <TocEntry
+        Title="Find Functions"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Find Functions.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        ChapterNumberReset="same"
+        VolumeNumberReset="continue" />
+      <TocEntry
+        Title="Deny Access to Individuals"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Deny Access to Individuals.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        ChapterNumberReset="same"
+        VolumeNumberReset="continue" />
+      <TocEntry
+        Title="Hide Tabs"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Hide Tabs.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        ChapterNumberReset="same"
+        VolumeNumberReset="continue" />
+      <TocEntry
+        Title="Hide Fields"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Hide Fields.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        ChapterNumberReset="same"
+        VolumeNumberReset="continue">
+        <TocEntry
+          Title="Hiding Fields in One Screen Only"
+          Link="/Content/Topics/SY/Maintain Users and Groups/Hiding Fields in One Screen.htm"
+          BreakType="pageLayout"
+          StartSection="false"
+          ChapterNumberReset="same"
+          VolumeNumberReset="continue" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Set Menu Security Utility - &#x9;Overview"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Set Menu Security Utility.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Set Menu Security - Screen and Processing Changes"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Set Menu Security - Application.htm"
+        BreakType="pageLayout"
+        StartSection="false" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Set Up a User"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Set Up a User.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Details Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Details Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue" />
+    <TocEntry
+      Title="Groups Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Groups Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue" />
+    <TocEntry
+      Title="Printing Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Printing Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue" />
+    <TocEntry
+      Title="Coinsplus Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Coinsplus Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue" />
+    <TocEntry
+      Title="Preferences Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Preferences Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue" />
+    <TocEntry
+      Title="Wiki Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Wiki Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue" />
+  </TocEntry>
+  <TocEntry
+    Title="Removing a User"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Removing a User.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="To disable a user in a secure manner:"
+      Link="/Content/Topics/SY/Maintain Users and Groups/To disable a user in a secure.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      ChapterNumberReset="same"
+      VolumeNumberReset="continue"
+      SectionNumberReset="continue" />
+  </TocEntry>
+  <TocEntry
+    Title="Run a User Report"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Run a User Report.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="User Views"
+    Link="/Content/Topics/SY/Maintain Users and Groups/User Views.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Creating Buyers"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Creating Buyers.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Main Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Main Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
+    <TocEntry
+      Title="Contacts Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Contacts Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
+    <TocEntry
+      Title="Personal Tab"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Personal Tab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      ChapterNumberReset="same"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
+  </TocEntry>
+  <TocEntry
+    Title="Contract Security"
+    Link="/Content/Topics/SY/Maintain Users and Groups/Contract Security.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Configuration"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Configuration.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+      ChapterNumberReset="same"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
+    <TocEntry
+      Title="Application"
+      Link="/Content/Topics/SY/Maintain Users and Groups/Application.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+      ChapterNumberReset="same"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
+      <TocEntry
+        Title="Setting Contract Security by Code"
+        Link="/Content/Topics/SY/Maintain Users and Groups/Setting Contract Security.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/PDFBody.flpgl"
+        ChapterNumberReset="same"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"></TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

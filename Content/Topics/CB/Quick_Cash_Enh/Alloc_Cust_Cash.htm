@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="COINS.v1109">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="1 ">
+            <MadCap:concept term="Topics" />Allocate Customer Cash</h1>
+        <p>The following changes have been made to <span class="function">Allocate Customer Cash</span>.</p>
+        <h2 MadCap:autonum="1.1 "><MadCap:variable name="Variables.Cheque caps" /> Analysis</h2>
+        <p>It is now possible to write off small differences between the invoiced and received amounts by posting the difference to the General Ledger.</p>
+        <p>On the <MadCap:variable name="Variables.Cheque caps" /> Analysis Lines entry screen, the <span class="field">Ledger</span> drop-down has a new entry:&#160;<span class="userselect">GL</span>. This allows you to enter a GL&#160;account to which the balance of customer cash is posted.</p>
+        <p class="caption" MadCap:autonum="Figure 1: ">Analysis Lines Ledger Drop-Down</p>
+        <p>
+            <img src="../../../Resources/Images/CB/Quick_Cash_Enh/GL_Drop-Down.png" class="FullWidth" />
+        </p>
+        <p>When the new CB&#160;parameter <span class="parameter">LVCCPACB</span> is set to Yes, if you enter a <span class="module"><MadCap:variable name="Variables.Sales Ledger caps" /></span> or <span class="module"><MadCap:variable name="Variables.Contract Sales caps" /> </span><MadCap:variable name="Variables.cheque" /> analysis line but do not fully allocate it to invoices (or certificates), <MadCap:variable name="General.ProductName" /> displays a warning when you leave the allocation screen (see <MadCap:xref href="#Receipt" class="ImageRef"><i>Figure 2:  Receipt Must be Fully Allocated Warning</i></MadCap:xref>), and <MadCap:variable name="General.ProductName" /> prevents you from posting the allocation batch.</p>
+        <p class="caption" MadCap:autonum="Figure 2: "><a name="Receipt"></a>Receipt Must be Fully Allocated Warning</p>
+        <p>
+            <img src="../../../Resources/Images/CB/Quick_Cash_Enh/Receipt_Must_Be_Fully_Allocated.png" class="FullWidth" />
+        </p>
+        <p>When the new CB&#160;parameter <span class="parameter">PARTALOC</span> is set to Yes, if you post an allocation batch with unallocated cash, <MadCap:variable name="General.ProductName" /> now displays a warning (see <MadCap:xref href="#Customer" class="ImageRef"><i>Figure 1:  Customer Cash Not Fully Allocated Warning</i></MadCap:xref>), and creates a new Customer Cash record equal to the unallocated amount.</p>
+        <p class="caption" MadCap:autonum="Figure 3: "><a name="Customer"></a>Customer Cash Not Fully Allocated Warning</p>
+        <p>
+            <img src="../../../Resources/Images/CB/Quick_Cash_Enh/Receipt_Not_Fully_Allocated.png" class="FullWidth" />
+        </p>
+    </body>
+</html>

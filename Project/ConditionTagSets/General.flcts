@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="Online"
+    BackgroundColor="#90ee90" />
+  <ConditionTag
+    Comment=""
+    Name="PDF"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#fa8072"
+    Name="Unused Content"
+    Comment="Last Checked 18/12/17"
+    OriginalName="Unused Content" />
+</CatapultConditionTagSet>

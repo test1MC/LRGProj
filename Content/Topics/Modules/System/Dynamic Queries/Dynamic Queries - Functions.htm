@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="619" MadCap:lastWidth="600">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="1">
+            <MadCap:concept term="Topics" />
+            <MadCap:conditionalText MadCap:conditions="COINS.ScreenOnly">Dynamic Queries - </MadCap:conditionalText>Functions</h1>
+        <p class="Body">It is possible to create functions for a specific dynamic query that can be placed on menus or as tiles on the desktop.</p>
+        <p class="Caption" MadCap:autonum="Figure 1: ">Dynamic Query Function</p>
+        <p class="Body">
+            <img src="../../../../Resources/Images/SY/Dynamic Queries/Dynamic Query Functions.png" class="FullWidth" />
+        </p>
+        <p class="Body">Create a function with parameters as follows:</p>
+        <ul>
+            <li>Set STN_CODE to %WSY1352FXXX (for the <MadCap:variable name="Variables.enquiry" />), %WSY1353FXXX (for the report) or %WSY1354FXXX  (for the extract).</li>
+            <li>Set DYNQ to the query that is required.</li>
+            <li>Set Sy_tableTLA to ste61 (which is the RSP for sy_table used for dynamic queries).</li>
+        </ul>
+        <p class="Body">This function can then be placed on the menu and/or as a tile on the desktop.</p>
+        <p class="Caption" MadCap:autonum="Figure 2: ">Desktop with Dynamic Query Tile</p>
+        <p class="Body">
+            <img src="../../../../Resources/Images/SY/Dynamic Queries/Dynamic Query Desktop Tile.png" class="FullWidth" />
+        </p>
+        <p class="Caption" MadCap:autonum="Figure 3: ">Dynamic Query in a Frame</p>
+        <p class="Body">
+            <img src="../../../../Resources/Images/SY/Dynamic Queries/Dynamic Query in Frame.png" class="FullWidth" />
+        </p>
+        <p class="Body">If for any reason a function was created for a dynamic query to which the user did not have access (because the security function QJOB was not allowed access) then a security error would be shown.</p>
+    </body>
+</html>

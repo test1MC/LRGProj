@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1409" MadCap:lastWidth="1269" MadCap:conditions="COINS.Redacted">
+    <head>
+        <link href="../Resources/TableStyles/COINSBasic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>FOP Formatting Commands</h1>
+        <p>Additional formatting for <MadCap:variable name="General.ProductName" /> configurable documents is based on the FOP (Formatting Objects Processor) standard. The full standard provides for a wide range of formatting options, many of which are not relevant to <MadCap:variable name="General.ProductName" /> configurable documents. You can read more about it at: <a href="http://xml.apache.org/fop/">http://xml.apache.org/fop/</a>. </p>
+        <p>The following table shows some of the formatting instructions you are more likely to need. </p>
+        <table style="mc-table-style: url('../Resources/TableStyles/COINSBasic.css');" class="TableStyle-COINSBasic" cellspacing="0">
+            <tbody>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>Colour</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>color=&lt;colour&gt;</p>
+                        <p>background-color=&lt;colour&gt;</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>&lt;colour&gt; can be a colour name, like blue, or a red/green/blue code, like #55AC9B..</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                        <p>color=cyan</p>
+                        <p>color=#00FFFF</p>
+                        <p>background-color=gold</p>
+                        <p>background-color=#FFD700</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>Borders</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>border=&lt;style&gt; &lt;colour&gt; &lt;measure&gt;</p>
+                        <p>border-left-color=&lt;colour&gt;</p>
+                        <p>border-left-style=&lt;style&gt;</p>
+                        <p>border-left-width=&lt;measure&gt;</p>
+                        <p>(Similarly -right-, -top-, -bottom-)</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>&lt;style&gt; the border style; only solid works</p>
+                        <p>&lt;measure&gt; is usually in points; for example; 1.5pt</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                        <p>border=solid green 1.5pt</p>
+                        <p>border-bottom-style=solid,border-bottom-color=red </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>Typeface</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>font-size=&lt;measure&gt;</p>
+                        <p>font-family=&lt;family-name&gt;</p>
+                        <p>font-variant=&lt;variant&gt;</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>&lt;family-name&gt; depends on the fonts installed on your system. By default, Helvetica, Times Roman, Courier, Dingbats and Symbol fonts are available.&#160;But it is possible to add any other licensed true-type font required.&#160;</p>
+                        <p>&lt;variant&gt; can be normal or small-caps</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                        <p>font-family=Times Roman</p>
+                        <p>font-family=Helvetica, font-size=24pt</p>
+                        <p>font-variant=small-caps</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                    <td rowspan="3" class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>Bold, italic, underline</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>font-weight=&lt;weight&gt;</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>&lt;weight&gt; can be normal or bold</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                        <p>font-weight=bold</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>font-style=&lt;style&gt;</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>&lt;style&gt; can be normal or italic</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                        <p>font-style=normal</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>text-decoration=&lt;decoration&gt;</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                        <p>&lt;decoration&gt; can be none, underline, overline or line-through</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                        <p>text-decoration=overline</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-COINSBasic-Body-Body1">
+                    <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">
+                        <p>Padding (gap between border and text)</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">
+                        <p>padding-left=&lt;measure&gt;</p>
+                        <p>(Similarly -right-, -top-, -bottom-)</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">
+                        <p>&lt;measure&gt; - see above</p>
+                    </td>
+                    <td class="TableStyle-COINSBasic-BodyA-Column1-Body1">
+                        <p>padding-left=2pt,padding-top=1pt</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

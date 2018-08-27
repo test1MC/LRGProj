@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1626" MadCap:lastWidth="758">
+  <head>
+    <link href="../../Resources/TableStyles/COINSBasic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    <title>GL Reporter - Columns</title>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">GL Reporter - Columns</h1>
+    <p> </p>
+    <p>The columns control what information is shown on each line.  You can select from a number of different data items, and specify which row types each one is shown on.</p>
+    <p>When adding a column, first select the type of item you want the column to contain. </p>
+    <p>
+      <img src="../../Resources/Images/GL_001701.png" /> </p>
+    <p>The <span class="field">Label </span>is generally for your reference when configuring the report, to explain what the column shows; however, for Literal columns it is the text to print on the report.</p>
+    <p>The <span class="field">Show On </span>field determines which <a href="WDGL0011_Report_Rows.html">line types</a> the column will be printed on.  Use a comma-separated list of one or more from the following:</p>
+    <table style="margin-left: 1cm;">
+      <tbody>
+        <tr>
+          <td>B</td>
+          <td>Blank rows</td>
+        </tr>
+        <tr>
+          <td>D<em>n</em></td>
+          <td>Account rows</td>
+        </tr>
+        <tr>
+          <td>F<em>n</em></td>
+          <td>Sort footers</td>
+        </tr>
+        <tr>
+          <td>H<em>n</em></td>
+          <td>Sort headers</td>
+        </tr>
+        <tr>
+          <td>J<em>n</em></td>
+          <td>
+            <MadCap:variable name="Variables.Jc Contract caps" /> rows</td>
+        </tr>
+        <tr>
+          <td>S<em>n</em></td>
+          <td>Standard text rows</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td>Additional text rows</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Where <em>n</em> is a number that represents a level.  For account and <MadCap:variable name="Variables.jc contract" /> rows, you can think of levels as variations of the same type of line on which some of the columns may be different.  For example, if you want one set of account lines to show closing balance and movement, and a second set to show budget and forecast, give the two row types different <strong>levels</strong>, and put the relevant level number after the "show on" code for each column.</p>
+    <table class="TableStyle-COINSBasic" style="width: 50%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/COINSBasic.css');" cellspacing="0">
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <thead>
+        <tr class="TableStyle-COINSBasic-Head-Header1">
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Item type</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadD-Column1-Header1">
+            <p class="TableHeader">Show On</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td style="border-top: medium none;" class="TableStyle-COINSBasic-BodyE-Column1-Body1">Account code</td>
+          <td style="border-top: medium none;" class="TableStyle-COINSBasic-BodyD-Column1-Body1">D.</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Account description</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D.</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Closing balance</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D1</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Movement</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D1</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Budget</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">D2</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">Forecast</td>
+          <td class="TableStyle-COINSBasic-BodyA-Column1-Body1">D2</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>For <a href="WDGL0014_Sorting_Headings_and_Totals.html">header and footer lines</a>, the levels correspond to the sort levels as defined on the row.  A <MadCap:variable name="Variables.full stop" /> instead of a number means "show on all levels for this type of line". </p>
+    <h2>Column widths</h2>
+    <p>In the <span class="field">Col </span>field, specify the starting position for the column.  The starting position is (approximately) the number of characters across the page.  Note that if the <em>format</em> of a column is wider than the difference between the two <span class="field">Col </span>fields, the following columns will not be aligned.</p>
+    <h2>Column Headings</h2>
+    <p>To display column headings on the report, use Literal items, and use a negative number in the <span class="field">Row </span>field.  For example:</p>
+    <table class="TableStyle-COINSBasic" style="margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../Resources/TableStyles/COINSBasic.css');" cellspacing="0">
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <col class="TableStyle-COINSBasic-Column-Column1" />
+      <thead>
+        <tr class="TableStyle-COINSBasic-Head-Header1">
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Line</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Label</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Type</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Format</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Show On</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadE-Column1-Header1">
+            <p class="TableHeader">Row</p>
+          </th>
+          <th class="TableStyle-COINSBasic-HeadD-Column1-Header1">
+            <p class="TableHeader">Col</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">2</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">Closing Balance</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">LI</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">x(20)</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">d.,t.,s.,x</td>
+          <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">-3</td>
+          <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">32</td>
+        </tr>
+        <tr class="TableStyle-COINSBasic-Body-Body1">
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">3</td>
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">Opening Balance</td>
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">LI</td>
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">x(20)</td>
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">d.,t.,s.,x</td>
+          <td class="TableStyle-COINSBasic-BodyB-Column1-Body1">-3</td>
+          <td class="TableStyle-COINSBasic-BodyA-Column1-Body1">52</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

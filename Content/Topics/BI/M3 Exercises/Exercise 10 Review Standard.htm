@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="Topics" /><span style="margin-right: 0pt;">10 </span>Exercise 10 - Review Standard Reporting – Adding Extra Formatting</h1>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.1 </span>Create the Function </h2>
+        <p>Set up the function to run the report.</p>
+        <p>The standard report that this report is based on is %WJCRJOB should you wish to reference it.</p>
+        <p>&#160;</p>
+        <p>Function Code -Initials + Exercise No&#160;&#160;  eg&#160;&#160; NLM3EXercise10<br />Function Name -Description identifierM3 Exercise 10<br />Function Type - Function<br />Function Module -&#160;&#160;&#160;&#160; Contract Status<br />Function Category -&#160; Report<br />Function Context - As Function Name<br />Function Program - wou005</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 69px;" alt="106.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.2 </span>Create the Page</h2>
+        <p>Set up the page section to prompt for the selection criteria. The Form Service Procedure for Contract Selection is jcfrep.p. </p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_1.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 170px;" alt="107.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.3 </span>Add the Page Section Forms</h2>
+        <p>&#160;</p>
+        <p>Select the Form tab create an Update form to use Update Fields.</p>
+        <p>Click the <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 1 Review Writing_5.png" style="visibility: visible;mso-wrap-style: square;width: 23px;height: 23px;" alt="add" /> Add Button and enter the following information to create the Form :</p>
+        <p>FormSelect Update </p>
+        <p>Field TypeSelect Update</p>
+        <p>Linked ToLeave blank</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_2.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 117px;" alt="108.png" />
+        </p>
+        <p>Click the Save Button <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 1 Review Writing_4.png" style="width: 25px;height: 25px;" /> to create the form.</p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.4 </span>Add the Page Fields</h2>
+        <p>In the Field Tab go to the FORM selector at the bottom of the page, select Update and click Apply Filter.</p>
+        <p>&#160;</p>
+        <p>
+            <div style="left: 0;text-align: left;margin-left: 22pt;margin-top: 5.4pt;width: 393.7pt;height: 47.05pt;mso-width-relative: margin;mso-height-relative: margin;background-color: #4bacc6;">
+                <p>Note: You should always do this to ensure that you are adding fields to the correct form – adding fields to an incorrect form will mean that they do not display.</p>
+            </div>
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>In the Generate field, enter jcfrep.jobSelectionGenerate.</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_3.png" style="visibility: visible;mso-wrap-style: square;width: 560px;height: 426px;" alt="109.png" />
+        </p>
+        <h2><span style="margin-right: 0pt;">10.5 </span>Create the report section</h2>
+        <p>Click the Add button <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 1 Review Writing_5.png" style="visibility: visible;mso-wrap-style: square;width: 23px;height: 23px;" alt="add" /> and fill in the details as follows :</p>
+        <p>&#160;</p>
+        <p>Report SectionGive the report section the same name as the function created.</p>
+        <p>&#160;</p>
+        <p>Header TablesEnter the Header Table – using a configuration header (such as co_config) allows the Page&#160; access to additional tables to the main Body Table.</p>
+        <p>Body TableEnter the name of the database table being reported on; in this case, jc_job.</p>
+        <p>Body QueryEnter the query.&#160; This will select which records are shown on the report.&#160; Enter the following:</p>
+        <p>FOR EACH jc_job<br />WHERE jc_job.kco = {kco}<br />{jobSelect}</p>
+        <p>This selects each contract in the current company that matches the selection criteria chosen when the report is run.</p>
+        <p>Page Layout Select %A4RLAND-A4 Report Landscape.</p>
+        <p>The page layout determines the orientation (whether the report format is landscape or portrait), the margins, and the standard headers and footers.&#160; For <MadCap:variable name="General.ProductName" /> reports, with a logo, a title, and a report footer, choose a report layout (with an R in the name: %A4RLAND or %A4RPORT).</p>
+        <p>ClassSelect the font class to use.&#160; Since the user listing report doesn't have many fields on, use Arial 8pt (a larger font than Arial 6pt).</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_4.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 315px;" alt="112.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.6 </span>Sorting the Report</h2>
+        <p>&#160;</p>
+        <p>The report will sort and subtotal by Contract Group, then by Type, then by Contract Code, so on the sort tab, enter the following fields in the Sort fields and Click Save <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 1 Review Writing_4.png" style="width: 25px;height: 25px;" />. </p>
+        <p>job_num+</p>
+        <p>A + after the fieldname means sort in ascending order; a - means sort in descending order. </p>
+        <p>Note: By using a – you can break the index so be aware you may slow down your report.</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_5.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 256px;" alt="113.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.7 </span>Create the Report Forms</h2>
+        <p>Set up the forms for the report.&#160; The report will totals for the whole report (shown in a Total Columns form).&#160; </p>
+        <p>
+            <div style="left: 0;text-align: left;margin-left: 342.55pt;margin-top: 50pt;width: 81pt;height: 18pt;">
+                <p>&#160;</p>
+            </div>Set up the following forms (select Forms from the drop-down menu):</p>
+        <table>
+            <tr>
+                <td>
+                    <p>Body</p>
+                </td>
+                <td>
+                    <p>This will show the details for each record in the body query; in this case, one per contract.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Total Columns</p>
+                </td>
+                <td>
+                    <p>This will show grand totals for the whole report.</p>
+                </td>
+            </tr>
+        </table>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_6.png" style="visibility: visible;mso-wrap-style: square;width: 601px;height: 129px;" alt="114.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.8 </span>Add the Fields</h2>
+        <p>In the Field Tab go to the FORM selector at the bottom of the page, select the appropriate Form Type and click Apply Filter.</p>
+        <p>&#160;</p>
+        <p>NOTE: You should always do this to ensure you are adding fields to the correct form – adding fields to an incorrect form will mean that they do not display.</p>
+        <p>&#160;</p>
+        <p>For each of the fields to be shown on the report, fill in the following:</p>
+        <table>
+            <tr>
+                <td>
+                    <p>Field</p>
+                </td>
+                <td>
+                    <p>The name of the field.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Label</p>
+                </td>
+                <td>
+                    <p>The label to appear in the column heading.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Width</p>
+                </td>
+                <td>
+                    <p>The width of the column on the report.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p>In the Body Form create :</p>
+        <p>FieldCalcLabelTotal</p>
+        <p>job_numCode <br />job_name Name<br />$dcostsdcosts={RO_ContractCosts^TD}Costs to Date  <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_7.png" style="visibility: visible;mso-wrap-style: square;width: 12px;height: 13px;" /><br />$drevdrev={RO_ContractRevenue^TD}Revenue to Date <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_7.png" style="visibility: visible;mso-wrap-style: square;width: 12px;height: 13px;" /></p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_8.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 246px;" alt="115.png" />
+        </p>
+        <p>This will display the costs and Revenue to date for the default date when the report is run.</p>
+        <h2><span style="margin-right: 0pt;">10.9 </span>Add extra formatting to some Fields</h2>
+        <p>Example:</p>
+        <p> To the job_num field you can add a different Font,&#160; A Style, and add <MadCap:variable name="Variables.colour" /> to the text.&#160;&#160; Change the Class to Arial 12pt BOLD and add fontcolour=#FF0000 to the extra formatting edit box.</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_9.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 271px;" alt="116a.png" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.10 </span>Add conditional formatting to some Fields</h2>
+        <p>We will now make use of the display <MadCap:variable name="Variables.colour" /> range which has been set up already on this environment -&#160; RAN0-1000000</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_10.png" style="visibility: visible;mso-wrap-style: square;width: 601px;height: 30px;" />
+        </p>
+        <p>
+            <div style="left: 0;text-align: left;margin-left: 59.1pt;margin-top: 14.65pt;width: 421.7pt;height: 51.55pt;mso-width-relative: margin;mso-height-relative: margin;background-color: #4bacc6;">
+                <p>Note that unlike Page <MadCap:variable name="Variables.colour" /> ranges where the <MadCap:variable name="Variables.colours" /> must be known to the style sheet, the colours ranges on reporting can be hexadecimal colours.</p>
+            </div>
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>Extra formatting =bgcolour={co_config.RO_RangeClass^RAN0-1000000|{RO_ContractCosts^TD}}</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_11.png" style="visibility: visible;mso-wrap-style: square;width: 606px;height: 303px;" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.11 </span>Add conditional formatting to a calculated Field</h2>
+        <p>&#160;</p>
+        <p>Add the calculation for the profit to the Revenue field.</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_12.png" style="visibility: visible;mso-wrap-style: square;width: 605px;height: 177px;" />
+        </p>
+        <p>Calculation&#160; &#160;&#160;&#160;&#160; drev={RO_ContractRevenue^TD};dprof=drev – dcosts;drev;</p>
+        <p>Ensure that drev is the last calc in the list as it is the last calc which will display in this field.</p>
+        <p>Now Add a new Field to display the Profit on the report.</p>
+        <p>FIELD$dprof<br />LABELProfit TD<br />EXTRA FORMATTINGbgcolour={co_config.RO_RangeClass^RAN0-1000000|{eval.dprof}}<br />TOTAL<img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_13.png" style="visibility: visible;mso-wrap-style: square;width: 15px;height: 15px;" /><br />CALCULATIONdprof<br />FORMAT-&gt;&gt;&gt;,&gt;&gt;&gt;,&gt;&gt;9.99</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_14.png" style="visibility: visible;mso-wrap-style: square;width: 593px;height: 179px;" />
+        </p>
+        <h2><span style="margin-right: 0pt;">10.12 </span>To ensure that Totals are <MadCap:variable name="Variables.colour" /> coded</h2>
+        <p>To ensure that the Totals are calculated on the accumulated values of the Costs and Revenue fields and not just the last record in the list we need to calculated the values sent to the RO_Rangeclass field prior to displaying.&#160; For this reason we will calculate the fields in a fields above the display.</p>
+        <p>Add the following Calculation to the job_num field</p>
+        <p>dcosts={RO_ContractCosts^TD};drev={RO_ContractRevenue^TD};dprof=drev – dcosts;</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_15.png" style="visibility: visible;mso-wrap-style: square;width: 523px;height: 292px;" />
+        </p>
+        <p>&#160;</p>
+        <p>Having now calculated our values at the beginning of the report, we need to update our Costs and Revenue columns to use and evaluate the new variables.&#160; Amend the Costs and Revenue columns as follows:</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_16.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 395px;" />
+        </p>
+        <p>&#160;</p>
+        <h2><span style="margin-right: 0pt;">10.13 </span>Final Results</h2>
+        <p>The report should look as follows:-</p>
+        <p>
+            <img src="../../../Resources/Images/BI/M3 Exercises/Exercise 10 Review Standard_17.png" style="visibility: visible;mso-wrap-style: square;width: 602px;height: 426px;" alt="121.png" />
+        </p>
+    </body>
+</html>

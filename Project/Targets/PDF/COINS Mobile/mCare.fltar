@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  MasterToc="/Project/TOCs/Portal/Portal Sub-TOC/mCare.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/PDF_Body_UK_2017.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/OnlineHelp.css"
+  PatchHeadingLevels="true"
+  InjectBookHeadings="true"
+  ConditionTagExpression="exclude[COINS.ScreenOnly or COINS.USOnly or COINS.AUOnly]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Document Variables/Document Title">mCare User Guide</Variable>
+    <Variable
+      Name="Document Variables/File Name">LMDMO0001</Variable>
+  </Variables>
+  <Glossaries />
+</CatapultTarget>

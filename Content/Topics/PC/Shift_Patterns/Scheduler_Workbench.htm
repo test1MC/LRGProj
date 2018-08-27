@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="COINS.v1109">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="1 ">
+            <MadCap:concept term="Topics" />Shifts on the Scheduler Workbench</h1>
+        <p>When a shift pattern is specified, the worker requirement is split to individual operator shift records that need to have resource allocated.</p>
+        <p>The scheduler has a new link to a Job View (see below).</p>
+        <p>You can note when requirements are going to be handled by a third party (<MadCap:variable name="Variables.pc rehired" />); these will not show when filtering to unassigned requirements.</p>
+        <h2 MadCap:autonum="1.1 "><a name="ScheduleOperator"></a>Scheduler – Operator View</h2>
+        <p>When requirements are shift-based, the Operator View <MadCap:conditionalText MadCap:conditions="COINS.PrintOnly">now </MadCap:conditionalText>shows the workers’ shifts as opposed to free time being blank. <MadCap:variable name="Variables.Colour caps" /> coding shows which shifts are free and which are booked. When you drag a required shift down to drop in an operator row to assign it, the free shift it overlays disappears. If you later drag the requirement off the operator, the free shift will re-appear. Note you can assign a requirement to an operator when there is no free shift shown.</p>
+        <h2 MadCap:autonum="1.2 "><a name="ScheduleJobView"></a>Scheduler - Job View<a name="ScheduleJobView2"></a></h2>
+        <p>A new scheduling screen shows requirements for a job – both assets and people. The requirements are rows – so an operated asset would have two rows in the timeline, one showing asset allocation, and the other showing operator assignments. The requirements are grouped by Requisition – in <MadCap:xref href="#ScheduleWorkbenchJobView" class="ImageRef">Figure: <i>Schedule Workbench Job View</i></MadCap:xref> the <MadCap:variable name="Variables.grey" /> rows are requisition headers. These can expand/contract to show or hide the lines of that requisition, and there is an OA link to the requisition.</p>
+        <p class="Caption" MadCap:autonum="Figure 1: "><a name="ScheduleWorkbenchJobView"></a>Schedule Workbench Job View</p>
+        <p>
+            <img src="../../../Resources/Images/PC/Shift_Patterns/Job_View.png" class="FullWidth" />
+        </p>
+        <p>You can filter by requisition number, by requester or by what is being requested. You can also filter to the requests that are not fully resourced with Assignment Status set to Unassigned. You can also filter to requests that are not fully assigned, or that are using external resource. This Assignment Status filter also has a duration so you can search for requests that have unassigned shifts in the next week or next two weeks, for example.</p>
+        <p class="Caption" style="width: 15em" MadCap:autonum="Figure 2: "><a name="ScheduleWBJobViewFilter"></a>Schedule Workbench Job View - Filter</p>
+        <p>
+            <img src="../../../Resources/Images/PC/Shift_Patterns/Job_View_Filter.png" />
+        </p>
+        <p>To see more details of the assigned resource, double-click on the event. This shows the details (see <MadCap:xref href="#Schedule" class="ImageRef"><i>Figure 3:  Schedule Workbench Job View - Resource Details</i></MadCap:xref>). There is a link to the Asset or Person (provided you have permission). There is also a drop down that allows you to change the resource for the request.</p>
+        <p class="Caption" MadCap:autonum="Figure 3: "><a name="Schedule"></a>Schedule Workbench Job View - Resource Details</p>
+        <p>
+            <img src="../../../Resources/Images/PC/Shift_Patterns/Job_View_Details.png" class="FullWidth" />
+        </p>
+    </body>
+</html>

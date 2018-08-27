@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+  <head>
+    <title>GL Reporter - Sorting, Headings and Totals</title>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">GL Reporter - Sorting, Headings and Totals</h1>
+    <p>You can sort and group the account and <MadCap:variable name="Variables.jc contract" /> lines based on the account elements or analysis, or the <MadCap:variable name="Variables.jc contract" /> analysis.  You do this by identifying, in the <span class="field">Sort </span>field on the account (or <MadCap:variable name="Variables.jc contract" />) row, which elements or analysis fields you want to sort by.  These are identified by numbers as follows:</p>
+    <table class="type1" style="width: auto;">
+      <tbody>
+        <tr>
+          <th style="width: 50%;">Account rows</th>
+          <th style="width: 50%;">
+            <MadCap:variable name="Variables.Jc Contract caps" /> rows</th>
+        </tr>
+        <tr>
+          <td>
+            <ol>
+              <li>Account</li>
+              <li>Element 1 of account structure</li>
+              <li>Element 2 of account structure</li>
+              <li>Element 3 of account structure</li>
+              <li>Element 4 of account structure</li>
+              <li>Analysis Set 1</li>
+              <li>Analysis Set 2</li>
+              <li>Analysis Set 3</li>
+              <li>Analysis Set 4</li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>
+                <MadCap:variable name="Variables.Jc Contract caps" /> Number</li>
+              <li>
+                <MadCap:variable name="Variables.Jc Contract caps" /> Group</li>
+              <li>
+                <MadCap:variable name="Variables.Jc Contract caps" /> Type</li>
+              <li>
+                <MadCap:variable name="Variables.Jc Contract caps" /> Location</li>
+              <li>
+                <MadCap:variable name="Variables.Jc Contract caps" /> Manager</li>
+              <li>
+                <MadCap:variable name="Variables.Jc Contract caps" /> Client</li>
+              <li>Analysis Set 1</li>
+              <li>Analysis Set 2</li>
+              <li>Analysis Set 3</li>
+              <li>Analysis Set 4</li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>For example, if the structure of your account codes is <strong>Division.Department.Account</strong>, and you want to sort by division, then by department then by account, enter <span class="userinput">2 3 4</span> in the <span class="field">Sort </span>field boxes on the account row.</p>
+    <p>You can include headings with each sort level, such as:</p>
+    <p>
+      <strong>Division  00 North</strong>
+    </p>
+    <p>
+      <strong>Department 03 Surveying</strong>
+    </p>
+    <h2>To add sort headings:</h2>
+    <ol>
+      <li>Enter a level number in the <span class="field">Header/Footer Level </span>field, below each sort level you want a heading for. For example, on an account line:
+<p> </p><table class="type1"><tbody><tr><th>Sort:</th><td style="border-left: medium none;">2</td><td>3</td><td>4</td><td> </td><td>This will sort by division, then by department then by account (if your accounts are structured as described above).</td></tr><tr><th>Header/Footer Level:</th><td style="border-left: medium none;">1</td><td>2</td><td> </td><td> </td><td>This will put a division header on header level 1 (Show On = H1), and a department header on header level 2 (Show On = H2).</td></tr></tbody></table></li>
+      <li>Enter columns for the analysis label, code and description.  For example:
+<table class="browse"><tbody><tr><th>Line</th><th>Label</th><th>Type</th><th>Format</th><th>Show On</th><th>Row</th><th>Col</th><th>Calculation</th></tr><tr class="odd"><td>7</td><td>Analysis Sort Label</td><td>CH</td><td>x(10)</td><td>H1,H2</td><td>1</td><td>2 </td><td> </td></tr><tr class="even"><td>8</td><td>Analysis Sort Code</td><td>CH</td><td>x(3)</td><td>H1,H2</td><td>1</td><td>20</td><td> </td></tr><tr class="odd"><td>9</td><td>Analysis Sort Description</td><td>CH</td><td>x(20)</td><td>H1,H2</td><td>1</td><td>30</td><td> </td></tr></tbody></table><p>The <span class="field">Show On </span>heading levels (for example, H1,H2) correspond to the Header/Footer Levels you specified on the account row.</p></li>
+      <li>Alternatively, if you want to use something other than the sort analysis label, code and description, enter Literal items on the Report Columns tab, with the text you want in the <span class="field">Label </span>field and the appropriate header level (such as H1 or H2) in the <span class="field">Show On </span>field.</li>
+    </ol>
+    <h2>Totals</h2>
+    <p>You can add subtotals after each account group.  Include the appropriate footer level (for example, F1 or F2) in the <span class="field">Show On</span> fields for the columns for which you want to show subtotals.</p>
+    <p>To add a total at the end of the report, create a Total row after the Account row, and include the total level (for example T1) in the <span class="field">Show On</span> field.</p>
+  </body>
+</html>

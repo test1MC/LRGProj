@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1393" MadCap:lastWidth="1664" MadCap:conditions="COINS.Redacted">
+    <head>
+        <link href="../Resources/TableStyles/COINSBasic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Displaying Dates</h1>
+        <p>Most date fields that are available on configurable documents display the date as numbers; for example, 21/11/08.&#160; If you need to display the dates as text (for example, as 21 November 2008) you can do this using a calculation.</p>
+        <h2>To configure dates on the document:</h2>
+        <p>The following calculations are useful:</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/COINSBasic.css');" class="TableStyle-COINSBasic" cellspacing="0">
+            <tr class="TableStyle-COINSBasic-Body-Body1">
+                <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                    <p>dateString(string)&#160;&#160;</p>
+                </td>
+                <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                    <p>converts a date string (such as from an input field or a database field) to an integer</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-COINSBasic-Body-Body1">
+                <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                    <p>day(a)</p>
+                </td>
+                <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                    <p>Returns the date in the month if 'a' is the integer value of a date.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-COINSBasic-Body-Body1">
+                <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                    <p>year(a)</p>
+                </td>
+                <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                    <p>Returns the year (as a four-digit integer) if 'a' is the integer value of a date.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-COINSBasic-Body-Body1">
+                <td class="TableStyle-COINSBasic-BodyE-Column1-Body1">
+                    <p class="TableCell">co_config.RO_monthName^{field}|offset|style</p>
+                </td>
+                <td class="TableStyle-COINSBasic-BodyD-Column1-Body1">
+                    <p>Displays the month (and year) of a date field, where:</p>
+                    <p>offset = a positive or negative number of months by which to offset the current month</p>
+                    <p>style = SHORT displays the month in short form (Jan, Mar); FULL displays the month in full (January, March); MIXED displays short month plus the year (Mar 2008).</p>
+                </td>
+            </tr>
+        </table>
+        <p>So to display the date from po_hdr.poh_odate as a date with the month in short form (21 Nov 2008), put the following in the Calculation field (remember to leave the Field field blank):</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../Resources/Images/Configurable Forms/Defining the Content of the_13.png" class="FullWidth" />
+        </p>
+        <p>NOTE : </p>
+        <p>theDate holds the value of po_hdr.poh_date as an integer (for example, 21/11/08 is stored as 2454793).<br />theDay holds the day (as an integer) calculated from theDate.<br />theMonth holds the month name and year from poh_date; the $ at the start of the line means the line is a character 'calculation'.<br />The final line appends theDay and theMonth (as a character string) with a space between. </p>
+        <p class="note">the sequence of brackets and quotation marks in the dateString calculation: ( " { field } " )</p>
+        <p>To display the date with the month in long form, you could use:</p>
+        <p>
+            <img src="../Resources/Images/Configurable Forms/Defining the Content of the_14.png" class="FullWidth" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

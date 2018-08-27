@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-gb" MadCap:lastBlockDepth="2" MadCap:lastHeight="4791" MadCap:lastWidth="1178" MadCap:onlyLocalStylesheets="False">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/OnlineHelp.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Licence Setup</h1>
+        <h2>&#160;</h2>
+        <p>First you will need to setup a <MadCap:variable name="General.ProductName" /> user id that is setup for web services.&#160; You can only do this through OA User Maintenance.&#160; You need to ensure that the ‘Webservices’ box is ticked.&#160; See below:</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../Resources/Images/HS-web/HS-WS0001-1108.png" class="FullWidth" />
+        </p>
+        <p>Note the number of users that can be setup for web services is controlled by the licence for module code NWS.&#160; </p>
+        <p>You will also need to ensure that you have the required licences for the House Sales Connection Enquiry (NHSE) and optionally the House Sales Connection Update (NHSU).&#160; See below:</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../Resources/Images/HS-web/HS-WS0002-1108.png" class="FullWidth" />
+        </p>
+        <p>&#160;</p>
+        <p>The licences for the modules NHSE and NHSU control the maximum number of developments that can made available through the HS connection interface.&#160; Note on some older patches of <MadCap:variable name="General.ProductName" /> you may need to add these modules into the list.</p>
+        <p>&#160;</p>
+        <p>You will also need to obtain a licence to be able to run the individual web service objects, this should be entered on the ‘Extras’ tab in module licence maintenance.&#160; See below:</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../Resources/Images/HS-web/HS-WS0003-1108.png" class="FullWidth" />
+        </p>
+        <p>&#160;</p>
+        <p>Under the X-WSERVICE extra you need to specify a list of the soap objects you are licenced for.&#160; To run all the HS connection objects you can specify a can-do list e.g. hsws*</p>
+        <p>Note this ‘Extras’ screen forms part of the licence control cross check and you should ensure that you obtain the correct licence certificate with the soap objects you want to run from <MadCap:variable name="General.ProductName" /> before amending this screen.</p>
+        <p>&#160;</p>
+        <p>Once the licences have been obtained, you will then need to indicate which developments are available for enquiry and update access.&#160; A new maintenance browse ‘Connection Licences’ in OA has been produced for this.&#160; This can be fond under the OA House Sales/Plot Sales menu.&#160; See below:</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../Resources/Images/HS-web/HS-WS0004-1108.png" class="FullWidth" />
+        </p>
+        <p>&#160;</p>
+        <p>Note on patches prior to 0609 this will not be on a menu.&#160; You will need to add the function %WVP2111BVSI to an OA menu.</p>
+        <p>&#160;</p>
+    </body>
+</html>

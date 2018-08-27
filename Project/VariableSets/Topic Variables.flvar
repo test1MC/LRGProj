@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="Discovery Number"
+    Comment="mm Module Code xxxx Sequential Number"
+    EvaluatedDefinition="mmxxxx">mmxxxx</Variable>
+</CatapultVariableSet>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="General Ledger Reporter"
+    Link="/Content/Print Only Topics/How To Guides/General Ledger/GL Reporter (LMDGL0007).htm"
+    StartSection="false"
+    BreakType="pageLayout"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/PDFTitle.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="true"
+    ComputedTocDepth="3"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="Contents"
+    Link="/Content/Print Only Topics/How To Guides/HTG Contents.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print Only Topics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="General Ledger Reporter"
+    Link="/Content/Topics/GL/GL Reporter/General Ledger Reporter.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Reporter Configuration"
+      Link="/Content/Topics/GL/GL Reporter/Reporter Configuration.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
+    <TocEntry
+      Title="Adding a Report"
+      Link="/Content/Topics/GL/GL Reporter/Adding a Report.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Configuration Tab"
+        Link="/Content/Topics/GL/GL Reporter/Configuration Tab.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Report Rows Tab"
+      Link="/Content/Topics/GL/GL Reporter/Report Rows Tab.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue">
+      <TocEntry
+        Title="Adding an Account Line"
+        Link="/Content/Topics/GL/GL Reporter/General Ledger Reporter OA - V1-1_2.htm" />
+      <TocEntry
+        Title="Adding Totals"
+        Link="/Content/Adding Totals.htm"></TocEntry>
+      <TocEntry
+        Title="Adding a Standard Text Line"
+        Link="/Content/Topics/GL/GL Reporter/Adding a Standard Text Line.htm"></TocEntry>
+      <TocEntry
+        Title="Adding an Additional Text Line"
+        Link="/Content/Topics/GL/GL Reporter/Adding an Additional Text Line.htm"></TocEntry>
+      <TocEntry
+        Title="Adding a Page Break"
+        Link="/Content/Topics/GL/GL Reporter/Adding a Page Break.htm"></TocEntry>
+      <TocEntry
+        Title="Adding a Blank Line"
+        Link="/Content/Topics/GL/GL Reporter/Adding a Blank Line.htm"></TocEntry>
+      <TocEntry
+        Title="Adding a Contract Line"
+        Link="/Content/Topics/GL/GL Reporter/Adding a Contract Line.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Report Columns"
+      Link="/Content/Topics/GL/GL Reporter/Report Columns.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue" />
+    <TocEntry
+      Title="Creating Headers"
+      Link="/Content/Topics/GL/GL Reporter/Creating Headers.htm" />
+    <TocEntry
+      Title="Sorting"
+      Link="/Content/Topics/GL/GL Reporter/Sorting.htm" />
+    <TocEntry
+      Title="Summary Lines"
+      Link="/Content/Topics/GL/GL Reporter/Summary Lines.htm" />
+    <TocEntry
+      Title="Underlining"
+      Link="/Content/Topics/GL/GL Reporter/Underlining.htm" />
+    <TocEntry
+      Title="Formatting"
+      Link="/Content/Topics/GL/GL Reporter/Formatting.htm" />
+    <TocEntry
+      Title="Report Tokens Tab"
+      Link="/Content/Topics/GL/GL Reporter/Report Tokens Tab.htm" />
+    <TocEntry
+      Title="Running Reports"
+      Link="/Content/Topics/GL/GL Reporter/Running Reports.htm" />
+    <TocEntry
+      Title="Modifying Reports"
+      Link="/Content/Topics/GL/GL Reporter/Modifying Reports.htm">
+      <TocEntry
+        Title="Change Report Columns"
+        Link="/Content/Topics/GL/GL Reporter/Change Report Columns.htm" />
+      <TocEntry
+        Title="To Change Report Tokens"
+        Link="/Content/Topics/GL/GL Reporter/To Change Report Tokens.htm" />
+      <TocEntry
+        Title="Copy Reports"
+        Link="/Content/Topics/GL/GL Reporter/Copy Reports.htm" />
+      <TocEntry
+        Title="Export and Import Reports"
+        Link="/Content/Topics/GL/GL Reporter/Export and Import Reports.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Progress Display Formats"
+      Link="/Content/Topics/GL/GL Reporter/Progress Display Formats.htm" />
+  </TocEntry>
+</CatapultToc>

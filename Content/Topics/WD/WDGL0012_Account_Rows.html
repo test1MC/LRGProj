@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="857" MadCap:lastWidth="1179">
+  <head>
+    <title>GL Reporter - Account Rows</title>
+  </head>
+  <body>
+    <h1 class="print">
+      <MadCap:concept term="Topics" />GL Reporter - Account Rows</h1>
+    <p>The main content of a GL report will be <span class="module">General Ledger</span> account lines.</p>
+    <p>You select which accounts to include in the report by entering an account row, and filling in a From and To range, or a can-do list in the Matches field.  You can select accounts by whole account, sector, expense code, analysis set etc. You can also use <a href="WDGL0013_Report_Tokens.html">GL Reporter - Report Tokens</a> to allow the user to specify which accounts to include when they run the report.</p>
+    <p>If an account line is shown in detail, a line will appear in the report for every individual account that is included in the selection. If the line is shown in Summary (detail flag un-<MadCap:variable name="Variables.tick" />ed), only one line will be displayed showing the balance of the entire account range selected. Therefore, it is possible for the report definition to just contain one Account line (selecting all accounts) and if <MadCap:variable name="Variables.tick" />ed as Detailed, <MadCap:variable name="General.ProductName" /> will display a row in the report for every account.</p>
+    <h2>Percentage lines</h2>
+    <p>You can show one line as a percentage of another. For example, if you have a <MadCap:variable name="Variables.turnover" /> line and want to show costs for a group of accounts as percentages of <MadCap:variable name="Variables.turnover" />: </p>
+    <ol>
+      <li>In the <span class="field">Percent Line </span>field on the "account costs" row, enter the row number of the <MadCap:variable name="Variables.turnover" /> row. Note that the row number that you refer to must already exist in the report definition (that is, it must be above this current line in the report). </li>
+      <li>Set up a column to show the percentage cost; <MadCap:variable name="Variables.tick" /> the <span class="field">Percentage Value </span>field. (Note: if the <span class="field">Percentage Value </span>field is not <MadCap:variable name="Variables.tick" />ed, <MadCap:variable name="General.ProductName" /> will report the value of the row, rather than its percentage value.)</li>
+    </ol>
+    <h2>Calculating totals</h2>
+    <p>To calculate totals for a group of accounts, add the values from the account lines into an accumulator, then show that accumulator on a total line. In the <span class="field">Save Into </span>field, enter a code to identify an accumulator (you don't need to set the accumulators up anywhere).  If the account row specifies a range or selection of accounts, the value from each account will be added to the accumulator. </p>
+    <p>Then create a Total line, and enter the code for the accumulator in the <span class="field">Load From </span>field. You can add more than one accumulator together by entering a comma-separated list.</p>
+    <p>You can also subtract values from an accumulator, by setting the <span class="field">Operand </span>field to <span class="userinput">-</span>. For example, in a Profit and Loss Report, sales costs might subtract from "GP" for Gross Profit. </p>
+    <p>You can also add the value of a Total line into other accumulators to produce grand totals.</p>
+  </body>
+</html>

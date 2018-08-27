@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html lang="en" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+  <head>
+    <title>Updating Triggers for <MadCap:variable name="Variables.pc plant" style="text-transform: capitalize;" /><MadCap:variable name="Variables.pc onhire" style="text-transform: capitalize;" /></title>
+  </head>
+  <body>
+    <MadCap:concept term="Topics" />
+    <h1 class="print">Updating Triggers for <MadCap:variable name="Variables.pc plant" style="text-transform: capitalize;" /><MadCap:variable name="Variables.pc onhire" style="text-transform: capitalize;" /></h1>
+    <p>Triggers allow you to keep track of when events related to <MadCap:variable name="Variables.pc plant" /> or vehicle assets are due. You can automatically update hourly and daily triggers for <MadCap:variable name="Variables.pc plant" /> which is <MadCap:variable name="Variables.pc onhire" />. </p>
+    <p>For example, suppose you have a <MadCap:variable name="Variables.pc plant" /> item which you want to inspect when it has been <MadCap:variable name="Variables.pc onhire" /> for 60 days or more. Using <span class="function" title="Function:%WFA2114BFAT&quot;">Asset Maintenance</span>.</p>
+    <p />
+    <table class="browse">
+      <tbody>
+        <tr>
+          <th>Trigger</th>
+          <th>Description</th>
+          <th>TT</th>
+          <th>Value</th>
+          <th>Expires</th>
+          <th>Last Reset</th>
+          <th>Last Upd</th>
+        </tr>
+        <tr>
+          <td>INSP-60D</td>
+          <td>60 Days <MadCap:variable name="Variables.pc onhire" style="text-transform: capitalize;" /> Insp</td>
+          <td>GE</td>
+          <td>0.0</td>
+          <td>60.0</td>
+          <td>10/06/11</td>
+          <td>10/06/11</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>You should update the daily (and hourly) triggers periodically, and before reporting on trigger <MadCap:variable name="Variables.expiry" /> dates, for example. This will update the value of the trigger; when this value reaches (or exceeds) the Expires value (60 in this example), the trigger will fire, and will appear on the <span class="function" title="Function:%WFA5011BFTV&quot;">Asset Triggers</span> Report.<br /></p>
+    <div class="process">
+      <h2 class="print">To update triggers:</h2>
+      <ol>
+        <li>Go to <span class="function" title="Function:%WPC7040RFAA&quot;">Update <MadCap:variable name="Variables.pc plant" style="text-transform: capitalize;" /> On <MadCap:variable name="Variables.pc hire" style="text-transform: capitalize;" /> Triggers</span> to update the same trigger.  You could have different triggers that use the different methods; so you could use <span class="parameter">TRIGHOUR </span>to drive hourly-based servicing, and have a trigger for <MadCap:variable name="Variables.pc offhire" /> inspection status updated by a caption.</li>
+      </ol>
+    </div>
+    <div class="configuration">
+      <p>
+        <MadCap:relatedTopics target="_popup" style="mc-label: Parameters;mc-help-control-display: list;">
+          <MadCap:relatedTopic src="../Parameters/PC/pc_trigday.htm" />
+          <MadCap:relatedTopic src="../Parameters/PC/pc_trighour.htm" />
+        </MadCap:relatedTopics>
+      </p>
+    </div>
+  </body>
+</html>

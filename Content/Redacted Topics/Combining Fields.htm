@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="617" MadCap:lastWidth="1684" MadCap:conditions="COINS.Redacted">
+    <head>
+    </head>
+    <body>
+        <h1>Combining Fields</h1>
+        <p>You can append one data field to another, using a calculation. For example, you might want to print all the address fields on a single line, or print the contract number and contract name as if they were a single field.</p>
+        <h2>To enter a calculation:</h2>
+        <ul>
+            <li>Add <img src="../Resources/Images/Configurable Forms/Defining the Content of the_11.png" style="visibility: visible;mso-wrap-style: square;width: 19px;height: 21px;" /> a new line. </li>
+            <li>Leave the Field field blank. </li>
+            <li>Enter the calculation in the Calculation field. Put a $ before each part of a calculation that involves text strings; use the full table and fieldname. </li>
+        </ul>
+        <p>
+            <img src="../Resources/Images/Configurable Forms/Defining the Content of the_12.png" class="FullWidth" />
+        </p>
+        <p class="Example">For example: <b>$a=jc_job.job_num; $b=" (" + jc_job.job_name + ")"; $a + b </b><br />will display the contract number, followed by the contract name in brackets. </p>
+    </body>
+</html>
